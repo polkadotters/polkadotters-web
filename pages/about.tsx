@@ -58,18 +58,28 @@ const AboutPage = ({posts}) => {
             <Header/>
             <main className={'flex-1 flex flex-col '}>
                 <Container screenSize={'md'}>
-                    <div className="flex flex-col lg:flex-row gap-8 items-center justify-start mt-10">
+                    <div className="flex flex-col lg:flex-row gap-8 items-center justify-start mt-10 bg-white shadow-2xl p-5">
 
-                        <div className="rounded-full bg-white shadow-2xl block w-1/3 flex items-center justify-center">
+                        <div className=" block w-1/3 flex items-center justify-center">
                             <img src={LogoPiktogram.src} alt="" className="w-90 h-90 block p-12 py-28"/>
                         </div>
-
-                        <div className={'text-6xl font-bold w-2/3'}>
-                            We are Polkadot enthusiasts from Czechia
-                            - the Polkadotters!
-                            We write about what's happening in
-                            Polkadot, Kusama and all other
-                            networks which are becoming part of this wonderful ecosystem.
+                        <div className="flex flex-col gap-2 w-2/3">
+                            <div className={'text-4xl font-bold'}>
+                                We are Polkadot enthusiasts from Czechia
+                                - the Polkadotters!
+                                We write about what's happening in
+                                Polkadot, Kusama and all other
+                                networks which are becoming part of this wonderful ecosystem.
+                            </div>
+                            <div className={'text-xl'}>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ex lorem, luctus nec
+                                volutpat at, accumsan non eros. Donec faucibus, diam at porttitor tempor, urna enim
+                                iaculis ligula, sit amet congue elit odio id nunc. Nunc quis libero nec mi rhoncus
+                                consequat. Sed eu quam eu urna vehicula varius. Integer sapien magna, iaculis nec magna
+                                non, tempus maximus urna. Donec varius porta rhoncus. Ut arcu massa, eleifend et urna
+                                vitae, ullamcorper eleifend magna. Donec et scelerisque lacus. Aliquam fringilla
+                                tincidunt magna, laoreet ornare enim facilisis ac.
+                            </div>
                         </div>
                     </div>
 
@@ -78,7 +88,8 @@ const AboutPage = ({posts}) => {
                             <img src={contact.img.src} alt={contact.name}/>
                             <h2 className={'text-5xl'}>{contact.name}</h2>
                             <div className="flex flex-row text-3xl gap-2">
-                                {contact.contacts.map(c => <Link key={c.icon} href={c.link}><a target={'_blank'}>{icons[c.icon]}</a></Link>)}
+                                {contact.contacts.map(c => <Link key={c.icon} href={c.link}><a
+                                    target={'_blank'}>{icons[c.icon]}</a></Link>)}
                             </div>
                         </div>)}
                     </div>

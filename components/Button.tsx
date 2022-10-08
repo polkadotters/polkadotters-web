@@ -30,7 +30,7 @@ const ButtonVariants = {
     accent: 'text-white hover:bg-pink-700 bg-pink-500 rounded-full',
 }
 
-const ButtonClasses = 'rounded-lg justify-center font-bold flex flex-row gap-2 items-center transition duration-300'
+const ButtonClasses = 'rounded-lg justify-center font-bold flex flex-row gap-2 items-center transition duration-300 cursor-pointer'
 
 const ActiveClass = {
     primary: 'bg-primary-50',

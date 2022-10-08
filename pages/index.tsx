@@ -67,7 +67,8 @@ const IndexPage = ({posts}) => {
                                 </div>
                             </li>)}
                         </ul>
-                        <Button href={LINKS.medium} variant={'accent'} className={'mt-10'}><a target={"_blank"}>Read more on Medium</a></Button>
+                        <Button href={LINKS.medium} variant={'accent'} className={'mt-10'}><a target={"_blank"}>Read
+                            more on Medium</a></Button>
                     </div>
                 </Container>
             </main>

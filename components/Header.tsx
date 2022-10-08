@@ -6,6 +6,7 @@ import Container from "./Container";
 import Logo from '../assets/images/logo-white.svg';
 import Image from "next/image";
 import {useRouter} from "next/router";
+import routes from "../routes";
 
 const icons = {
     medium: <FaMedium/>,
@@ -17,7 +18,6 @@ const icons = {
 
 const Header = () => {
     const router = useRouter()
-    console.log(router.asPath)
     return <nav>
         <div className="border-b bg-white">
             <ul className={'flex flex-row items-center justify-center overflow-hidden'}>
@@ -37,14 +37,9 @@ const Header = () => {
                 <Image {...Logo} />
 
                 <ul className="menu flex flex-row gap-4">
-                    {[
-                        ['Home', '/'],
-                        ['Staking', '/staking'],
-                        ['Governance', '/governance'],
-                        ['About us & Contact', '/about'],
-                    ].map(menuItem => <li key={menuItem[1]}>
+                    {routes.map(menuItem => <li key={menuItem[1]}>
                         <Link href={menuItem[1]}>
-                            <a className={`text-xl font-medium px-4 py-4 hover:bg-primary-200 rounded-md transition-all duration-200 ${router.asPath === menuItem[1] ? 'bg-primary-200': ''}`}>
+                            <a className={`rounded-md py-2 px-3 inline-flex items-center text-sm font-medium ${router.asPath === menuItem[1] ? 'bg-gray-200 text-gray-900' : 'text-gray-900 hover:bg-gray-50 hover:text-gray-900'}`}>
                                 {menuItem[0]}
                             </a>
                         </Link>

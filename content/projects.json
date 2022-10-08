@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Moonbeam by Polkadotters",
+    "project_name": "Moonbeam",
+    "staked": 100000,
+    "begin": "2020-01-01",
+    "project_url": "google.com",
+    "logo": "https://cryptoslate.com/wp-content/uploads/2021/11/moonbeam.jpg",
+    "project_logo": "https://cosmoon.org/wp-content/uploads/2021/11/moonbeam.png",
+    "address": "0x3f0937bdef510fd1d39f76cf41a7a4cfbf8ab876",
+    "explorer": "https://moonbeam.subscan.io/account/0x3f0937bdef510fd1d39f76cf41a7a4cfbf8ab876",
+    "description": "Moonbeam is a new Polkadot smart contract platform that makes it easy to build natively interoperable blockchain applications."
+  },
+  {
+    "name": "Moonriver by Polkadotters",
+    "project_name": "Moonriver",
+    "staked": 100000,
+    "begin": "2020-01-01",
+    "project_url": "google.com",
+    "logo": "https://moonbeam.network/wp-content/uploads/2021/03/Featured-Images-Twitter-Size-9.png",
+    "project_logo": "https://cosmoon.org/wp-content/uploads/2021/11/moonriver.png",
+    "address": "0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
+    "explorer": "https://moonriver.subscan.io/account/0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
+    "description": "Moonriver is a smart contract platform, allowing developers to redeploy their ethereum dapps in a substrate environment with minimal friction."
+  },
+  {
+    "name": "Calamari by Polkadotters",
+    "project_name": "Calamari",
+    "staked": 100000,
+    "begin": "2020-01-01",
+    "project_url": "google.com",
+    "logo": "https://assets-global.website-files.com/60c9fb02ebcd0d67d7ca048a/613a4df678350af2caf929d2_azNRcJ5hPhVS8I7GHw6o2gIgUelISLHtCRsPhRtGNrWHKzz1FvHEU4J-6aDxYD5HidsIt_UzrT2lGEFRWtnfeIX55zs6osXEKbfxlMiz8RmqMRtl1fVpIPiOgDZfjqUyneFQUVI%3Ds0.png",
+    "project_logo": "https://dmccdn.com/uploads/LOGO%20Calamari%20Network-1521.png",
+    "address": "0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
+    "explorer": "https://calamari.subscan.io/account/dmvoKqM8n2PVKyiYhm5VpMMnzMdk1z1WZAYDJEDmSLSqRgrbQ",
+    "description": "Calamari, Manta Network's canary-net, is the plug-and-play privacy-preservation parachain built to service the Kusama DeFi world. It combines Kusama and zkSNARKs to bring on-chain privacy to transactions and swaps."
+  },
+  {
+    "name": "Kusama by Polkadotters",
+    "project_name": "Kusama",
+    "staked": 100000,
+    "begin": "2020-01-01",
+    "project_url": "google.com",
+    "logo": "https://inversiones.top/wp-content/uploads/2020/08/ksm-crypto.png",
+    "project_logo": "https://cryptologos.cc/logos/kusama-ksm-logo.png",
+    "address": "FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
+    "explorer": "https://kusama.subscan.io/account/FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
+    "description": "Kusama is a scalable network of specialized blockchains built using Substrate and nearly the same codebase as Polkadot. The network is an experimental development environment for teams who want to move fast and innovate on Kusama, or prepare for deployment on Polkadot."
+  },
+  {
+    "name": "Polkadot by Polkadotters",
+    "project_name": "Polkadot",
+    "staked": 100000,
+    "begin": "2020-01-01",
+    "project_url": "google.com",
+    "logo": "https://polkadot.network/content/images/2021/12/Polkadot_OG-1.png",
+    "project_logo": "https://s2.coinmarketcap.com/static/img/coins/200x200/6636.png",
+    "address": "16A4n4UQqgxw5ndeehPjUAobDNmuX2bBoPXVKj4xTe16ktRN",
+    "explorer": "https://polkadot.subscan.io/account/16A4n4UQqgxw5ndeehPjUAobDNmuX2bBoPXVKj4xTe16ktRN",
+    "description": "Polkadot unites and secures a growing ecosystem of specialized blockchains called parachains. Apps and services on Polkadot can securely communicate across chains, forming the basis for a truly interoperable decentralized web."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 78,
+    "network": "Polkadot",
+    "proposal": "Polkadot Nomination Pools Initial Configuration",
+    "vote": 1,
+    "rationale": "Nomination pools can go live any time now in Polkadot",
+    "details": "https://polkadot.polkassembly.io/referendum/78.",
+    "date": "2022-10-07"
+  },
+  {
+    "id": 77,
+    "network": "Polkadot",
+    "proposal": "External Motion: #168 Gossamer Ongoing Development Grant",
+    "vote": 1,
+    "rationale": "The proposal aims to cover the costs for further development of Gossamer.",
+    "details": "https://polkadot.polkassembly.io/referendum/77",
+    "date": "2022-10-06"
+  },
+  {
+    "id": 76,
+    "network": "Polkadot",
+    "proposal": "Runtime v9281 Upgrade On Polkadot",
+    "vote": 1,
+    "rationale": "The proposal aims to upgrade Polkadot's runtime to v9281 after an issue was identified on the last release presenting the possibility of adding inherents containing fake data to a block.",
+    "details": "https://polkadot.polkassembly.io/referendum/76",
+    "date": "2022-09-28"
+  },
+  {
+    "id": 236,
+    "network": "Kusama",
+    "proposal": "Statemine Runtime Upgrade to v9290",
+    "vote": 1,
+    "rationale": "The parachains v9290 release contains updates that correspond to the v9291 runtimes of the respective Relay Chain.",
+    "details": "https://kusama.polkassembly.io/referendum/236",
+    "date": "2022-10-05"
+  }
+]
