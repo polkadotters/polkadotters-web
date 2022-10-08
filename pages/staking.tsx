@@ -71,12 +71,9 @@ const StakingPage = () => {
                 <Container screenSize={'md'}>
                     <div className="py-10 flex flex-col gap-20">
                         <div className="w-full md:w-2/3 m-auto text-center">
-                            <h1 className={'text-5xl font-bold text-center'}>We have Validators on the best
-                                projects!</h1>
+                            <h1 className={'text-5xl font-bold text-center'}>Networks we support!</h1>
                             <span className={'text-2xl'}>
-                                We at Cosmoon are focused on creating and operating Validators, using the best hardware
-                                available in the market, and studying the latest security system to create a worries-free
-                                experience.
+                                Polkadotters are one of the biggest staking and node operator in the entire Dotsama ecosystem. 
                             </span>
                         </div>
 
