@@ -1,6 +1,67 @@
 [
   {
-    "name": "Moonbeam by Polkadotters",
+    "name": "Polkadot",
+    "project_name": "Polkadot",
+    "project_url": "https://polkadot.network/",
+    "logo": "https://polkadot.network/content/images/2021/12/Polkadot_OG-1.png",
+    "project_logo": "https://s2.coinmarketcap.com/static/img/coins/200x200/6636.png",
+    "address": "16A4n4UQqgxw5ndeehPjUAobDNmuX2bBoPXVKj4xTe16ktRN",
+    "explorer": "https://polkadot.subscan.io/account/16A4n4UQqgxw5ndeehPjUAobDNmuX2bBoPXVKj4xTe16ktRN",
+    "description": "Polkadot unites and secures a growing ecosystem of specialized blockchains called parachains. Apps and services on Polkadot can securely communicate across chains, forming the basis for a truly interoperable decentralized web."
+  },
+  {
+    "name": "Kusama",
+    "project_name": "Kusama",
+    "project_url": "google.com",
+    "logo": "https://inversiones.top/wp-content/uploads/2020/08/ksm-crypto.png",
+    "project_logo": "https://cryptologos.cc/logos/kusama-ksm-logo.png",
+    "address": "FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
+    "explorer": "https://kusama.subscan.io/account/FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
+    "description": "Kusama is a scalable network of specialized blockchains built using Substrate and nearly the same codebase as Polkadot. The network is an experimental development environment for teams who want to move fast and innovate on Kusama, or prepare for deployment on Polkadot."
+  },
+  {
+    "name": "Statemine",
+    "project_name": "Statemine",
+    "project_url": "https://wiki.polkadot.network/docs/kusama-statemine",
+    "logo": "https://polkadot.network/content/images/2021/07/image1.png",
+    "project_logo": "https://polkadot.network/content/images/2021/07/image1.png",
+    "address": "ESQzLXFRon3h5hUfNN9QTSQQTEzto5XNTGxF3g1myZELwX6",
+    "explorer": "https://statemine.subscan.io/account/ESQzLXFRon3h5hUfNN9QTSQQTEzto5XNTGxF3g1myZELwX6",
+    "description": "Statemine is the Kusama instance of Polkadot’s Statemint parachain, a common-good chain which allows the hosting of arbitrary assets, both fungible and non-fungible. It also serves as a low-cost chain for keeping and transferring the Relay Chain’s native token (KSM/DOT)." 
+  },
+  {
+    "name": "Kilt",
+    "project_name": "Kilt",
+    "begin": "2020-01-01",
+    "project_url": "https://kilt.io",
+    "logo": "https://pbs.twimg.com/profile_images/1430193796315238401/9FZMw1Tb_400x400.jpg",
+    "project_logo": "https://parachains.info/images/parachains/1624205913_kilt_logo.png",
+    "address": "4pnAJ41mGHGDKCGBGY2zzu1hfvPasPkGAKDgPeprSkxnUmGM",
+    "explorer": "https://spiritnet.subscan.io/account/4pnAJ41mGHGDKCGBGY2zzu1hfvPasPkGAKDgPeprSkxnUmGM",
+    "description": "KILT is an open-source fat blockchain protocol for issuing claim-based verifiable, revocable, and anonymous credentials in the Web 3.0. It allows end users to claim arbitrary attributes about themselves, get them attested by trusted entities, and store the claims as self-sovereign credentials (certificates). As trusted entities can issue credentials in return for money, KILT aims to foster new business models for anyone who owns trust or wants to build up trust."
+  },
+  {
+    "name": "Astar Network",
+    "project_name": "Astar",
+    "project_url": "https://astar.network",
+    "logo": "https://github.com/AstarNetwork/brand-assets/blob/main/Astar%20Identity/Astar_landscape.png?raw=true",
+    "project_logo": "https://raw.githubusercontent.com/AstarNetwork/brand-assets/526155de99699a4dc05fe625aee5d0e758bc4dff/Astar%20Identity/Astar_ring.svg",
+    "address": "XoPmK9TagQEAFusNy1DYAEgLuft4Ly5wGwM66bvAYLhC3km",
+    "explorer": "https://astar.subscan.io/account/XoPmK9TagQEAFusNy1DYAEgLuft4Ly5wGwM66bvAYLhC3km",
+    "description": "Astar Network is the future of smart contracts platform for multichain. The network supports the building of dApps with EVM and WASM smart contracts and offers developers true interoperability, with cross-consensus messaging (XCM). We are made by developers and for developers. Astar’s unique Build2Earn model empowers developers to get paid through a dApp staking mechanism for the code they write and dApps they build."
+  },
+  {
+    "name": "HydraDX",
+    "project_name": "HydraDX",
+    "project_url": "https://hydradx.io",
+    "logo": "https://icodrops.com/wp-content/uploads/2021/01/hydraDX_cover.png",
+    "project_logo": "https://pbs.twimg.com/profile_images/1295317887964655616/rZTiGTPG_400x400.jpg",
+    "address": "7KTekrYqsZ8PDfNmur2bSRfKq3xwEyVGsq4xmjuP28pyWpKQ",
+    "explorer": "https://hydradx.subscan.io/account/7KTekrYqsZ8PDfNmur2bSRfKq3xwEyVGsq4xmjuP28pyWpKQ",
+    "description": "HydraDX is a cross-chain liquidity protocol built on Substrate. Our mission is to enable frictionless liquidity for all cryptoassets by building the first of its kind multi-asset liquidity pool - the HydraDX Omnipool. In the Omnipool, various assets аrе priced against each other by using our pool token Lerna (LRNA) as a proxy for determining their relative value. With the Omnipool, HydraDX breaks with the traditional conception according to which assets are traded in pairs using isolated pools."
+  },
+  {
+    "name": "Moonbeam",
     "project_name": "Moonbeam",
     "staked": 100000,
     "begin": "2020-01-01",
@@ -34,29 +95,5 @@
     "address": "0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
     "explorer": "https://calamari.subscan.io/account/dmvoKqM8n2PVKyiYhm5VpMMnzMdk1z1WZAYDJEDmSLSqRgrbQ",
     "description": "Calamari, Manta Network's canary-net, is the plug-and-play privacy-preservation parachain built to service the Kusama DeFi world. It combines Kusama and zkSNARKs to bring on-chain privacy to transactions and swaps."
-  },
-  {
-    "name": "Kusama by Polkadotters",
-    "project_name": "Kusama",
-    "staked": 100000,
-    "begin": "2020-01-01",
-    "project_url": "google.com",
-    "logo": "https://inversiones.top/wp-content/uploads/2020/08/ksm-crypto.png",
-    "project_logo": "https://cryptologos.cc/logos/kusama-ksm-logo.png",
-    "address": "FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
-    "explorer": "https://kusama.subscan.io/account/FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
-    "description": "Kusama is a scalable network of specialized blockchains built using Substrate and nearly the same codebase as Polkadot. The network is an experimental development environment for teams who want to move fast and innovate on Kusama, or prepare for deployment on Polkadot."
-  },
-  {
-    "name": "Polkadot by Polkadotters",
-    "project_name": "Polkadot",
-    "staked": 100000,
-    "begin": "2020-01-01",
-    "project_url": "google.com",
-    "logo": "https://polkadot.network/content/images/2021/12/Polkadot_OG-1.png",
-    "project_logo": "https://s2.coinmarketcap.com/static/img/coins/200x200/6636.png",
-    "address": "16A4n4UQqgxw5ndeehPjUAobDNmuX2bBoPXVKj4xTe16ktRN",
-    "explorer": "https://polkadot.subscan.io/account/16A4n4UQqgxw5ndeehPjUAobDNmuX2bBoPXVKj4xTe16ktRN",
-    "description": "Polkadot unites and secures a growing ecosystem of specialized blockchains called parachains. Apps and services on Polkadot can securely communicate across chains, forming the basis for a truly interoperable decentralized web."
   }
 ]
