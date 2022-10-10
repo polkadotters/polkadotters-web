@@ -2,6 +2,8 @@
   {
     "name": "Polkadot",
     "project_name": "Polkadot",
+    "staked": 0,
+    "begin": "2020-01-01",
     "project_url": "https://polkadot.network/",
     "logo": "https://polkadot.network/content/images/2021/12/Polkadot_OG-1.png",
     "project_logo": "https://s2.coinmarketcap.com/static/img/coins/200x200/6636.png",
@@ -12,6 +14,8 @@
   {
     "name": "Kusama",
     "project_name": "Kusama",
+    "staked": 0,
+    "begin": "2020-01-01",
     "project_url": "google.com",
     "logo": "https://inversiones.top/wp-content/uploads/2020/08/ksm-crypto.png",
     "project_logo": "https://cryptologos.cc/logos/kusama-ksm-logo.png",
@@ -22,6 +26,8 @@
   {
     "name": "Statemine",
     "project_name": "Statemine",
+    "staked": 0,
+    "begin": "2020-01-01",
     "project_url": "https://wiki.polkadot.network/docs/kusama-statemine",
     "logo": "https://polkadot.network/content/images/2021/07/image1.png",
     "project_logo": "https://polkadot.network/content/images/2021/07/image1.png",
@@ -32,6 +38,8 @@
   {
     "name": "Kilt",
     "project_name": "Kilt",
+    "staked": 0,
+    "begin": "2020-01-01",
     "begin": "2020-01-01",
     "project_url": "https://kilt.io",
     "logo": "https://pbs.twimg.com/profile_images/1430193796315238401/9FZMw1Tb_400x400.jpg",
@@ -43,6 +51,8 @@
   {
     "name": "Astar Network",
     "project_name": "Astar",
+    "staked": 0,
+    "begin": "2020-01-01",
     "project_url": "https://astar.network",
     "logo": "https://github.com/AstarNetwork/brand-assets/blob/main/Astar%20Identity/Astar_landscape.png?raw=true",
     "project_logo": "https://raw.githubusercontent.com/AstarNetwork/brand-assets/526155de99699a4dc05fe625aee5d0e758bc4dff/Astar%20Identity/Astar_ring.svg",
@@ -53,6 +63,8 @@
   {
     "name": "HydraDX",
     "project_name": "HydraDX",
+    "staked": 0,
+    "begin": "2020-01-01",
     "project_url": "https://hydradx.io",
     "logo": "https://icodrops.com/wp-content/uploads/2021/01/hydraDX_cover.png",
     "project_logo": "https://pbs.twimg.com/profile_images/1295317887964655616/rZTiGTPG_400x400.jpg",
