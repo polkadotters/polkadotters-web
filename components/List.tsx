@@ -49,7 +49,7 @@ export default function List({options}) {
     return (
         <div className="overflow-hidden bg-white shadow sm:rounded-md">
             <ul role="list" className="divide-y divide-gray-200">
-                {options.map((referendum) => <ListItem item={referendum}/>)}
+                {options.map((referendum, i) => <ListItem key={i} item={referendum}/>)}
             </ul>
         </div>
     )

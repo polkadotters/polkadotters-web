@@ -89,3 +89,14 @@
   url('../assets/fonts/inter-v11-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
   url('../assets/fonts/inter-v11-latin-900.svg#Inter') format('svg'); /* Legacy iOS */
 }
+
+/* Varela */
+@font-face {
+  font-family: 'Varela Round';
+  src: url('../assets/fonts/VarelaRound-Regular.woff2') format('woff2'),
+  url('../assets/fonts/VarelaRound-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

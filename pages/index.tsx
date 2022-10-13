@@ -26,8 +26,6 @@ export async function getStaticProps() {
 const IndexPage = ({posts}) => {
     const router = useRouter()
 
-    console.log(posts)
-
     return (
         <Layout>
             <Header/>
@@ -45,14 +43,14 @@ const IndexPage = ({posts}) => {
 
                 <Container screenSize={'md'} className={'max-w-5xl'}>
                     <div className="lg:-mt-20">
-                        <h1 className={'text-6xl font-bold text-pink-600 flex flex-row items-end gap-3 mb-8'}>
+                        <h1 className={'text-6xl font-bold text-pink-600 flex flex-col lg:flex-row items-center justify-center md:justify-start gap-3 mb-8'}>
                             <FaMedium/>
                             Polkadotters <span className={'text-4xl text-gray-800'}>on medium</span></h1>
 
                         <ul className={'flex flex-col gap-8'}>
                             {posts.map(post => <li key={post.title}>
 
-                                <div className="flex flex-row gap-4 items-start">
+                                <div className="flex flex-col lg:flex-row gap-4 items-start">
                                     <img src={post.thumbnail} width={300} alt={post.title}/>
                                     <div className="flex flex-col gap-4">
                                         <Link href={post.link}>

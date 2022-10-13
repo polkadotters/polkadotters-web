@@ -10,6 +10,21 @@ import List from "../components/List";
 const GovernancePage = () => {
     const [filter, setFilter] = useState('All');
 
+    const filterFn = (item) => {
+        switch (filter) {
+            case "Kusama":
+                return item.network === "Kusama";
+            case "Polkadot":
+                return item.network === "Polkadot";
+            case "Other":
+                return item.network !== "Kusama" && item.network !== "Polkadot";
+            case "All":
+            default:
+                return true;
+
+        }
+    }
+
     return (
         <Layout>
             <Header/>
@@ -22,15 +37,20 @@ const GovernancePage = () => {
                                 <ListboxFilter className={'w-full'}
                                                label={'Show network'}
                                                onChange={setFilter}
-                                               options={['All', ...governance.map(item => item.network)
-                                                   .filter((value, index, self) => self.indexOf(value) === index)]}
+                                               options={[
+                                                   'All',
+                                                   'Polkadot',
+                                                   'Kusama',
+                                                   'Other'/*,
+                                                   ...governance.map(item => item.network)
+                                                       .filter((value, index, self) => self.indexOf(value) === index)*/]}
                                 />
                             </div>
 
                             {filter !== 'All' && <span>Showing only for <strong>{filter}</strong></span>}
                         </div>
                         <div className="py-5">
-                            <List options={governance.filter(item => filter === 'All' || item.network === filter)}/>
+                            <List options={governance.filter(filterFn)}/>
                         </div>
                     </div>
                 </Container>
