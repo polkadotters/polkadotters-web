@@ -12,8 +12,8 @@
   {
     "name": "Kusama",
     "project_name": "Kusama",
-    "project_url": "google.com",
-    "logo": "https://inversiones.top/wp-content/uploads/2020/08/ksm-crypto.png",
+    "project_url": "https://kusama.network/",
+    "logo": "https://www.asiacryptotoday.com/wp-content/uploads/2020/09/Kusama.jpg",
     "project_logo": "https://cryptologos.cc/logos/kusama-ksm-logo.png",
     "address": "FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
     "explorer": "https://kusama.subscan.io/account/FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
@@ -30,20 +30,30 @@
     "description": "Statemine is the Kusama instance of Polkadot’s Statemint parachain, a common-good chain which allows the hosting of arbitrary assets, both fungible and non-fungible. It also serves as a low-cost chain for keeping and transferring the Relay Chain’s native token (KSM/DOT)." 
   },
   {
-    "name": "Kilt",
-    "project_name": "Kilt",
-    "project_url": "https://kilt.io",
-    "logo": "https://pbs.twimg.com/profile_images/1430193796315238401/9FZMw1Tb_400x400.jpg",
-    "project_logo": "https://parachains.info/images/parachains/1624205913_kilt_logo.png",
-    "address": "4pnAJ41mGHGDKCGBGY2zzu1hfvPasPkGAKDgPeprSkxnUmGM",
-    "explorer": "https://spiritnet.subscan.io/account/4pnAJ41mGHGDKCGBGY2zzu1hfvPasPkGAKDgPeprSkxnUmGM",
-    "description": "KILT is an open-source fat blockchain protocol for issuing claim-based verifiable, revocable, and anonymous credentials in the Web 3.0. It allows end users to claim arbitrary attributes about themselves, get them attested by trusted entities, and store the claims as self-sovereign credentials (certificates). As trusted entities can issue credentials in return for money, KILT aims to foster new business models for anyone who owns trust or wants to build up trust."
+    "name": "Moonbeam",
+    "project_name": "Moonbeam",
+    "project_url": "https://moonbeam.network/",
+    "logo": "https://www.purestake.com/wp-content/uploads/2020/04/moonbeam-announcement-01.png",
+    "project_logo": "https://cosmoon.org/wp-content/uploads/2021/11/moonbeam.png",
+    "address": "0x3f0937bdef510fd1d39f76cf41a7a4cfbf8ab876",
+    "explorer": "https://moonbeam.subscan.io/account/0x3f0937bdef510fd1d39f76cf41a7a4cfbf8ab876",
+    "description": "Moonbeam is a new Polkadot smart contract platform that makes it easy to build natively interoperable blockchain applications."
   },
   {
-    "name": "Astar Network",
+    "name": "Moonriver",
+    "project_name": "Moonriver",
+    "project_url": "https://moonbeam.network/networks/moonriver/",
+    "logo": "https://moonbeam.network/wp-content/uploads/2021/03/Featured-Images-Twitter-Size-9.png",
+    "project_logo": "https://cosmoon.org/wp-content/uploads/2021/11/moonriver.png",
+    "address": "0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
+    "explorer": "https://moonriver.subscan.io/account/0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
+    "description": "Moonriver is a smart contract platform, allowing developers to redeploy their ethereum dapps in a substrate environment with minimal friction."
+  },
+  {
+    "name": "Astar",
     "project_name": "Astar",
     "project_url": "https://astar.network",
-    "logo": "https://github.com/AstarNetwork/brand-assets/blob/main/Astar%20Identity/Astar_landscape.png?raw=true",
+    "logo": "https://www.altcoinbuzz.io/wp-content/uploads/2022/07/05-75.jpg",
     "project_logo": "https://raw.githubusercontent.com/AstarNetwork/brand-assets/526155de99699a4dc05fe625aee5d0e758bc4dff/Astar%20Identity/Astar_ring.svg",
     "address": "XoPmK9TagQEAFusNy1DYAEgLuft4Ly5wGwM66bvAYLhC3km",
     "explorer": "https://astar.subscan.io/account/XoPmK9TagQEAFusNy1DYAEgLuft4Ly5wGwM66bvAYLhC3km",
@@ -53,40 +63,170 @@
     "name": "HydraDX",
     "project_name": "HydraDX",
     "project_url": "https://hydradx.io",
-    "logo": "https://icodrops.com/wp-content/uploads/2021/01/hydraDX_cover.png",
+    "logo": "https://everipedia-storage.s3.amazonaws.com/ProfilePicture/lang_en/hydradx-xhdx/mainphoto.png",
     "project_logo": "https://pbs.twimg.com/profile_images/1295317887964655616/rZTiGTPG_400x400.jpg",
     "address": "7KTekrYqsZ8PDfNmur2bSRfKq3xwEyVGsq4xmjuP28pyWpKQ",
     "explorer": "https://hydradx.subscan.io/account/7KTekrYqsZ8PDfNmur2bSRfKq3xwEyVGsq4xmjuP28pyWpKQ",
     "description": "HydraDX is a cross-chain liquidity protocol built on Substrate. Our mission is to enable frictionless liquidity for all cryptoassets by building the first of its kind multi-asset liquidity pool - the HydraDX Omnipool. In the Omnipool, various assets аrе priced against each other by using our pool token Lerna (LRNA) as a proxy for determining their relative value. With the Omnipool, HydraDX breaks with the traditional conception according to which assets are traded in pairs using isolated pools."
   },
   {
-    "name": "Moonbeam",
-    "project_name": "Moonbeam",
-    "project_url": "google.com",
-    "logo": "https://cryptoslate.com/wp-content/uploads/2021/11/moonbeam.jpg",
-    "project_logo": "https://cosmoon.org/wp-content/uploads/2021/11/moonbeam.png",
-    "address": "0x3f0937bdef510fd1d39f76cf41a7a4cfbf8ab876",
-    "explorer": "https://moonbeam.subscan.io/account/0x3f0937bdef510fd1d39f76cf41a7a4cfbf8ab876",
-    "description": "Moonbeam is a new Polkadot smart contract platform that makes it easy to build natively interoperable blockchain applications."
+    "name": "Basilisk",
+    "project_name": "Basilisk",
+    "project_url": "https://bsx.fi/",
+    "logo": "https://i.ibb.co/LZk2smQ/basilisk.png",
+    "project_logo": "https://pbs.twimg.com/profile_images/1514314234070458368/F4KUOiFh_400x400.jpg",
+    "address": "bXiTWWfZdUi8pA7cKnHTpaNjSwR8HMqoK15FxMFVX6Zs6R8vd",
+    "explorer": "https://basilisk.subscan.io/account/bXiTWWfZdUi8pA7cKnHTpaNjSwR8HMqoK15FxMFVX6Zs6R8vd",
+    "description": "Basilisk is a liquidity protocol built for the Kusama ecosystem. Its mission is to enable frictionless liquidity that caters to the evolving needs of crypto assets - both fungible, and non-fungible (NFTs)."
   },
   {
-    "name": "Moonriver by Polkadotters",
-    "project_name": "Moonriver",
-    "project_url": "google.com",
-    "logo": "https://moonbeam.network/wp-content/uploads/2021/03/Featured-Images-Twitter-Size-9.png",
-    "project_logo": "https://cosmoon.org/wp-content/uploads/2021/11/moonriver.png",
-    "address": "0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
-    "explorer": "https://moonriver.subscan.io/account/0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
-    "description": "Moonriver is a smart contract platform, allowing developers to redeploy their ethereum dapps in a substrate environment with minimal friction."
+    "name": "Zeitgeist",
+    "project_name": "Zeitgeist",
+    "project_url": "https://zeitgeist.pm/",
+    "logo": "https://dmccdn.com/uploads/share/Zeitgeist-tn12.png",
+    "project_logo": "https://img.api.cryptorank.io/coins/zeitgeist1635506793023.png",
+    "address": "dDztF7ssm3Hcjzw6FvhzDWzh1YMyvRN1zoYwHMVy6ApZPdQ3G",
+    "explorer": "https://zeitgeist.subscan.io/account/dDztF7ssm3Hcjzw6FvhzDWzh1YMyvRN1zoYwHMVy6ApZPdQ3G",
+    "description": "A Prediction Markets protocol helping steer humanity towards truth and progress. In a world of misinformation, truth and facts are priceless commodities. Using the incentive structure of Prediction Markets, the Zeitgeist protocol helps create signals of what the most likely scenarios will be in any given situation."
   },
   {
-    "name": "Calamari by Polkadotters",
+    "name": "Calamari",
     "project_name": "Calamari",
-    "project_url": "google.com",
-    "logo": "https://assets-global.website-files.com/60c9fb02ebcd0d67d7ca048a/613a4df678350af2caf929d2_azNRcJ5hPhVS8I7GHw6o2gIgUelISLHtCRsPhRtGNrWHKzz1FvHEU4J-6aDxYD5HidsIt_UzrT2lGEFRWtnfeIX55zs6osXEKbfxlMiz8RmqMRtl1fVpIPiOgDZfjqUyneFQUVI%3Ds0.png",
+    "project_url": "https://calamari.network",
+    "logo": "https://pbs.twimg.com/media/E5oj5rgWUAAE5gb.jpg",
     "project_logo": "https://dmccdn.com/uploads/LOGO%20Calamari%20Network-1521.png",
     "address": "0x1DED377bc421DAaE92A161A5bcE7DBA19133AB5d",
     "explorer": "https://calamari.subscan.io/account/dmvoKqM8n2PVKyiYhm5VpMMnzMdk1z1WZAYDJEDmSLSqRgrbQ",
     "description": "Calamari, Manta Network's canary-net, is the plug-and-play privacy-preservation parachain built to service the Kusama DeFi world. It combines Kusama and zkSNARKs to bring on-chain privacy to transactions and swaps."
+  },
+  {
+    "name": "Kilt",
+    "project_name": "Kilt",
+    "project_url": "https://kilt.io",
+    "logo": "https://pbs.twimg.com/profile_images/1430193796315238401/9FZMw1Tb_400x400.jpg",
+    "project_logo": "https://parachains.info/images/parachains/1624205913_kilt_logo.png",
+    "address": "4pnAJ41mGHGDKCGBGY2zzu1hfvPasPkGAKDgPeprSkxnUmGM",
+    "explorer": "https://spiritnet.subscan.io/account/4pnAJ41mGHGDKCGBGY2zzu1hfvPasPkGAKDgPeprSkxnUmGM",
+    "description": "KILT is a protocol for self-sovereign data and interoperability built on top of the permissionless KILT blockchain. The core component of KILT is a digital identity protocol for 1. generating and managing decentralized identifiers (DIDs), and 2. issuing and presenting digital verifiable credentials (VCs)."
+  },
+  {
+    "name": "Bifrost",
+    "project_name": "Bifrost",
+    "project_url": "https://bifrost.finance/",
+    "logo": "https://miro.medium.com/max/2400/1*ieXR8Wa8PFj5mKhRTmoFBA.png",
+    "project_logo": "https://i.ibb.co/ThdmH7y/bifrost.png",
+    "address": "db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "explorer": "https://bifrost-kusama.subscan.io/account/db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "description": "Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-consensus message (XCM) it can provide cross-chain liquid staking services for multiple chains."
+  },
+  {
+    "name": "Equilibrium",
+    "project_name": "Equilibrium",
+    "project_url": "https://equilibrium.io/",
+    "logo": "https://moonbeam.network/wp-content/uploads/2020/12/equilibrium-500.png",
+    "project_logo": "https://parachains.info/images/parachains/equilibrium.png",
+    "address": "db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "explorer": "https://bifrost-kusama.subscan.io/account/db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "description": "An all-in-one cross-chain DeFi protocol with high leverage. The functionality of all key DeFi apps on one platform, with advanced bailout mechanism for system security."
+  },
+  {
+    "name": "Genshiro",
+    "project_name": "Genshiro",
+    "project_url": "https://genshiro.equilibrium.io/en",
+    "logo": "https://dmccdn.com/uploads/share/Genshiro-tn-133.png",
+    "project_logo": "https://dmccdn.com/uploads/Genshiro%20logo-02.png",
+    "address": "db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "explorer": "https://bifrost-kusama.subscan.io/account/db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "description": "Genshiro is Equilibrium's DeFi one-stop shop on Kusama that can do all things that existing DeFi primitives do, but with less risk and cross-chain."
+  },
+  {
+    "name": "Altair",
+    "project_name": "Altair",
+    "project_url": "https://centrifuge.io/altair/",
+    "logo": "https://cryptoslate.com/wp-content/uploads/2021/09/altair-kusama.jpg",
+    "project_logo": "https://dmccdn.com/uploads/Altair-03.png",
+    "address": "kAK1sKzwNeN1KjcEfqP1z2NzMQnZXiJpdMzcfyP354W3SNAWg",
+    "explorer": "https://altair.subscan.io/account/kAK1sKzwNeN1KjcEfqP1z2NzMQnZXiJpdMzcfyP354W3SNAWg",
+    "description": "Altair is one of the fastest spinning stars in the galaxy, and is also the bridge from Centrifuge to Kusama. You will now be able to tokenize real-world assets and finance them on the Kusama network."
+  },
+  {
+    "name": "Turing",
+    "project_name": "Turing",
+    "project_url": "https://oak.tech/turing/home/",
+    "logo": "https://dmccdn.com/uploads/share/Turing%20Network-tn-12.png",
+    "project_logo": "https://oak.tech/_next/static/images/logo-turing-e1331c59b0f2850fdaeef255671b2419.png",
+    "address": "681jex41G4dfLxXD3TUJucUE5EFQamw2cYRPPYBmTsh88i7N",
+    "explorer": "https://turing.subscan.io/account/681jex41G4dfLxXD3TUJucUE5EFQamw2cYRPPYBmTsh88i7N",
+    "description": "Being a canary network of OAK, Turing Network aims to drive product usage of XCM by providing cross-chain automation for other parachains. Turing Network is solving this problem by building the Kusama hub for DeFi and payment automation through an easy to use event driven transaction model built on Substrate."
+  },
+  {
+    "name": "Polkadex",
+    "project_name": "Polkadex",
+    "project_url": "https://polkadex.trade/",
+    "logo": "https://outlierventures.io/wp-content/uploads/2021/03/polkadex.jpg",
+    "project_logo": "https://img.api.cryptorank.io/coins/polkadex1618485126958.png",
+    "address": "esndVGHeozbEVwHTbRpX225zwzBGD7JVftWmKyfN8fhPVogLF",
+    "explorer": "https://polkadex.subscan.io/account/esndVGHeozbEVwHTbRpX225zwzBGD7JVftWmKyfN8fhPVogLF",
+    "description": "Polkadex is a fully decentralized peer-to-peer orderbook-based cryptocurrency exchange for the DeFi ecosystem built on Substrate."
+  },
+  {
+    "name": "Tinkernet",
+    "project_name": "Tinkernet",
+    "project_url": "https://invarch.network/tinkernet",
+    "logo": "https://pbs.twimg.com/media/FZpAjdFXEAAOw98.jpg",
+    "project_logo": "https://parachains.info/images/parachains/1654885593_tinkernet_logo.png",
+    "address": "i4yjm1cZ7JaVVpEJaTyH6rbbdWkfxyT9hzEy1rEzx2izW9Lsi",
+    "explorer": "",
+    "description": "The Tinkernet Parachain is the canary network of the InvArch Network, designed as the IP Asset & accelerated development staging grounds for the Kusama ecosystem. InvArch aims to build an intuitive network to tokenize ideas and form decentralized partnerships."
+  },
+  {
+    "name": "Kintsugi",
+    "project_name": "Kintsugi",
+    "project_url": "https://kintsugi.interlay.io/",
+    "logo": "https://blog.mexc.com/wp-content/uploads/2022/01/image-31.png",
+    "project_logo": "https://s2.coinmarketcap.com/static/img/coins/200x200/13675.png",
+    "address": "a3c5FSVJgodMZNTUz8pGKhhDjBfiWzgQ8DMAeQPUgWdiHYJtf",
+    "explorer": "https://kintsugi.subscan.io/account/a3c5FSVJgodMZNTUz8pGKhhDjBfiWzgQ8DMAeQPUgWdiHYJtf",
+    "description": "Kintsugi’s KBTC brings radically open Bitcoin to Kusama to kickstart liquidity for parachains like Karura, Shiden and Moonriver. KBTC is a 1:1 Bitcoin-backed asset on Kusama, maintained by a decentralized network of collateralized Vaults. Users must only ever trust that Bitcoin and the DeFi platform they use are secure."
+  },
+  {
+    "name": "Sora",
+    "project_name": "Sora",
+    "project_url": "https://sora.org/",
+    "logo": "https://i.ibb.co/5YC4srz/sora.png",
+    "project_logo": "https://cdn-images-1.medium.com/max/1200/1*xX1Awr8lT33Acw7uX-fgPA.png",
+    "address": "cnTMNwuGYeoig1uXW4Qn8rJcE69NeNSpkWm7frXL1dvLZamBh",
+    "explorer": "https://sora.subscan.io/account/cnTMNwuGYeoig1uXW4Qn8rJcE69NeNSpkWm7frXL1dvLZamBh",
+    "description": "SORA is both a supranational world economic system that decentralizes the concept of a central bank as well as a network in the Polkadot ecosystem that will connect to the Polkadot relay chain and the parachains with built-in tools focused on DeFi."
+  },
+{
+    "name": "Dock",
+    "project_name": "Dock",
+    "project_url": "https://www.dock.io/",
+    "logo": "https://www.coinbilgi.net/wp-content/uploads/2021/05/dock-io-nedir-coinbilgi.jpg",
+    "project_logo": "https://icodrops.com/wp-content/uploads/2018/01/dock.io-logo.jpg",
+    "address": "3EBcABMK7dGapFnkn1xcxUkuLA6szTfw9GMaYiY335SyySLo",
+    "explorer": "https://dock.subscan.io/account/3EBcABMK7dGapFnkn1xcxUkuLA6szTfw9GMaYiY335SyySLo",
+    "description": "Make any document tamper-proof with Verifiable Credentials. Dock Certs is an all-in-one suite of Verifiable Credential (VC) tools built for organizations to issue digital credentials and certificates that are automatically and instantly verifiable, fraud-proof and auditable."
+  },
+  {
+    "name": "Darwinia",
+    "project_name": "Darwinia",
+    "project_url": "https://darwinia.network/",
+    "logo": "https://miro.medium.com/max/1200/1*ZT9X3Q65hStW2-bBGxwnFw.png",
+    "project_logo": "https://docs.darwinia.network/img/favicon.svg",
+    "address": "2q2y8DBhaTmgC2Au9tSXSshCkDXhmj9rPW945yxqBf52rGRK",
+    "explorer": "https://darwinia.subscan.io/account/2q2y8DBhaTmgC2Au9tSXSshCkDXhmj9rPW945yxqBf52rGRK",
+    "description": "Darwinia is a cross-chain messaging infrastructure. Darwinia provides a reliable and programmable cross-chain platform for decentralized applications. Darwinia provides developers with an SDK, and developers can easily integrate cross-chain capabilities into their Dapps."
+  },
+  {
+    "name": "Crab",
+    "project_name": "Crab",
+    "project_url": "https://crab.network/",
+    "logo": "https://i.ytimg.com/vi/49SJU0EOTL8/maxresdefault.jpg",
+    "project_logo": "https://docs.crab.network/img/favicon.svg",
+    "address": "5DvoL2BNoSm7wRt2tfZ6WW5QFrxm68GLv5SCrPQ4JBLjbvpL",
+    "explorer": "https://crab.subscan.io/account/5DvoL2BNoSm7wRt2tfZ6WW5QFrxm68GLv5SCrPQ4JBLjbvpL",
+    "description": "Crab Network is a canary network with real economic value for Darwinia, and its positioning is similar to Polkadot's Kusama Network. Crab mainly serves as a testbed and simulation environment for Darwinia network upgrades and application deployment on which radical experiments can be performed. It not only provides a complete network and software execution environment, but also an economic environment."
   }
 ]
