@@ -7,7 +7,5 @@ export type ProjectProps = {
     explorer: string,
     description: string,
     project_url: string,
-    project_name: string,
-    begin: string,
-    staked: number
+    project_name: string
 }
