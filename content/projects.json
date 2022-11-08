@@ -120,13 +120,33 @@
     "description": "Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-consensus message (XCM) it can provide cross-chain liquid staking services for multiple chains."
   },
   {
+    "name": "Mangata",
+    "project_name": "Mangata",
+    "project_url": "https://www.mangata.finance/",
+    "logo": "https://dmccdn.com/uploads/share/Mangata-tn-145.png",
+    "project_logo": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/s0pnabrvmoenzgnm5opi",
+    "address": "5DvoL2BNoSm7wRt2tfZ6WW5QFrxm68GLv5SCrPQ4JBLjbvpL",
+    "explorer": "https://mangatax.subscan.io/account/5DvoL2BNoSm7wRt2tfZ6WW5QFrxm68GLv5SCrPQ4JBLjbvpL",
+    "description": "Mangata is an easy & secure community-driven DEX that is cheaper and more fair for everyone. We can do this, because we are building Mangata as a parachain on Polkadot. Building our own blockchain means that we can change the consensus rules to be optimized for a DEX."
+  },
+  {
+    "name": "Amplitude",
+    "project_name": "Amplitude",
+    "project_url": "https://pendulumchain.org/amplitude",
+    "logo": "https://dmccdn.com/uploads/share/Amplitude-tn-06.png",
+    "project_logo": "https://dmccdn.com/uploads/5CCD0A5D-7545-479C-AD67-8E600E5A50B5.jpeg",
+    "address": "db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "explorer": "https://bifrost-kusama.subscan.io/account/db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "description": "Amplitude is the sister network of Pendulum on Kusama. It will act as a testing ground for Pendulum applications and network parameters and be powered by the AMPE token."
+  },
+  {
     "name": "Equilibrium",
     "project_name": "Equilibrium",
     "project_url": "https://equilibrium.io/",
     "logo": "https://moonbeam.network/wp-content/uploads/2020/12/equilibrium-500.png",
     "project_logo": "https://parachains.info/images/parachains/equilibrium.png",
-    "address": "db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
-    "explorer": "https://bifrost-kusama.subscan.io/account/db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "address": "cg4yAQQck4BkA29dp6LUcgdb2j6DpriXSSZfGUnAk1CHMa3dE",
+    "explorer": "https://equilibrium.subscan.io/account/cg4yAQQck4BkA29dp6LUcgdb2j6DpriXSSZfGUnAk1CHMa3dE",
     "description": "An all-in-one cross-chain DeFi protocol with high leverage. The functionality of all key DeFi apps on one platform, with advanced bailout mechanism for system security."
   },
   {
@@ -135,15 +155,15 @@
     "project_url": "https://genshiro.equilibrium.io/en",
     "logo": "https://dmccdn.com/uploads/share/Genshiro-tn-133.png",
     "project_logo": "https://dmccdn.com/uploads/Genshiro%20logo-02.png",
-    "address": "db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
-    "explorer": "https://bifrost-kusama.subscan.io/account/db42JgrxyGxKKKLHVtEv4W6zPpB7Xbc8DVUhnFDdPwBUBQF",
+    "address": "cZgawruxwTZme2Pk88GB6WxZqN351LzE8NNCs731UNUE9ZGbr",
+    "explorer": "https://genshiro.subscan.io/account/cZgawruxwTZme2Pk88GB6WxZqN351LzE8NNCs731UNUE9ZGbr",
     "description": "Genshiro is Equilibrium's DeFi one-stop shop on Kusama that can do all things that existing DeFi primitives do, but with less risk and cross-chain."
   },
   {
     "name": "Altair",
     "project_name": "Altair",
     "project_url": "https://centrifuge.io/altair/",
-    "logo": "https://cryptoslate.com/wp-content/uploads/2021/09/altair-kusama.jpg",
+    "logo": "https://dmccdn.com/uploads/share/Altair-tn.png",
     "project_logo": "https://dmccdn.com/uploads/Altair-03.png",
     "address": "kAK1sKzwNeN1KjcEfqP1z2NzMQnZXiJpdMzcfyP354W3SNAWg",
     "explorer": "https://altair.subscan.io/account/kAK1sKzwNeN1KjcEfqP1z2NzMQnZXiJpdMzcfyP354W3SNAWg",
@@ -203,7 +223,7 @@
     "name": "Dock",
     "project_name": "Dock",
     "project_url": "https://www.dock.io/",
-    "logo": "https://www.coinbilgi.net/wp-content/uploads/2021/05/dock-io-nedir-coinbilgi.jpg",
+    "logo": "https://dmccdn.com/uploads/share/Dock-tn.png",
     "project_logo": "https://icodrops.com/wp-content/uploads/2018/01/dock.io-logo.jpg",
     "address": "3EBcABMK7dGapFnkn1xcxUkuLA6szTfw9GMaYiY335SyySLo",
     "explorer": "https://dock.subscan.io/account/3EBcABMK7dGapFnkn1xcxUkuLA6szTfw9GMaYiY335SyySLo",
@@ -213,7 +233,7 @@
     "name": "Darwinia",
     "project_name": "Darwinia",
     "project_url": "https://darwinia.network/",
-    "logo": "https://miro.medium.com/max/1200/1*ZT9X3Q65hStW2-bBGxwnFw.png",
+    "logo": "https://dmccdn.com/uploads/share/Darwinia-tn.png",
     "project_logo": "https://docs.darwinia.network/img/favicon.svg",
     "address": "2q2y8DBhaTmgC2Au9tSXSshCkDXhmj9rPW945yxqBf52rGRK",
     "explorer": "https://darwinia.subscan.io/account/2q2y8DBhaTmgC2Au9tSXSshCkDXhmj9rPW945yxqBf52rGRK",
