@@ -17,8 +17,6 @@ const ProjectTile = ({
                          description,
                          address,
                          explorer,
-                         begin,
-                         staked,
                          project_url,
                          project_name,
                          project_logo
