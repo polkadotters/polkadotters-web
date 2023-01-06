@@ -30,6 +30,26 @@
     "description": "Statemine is the Kusama instance of Polkadot’s Statemint parachain, a common-good chain which allows the hosting of arbitrary assets, both fungible and non-fungible. It also serves as a low-cost chain for keeping and transferring the Relay Chain’s native token (KSM/DOT)." 
   },
   {
+    "name": "Statemint",
+    "project_name": "Statemint",
+    "project_url": "https://wiki.polkadot.network/docs/learn-statemint",
+    "logo": "https://polkadot.network/content/images/2021/12/Statemint-1.png",
+    "project_logo": "https://parachains.info/images/parachains/1623939400_statemine_logo.png",
+    "address": "12s6UMSSfE2bNxtYrJc6eeuZ7UxQnRpUzaAh1gPQrGNFnE8h",
+    "explorer": "https://statemint.subscan.io/account/12s6UMSSfE2bNxtYrJc6eeuZ7UxQnRpUzaAh1gPQrGNFnE8h",
+    "description": "Statemint is a generic assets parachain which provides functionality for deploying and transferring assets — both Fungible and Non-Fungible Tokens (NFTs). It is a common good parachain on Polkadot (not to be confused with Statemine, which is a parachain on Kusama)." 
+  },
+  {
+    "name": "Encointer",
+    "project_name": "Encointer",
+    "project_url": "https://encointer.org/",
+    "logo": "https://encointer.org/wp-content/uploads/2022/05/Featured-Image-Homepage.png",
+    "project_logo": "https://parachains.info/images/parachains/1625163231_encointer_logo.png",
+    "address": "ESQzLXFRon3h5hUfNN9QTSQQTEzto5XNTGxF3g1myZELwX6",
+    "explorer": "https://encointer.subscan.io/account/ESQzLXFRon3h5hUfNN9QTSQQTEzto5XNTGxF3g1myZELwX6",
+    "description": "Encointer enables communities everywhere to generate their own, autonomous currency, and use it to stimulate the local economy. Each participant attends regular physical key-signing events to show that they are a unique person, which prevents anyone from claiming multiple incomes." 
+  },
+  {
     "name": "Moonbeam",
     "project_name": "Moonbeam",
     "project_url": "https://moonbeam.network/",
@@ -108,6 +128,16 @@
     "address": "4pnAJ41mGHGDKCGBGY2zzu1hfvPasPkGAKDgPeprSkxnUmGM",
     "explorer": "https://spiritnet.subscan.io/account/4pnAJ41mGHGDKCGBGY2zzu1hfvPasPkGAKDgPeprSkxnUmGM",
     "description": "KILT is a protocol for self-sovereign data and interoperability built on top of the permissionless KILT blockchain. The core component of KILT is a digital identity protocol for 1. generating and managing decentralized identifiers (DIDs), and 2. issuing and presenting digital verifiable credentials (VCs)."
+  },
+  {
+    "name": "Litentry",
+    "project_name": "Litentry",
+    "project_url": "https://litentry.com/",
+    "logo": "https://dmccdn.com/uploads/share/Litentry.png",
+    "project_logo": "https://www.coinspot.com.au/public/img/coinlg/litentry.png",
+    "address": "48GYV7DwaF98DnRvvosqMb9j9XPXV7LcqjLm5sKkCmoNWG8w",
+    "explorer": "",
+    "description": "Our name Litentry was formed by combining the words 'Lite' and 'Entry'. Our vision is to provide users with simplified entry to Web3. Since 2018, we've been working closely with the Partity team to become the standard in cross-chain identity."
   },
   {
     "name": "Bifrost",
@@ -198,6 +228,16 @@
     "address": "i4yjm1cZ7JaVVpEJaTyH6rbbdWkfxyT9hzEy1rEzx2izW9Lsi",
     "explorer": "",
     "description": "The Tinkernet Parachain is the canary network of the InvArch Network, designed as the IP Asset & accelerated development staging grounds for the Kusama ecosystem. InvArch aims to build an intuitive network to tokenize ideas and form decentralized partnerships."
+  },
+  {
+    "name": "Bitgreen",
+    "project_name": "Bitgreen",
+    "project_url": "https://bitgreen.org/",
+    "logo": "https://bitgreen.org/assets/images/social/bitgreen.png",
+    "project_logo": "https://pbs.twimg.com/profile_images/1482010008636248070/XojjS5pX_400x400.jpg",
+    "address": "5DvoL2BNoSm7wRt2tfZ6WW5QFrxm68GLv5SCrPQ4JBLjbvpL",
+    "explorer": "",
+    "description": "Bitgreen combines blockchain technology and green innovation to drive capital into critically important sustainability initiatives. Bitgreen is an open and permissionless blockchain built to meet the needs of NGOs, corporate ESG groups, and purpose-driven innovation in Web3."
   },
   {
     "name": "Kintsugi",
