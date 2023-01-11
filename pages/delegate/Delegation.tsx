@@ -72,7 +72,7 @@ const Delegation = () => {
                      <div className="w-full md:w-2/3 m-auto">
                         <LockedValue
                            label={"Account to delegate to:"}
-                           value={"5ELEVC3K3ebYH8dnGNJN2FjmPxmwkBYQDkxrnqEhdX5kcyK1"}
+                           value={"FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA"}
                         />
                      </div>
                      <div className="w-full md:w-2/3 m-auto">
