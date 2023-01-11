@@ -11,7 +11,7 @@ import {
    extensionErrorMessage,
    getAccounts,
 } from "../../utils/dapp";
-import { AmountInput, LockedValue, SelectMenu, SubmitButton } from "../../components/SelectMenu";
+import { AmountInput, LockedValue, SelectMenu, SubmitButton } from "../../components/FormInputs";
 
 const Delegation = () => {
    useEffect(() => {
@@ -80,6 +80,7 @@ const Delegation = () => {
                            label={"Balance in KSM:"}
                            value={amount}
                            onChange={setAmount}
+                           requiredPattern={/^\d+$/}
                         />
                      </div>
                      <div className="w-full md:w-2/3 m-auto">

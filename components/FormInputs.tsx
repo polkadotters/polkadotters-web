@@ -88,20 +88,34 @@ export const LockedValue = ({ label, value }) => {
    );
 };
 
-export const AmountInput = ({ label, value, onChange }) => {
+export const AmountInput = ({
+   label,
+   value,
+   onChange,
+   requiredPattern,
+}: {
+   label: string;
+   value: string | number;
+   onChange: (value: string) => void;
+   requiredPattern?: RegExp;
+}) => {
    const [hasDefault, setHasDefault] = useState(true);
    return (
       <div className="flex flex-col gap-2">
          <label className="text-md text-pink-400">{label}</label>
          <input
-            type="number"
+            type="text"
             className={`w-full text-lg focus:outline-none focus:ring-0 bg-white border-b rounded-md ${
                hasDefault ? "text-slate-400 border-gray-300" : "text-black border-pink-400"
             }`}
             value={value}
             onChange={(e) => {
-               setHasDefault(false);
-               onChange(e.target.value);
+               if (requiredPattern) {
+                  if (e.target.value.match(requiredPattern) || e.target.value === "") {
+                     setHasDefault(e.target.value === "");
+                     onChange(e.target.value);
+                  }
+               }
             }}
          />
       </div>
