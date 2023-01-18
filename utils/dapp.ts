@@ -14,6 +14,14 @@ export const convictionOptions = {
 
 export type ConvictionOptions = typeof convictionOptions;
 
+export type Account = {
+   address: string;
+   meta: {
+      name: string;
+      source: string;
+   };
+};
+
 export async function enableExtension() {
    const web3Enable = require("@polkadot/extension-dapp").web3Enable;
    const extensions = await web3Enable("my cool dapp");
@@ -25,7 +33,7 @@ export async function enableExtension() {
 export async function getAccounts() {
    const web3Accounts = require("@polkadot/extension-dapp").web3Accounts;
    const accounts = await web3Accounts();
-   return accounts;
+   return accounts as Account[];
 }
 
 async function getApi() {
@@ -35,14 +43,14 @@ async function getApi() {
 }
 
 export async function delegate(
-   address: string,
+   from: Account,
    balance: number,
    conviction: keyof ConvictionOptions
 ) {
    try {
       const api = await getApi();
       const accounts = await getAccounts();
-      const account = accounts.find((account) => account.address === address);
+      const account = accounts.find((account) => account.address === from.address);
 
       if (!account) {
          return;
@@ -55,6 +63,22 @@ export async function delegate(
    } catch (e) {
       console.log(e);
    }
+}
+
+function truncateAddress(address: string) {
+   return `${address.slice(0, 6)}...${address.slice(-6)}`;
+}
+
+export function formatAccount(account: Account | null) {
+   if (!account) {
+      return "";
+   }
+
+   if (!account.meta?.name) {
+      return truncateAddress(account.address);
+   }
+
+   return `${account.meta.name} (${truncateAddress(account.address)})`;
 }
 
 export const extensionErrorMessage =
