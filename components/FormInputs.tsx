@@ -46,7 +46,6 @@ export const SelectMenu = ({ options, selected, onSelect, label }) => {
                }`}
                onClick={() => {
                   setOpen(!open);
-                  console.log(label);
                }}
             >
                <span className="text-lg truncate pr-5">{selectedOption}</span>

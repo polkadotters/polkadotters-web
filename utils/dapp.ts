@@ -51,7 +51,6 @@ export async function delegate(
    conviction: keyof ConvictionOptions
 ) {
    try {
-      console.log("delegate", from, balance, conviction);
       const api = await getApi();
       const accounts = await getAccounts();
       const account = accounts.find((account) => account.address === from.address);
