@@ -4,14 +4,14 @@ import Footer from "../../components/Footer";
 import Container from "../../components/Container";
 import { useEffect, useState } from "react";
 import {
-   Account,
    ConvictionOptions,
    convictionOptions,
    delegate,
    enableExtension,
    extensionErrorMessage,
-   formatAccount,
+   getFormattedAccount,
    getAccounts,
+   FormattedAccount,
 } from "../../utils/dapp";
 import { AmountInput, LockedValue, SelectMenu, SubmitButton } from "../../components/FormInputs";
 
@@ -31,15 +31,15 @@ const Delegation = () => {
          if (accounts.length === 0) {
             setNoExtensionError();
          }
-         setAvailableAccounts(accounts);
+         setAvailableAccounts(accounts.map(getFormattedAccount));
          setError("");
       } catch (error) {
          setNoExtensionError();
       }
    };
 
-   const [availableAccounts, setAvailableAccounts] = useState<any[]>([]);
-   const [selectedAccount, setSelectedAccount] = useState<Account | null>(null);
+   const [availableAccounts, setAvailableAccounts] = useState<FormattedAccount[]>([]);
+   const [selectedAccount, setSelectedAccount] = useState<FormattedAccount | null>(null);
 
    const [amount, setAmount] = useState<string | number>("");
    const [conviction, setConviction] = useState<keyof ConvictionOptions>("None");
@@ -66,9 +66,14 @@ const Delegation = () => {
                   <div className="flex flex-col gap-10 max-w-4xl m-auto z-10">
                      <div className="w-full md:w-2/3 m-auto z-10">
                         <SelectMenu
-                           onSelect={setSelectedAccount}
-                           options={availableAccounts.map(formatAccount)}
-                           selected={formatAccount(selectedAccount)}
+                           onSelect={(formatted) => {
+                              const selectedAccount = availableAccounts.find(
+                                 (account) => account.formatted === formatted
+                              );
+                              setSelectedAccount(selectedAccount);
+                           }}
+                           options={availableAccounts.map((account) => account.formatted)}
+                           selected={selectedAccount?.formatted ?? ""}
                            label={"Account to delegate from:"}
                         />
                      </div>

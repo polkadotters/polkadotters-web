@@ -1,5 +1,4 @@
 import "@polkadot/api-augment";
-import { InjectedAccountWithMeta } from "@polkadot/extension-inject/types";
 import { ApiPromise, WsProvider } from "@polkadot/api";
 
 export const convictionOptions = {
@@ -14,12 +13,16 @@ export const convictionOptions = {
 
 export type ConvictionOptions = typeof convictionOptions;
 
-export type Account = {
+export type BaseAccount = {
    address: string;
    meta: {
       name: string;
       source: string;
    };
+};
+
+export type FormattedAccount = BaseAccount & {
+   formatted: string;
 };
 
 export async function enableExtension() {
@@ -33,7 +36,7 @@ export async function enableExtension() {
 export async function getAccounts() {
    const web3Accounts = require("@polkadot/extension-dapp").web3Accounts;
    const accounts = await web3Accounts();
-   return accounts as Account[];
+   return accounts as BaseAccount[];
 }
 
 async function getApi() {
@@ -43,11 +46,12 @@ async function getApi() {
 }
 
 export async function delegate(
-   from: Account,
+   from: FormattedAccount,
    balance: number,
    conviction: keyof ConvictionOptions
 ) {
    try {
+      console.log("delegate", from, balance, conviction);
       const api = await getApi();
       const accounts = await getAccounts();
       const account = accounts.find((account) => account.address === from.address);
@@ -69,16 +73,16 @@ function truncateAddress(address: string) {
    return `${address.slice(0, 6)}...${address.slice(-6)}`;
 }
 
-export function formatAccount(account: Account | null) {
+export function getFormattedAccount(account: BaseAccount | null): FormattedAccount {
    if (!account) {
-      return "";
+      return { ...account, formatted: "" };
    }
 
    if (!account.meta?.name) {
-      return truncateAddress(account.address);
+      return { ...account, formatted: truncateAddress(account.address) };
    }
 
-   return `${account.meta.name} (${truncateAddress(account.address)})`;
+   return { ...account, formatted: `${account.meta.name} (${truncateAddress(account.address)})` };
 }
 
 export const extensionErrorMessage =
