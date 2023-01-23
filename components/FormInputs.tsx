@@ -1,4 +1,24 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+
+const useOutsideClick = (callback) => {
+   const ref = useRef<HTMLDivElement>(null);
+
+   useEffect(() => {
+      const handleClick = (event) => {
+         if (ref.current && !ref.current.contains(event.target)) {
+            callback();
+         }
+      };
+
+      document.addEventListener("click", handleClick);
+
+      return () => {
+         document.removeEventListener("click", handleClick);
+      };
+   }, []);
+
+   return ref;
+};
 
 //select menu component styled with tailwind
 export const SelectMenu = ({ options, selected, onSelect, label }) => {
@@ -13,8 +33,10 @@ export const SelectMenu = ({ options, selected, onSelect, label }) => {
       setOpen(false);
    };
 
+   const ref = useOutsideClick(() => setOpen(false));
+
    return (
-      <div className="relative">
+      <div ref={ref} className="relative">
          <div className="flex flex-col gap-2">
             <label className="text-md text-pink-400">{label}</label>
             <div
@@ -22,7 +44,9 @@ export const SelectMenu = ({ options, selected, onSelect, label }) => {
                py-2 border rounded-md cursor-pointer bg-white ${
                   hasDefault ? "text-slate-400 border-gray-300" : "text-black border-pink-400"
                }`}
-               onClick={() => setOpen(!open)}
+               onClick={() => {
+                  setOpen(!open);
+               }}
             >
                <span className="text-lg truncate pr-5">{selectedOption}</span>
                <svg

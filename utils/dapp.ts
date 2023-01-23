@@ -1,5 +1,4 @@
 import "@polkadot/api-augment";
-import { InjectedAccountWithMeta } from "@polkadot/extension-inject/types";
 import { ApiPromise, WsProvider } from "@polkadot/api";
 
 export const convictionOptions = {
@@ -14,6 +13,18 @@ export const convictionOptions = {
 
 export type ConvictionOptions = typeof convictionOptions;
 
+export type BaseAccount = {
+   address: string;
+   meta: {
+      name: string;
+      source: string;
+   };
+};
+
+export type FormattedAccount = BaseAccount & {
+   formatted: string;
+};
+
 export async function enableExtension() {
    const web3Enable = require("@polkadot/extension-dapp").web3Enable;
    const extensions = await web3Enable("my cool dapp");
@@ -25,7 +36,7 @@ export async function enableExtension() {
 export async function getAccounts() {
    const web3Accounts = require("@polkadot/extension-dapp").web3Accounts;
    const accounts = await web3Accounts();
-   return accounts;
+   return accounts as BaseAccount[];
 }
 
 async function getApi() {
@@ -35,14 +46,14 @@ async function getApi() {
 }
 
 export async function delegate(
-   address: string,
+   from: FormattedAccount,
    balance: number,
    conviction: keyof ConvictionOptions
 ) {
    try {
       const api = await getApi();
       const accounts = await getAccounts();
-      const account = accounts.find((account) => account.address === address);
+      const account = accounts.find((account) => account.address === from.address);
 
       if (!account) {
          return;
@@ -55,6 +66,22 @@ export async function delegate(
    } catch (e) {
       console.log(e);
    }
+}
+
+function truncateAddress(address: string) {
+   return `${address.slice(0, 6)}...${address.slice(-6)}`;
+}
+
+export function getFormattedAccount(account: BaseAccount | null): FormattedAccount {
+   if (!account) {
+      return { ...account, formatted: "" };
+   }
+
+   if (!account.meta?.name) {
+      return { ...account, formatted: truncateAddress(account.address) };
+   }
+
+   return { ...account, formatted: `${account.meta.name} (${truncateAddress(account.address)})` };
 }
 
 export const extensionErrorMessage =

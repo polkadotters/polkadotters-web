@@ -9,35 +9,38 @@ import {
    delegate,
    enableExtension,
    extensionErrorMessage,
+   getFormattedAccount,
    getAccounts,
+   FormattedAccount,
 } from "../../utils/dapp";
 import { AmountInput, LockedValue, SelectMenu, SubmitButton } from "../../components/FormInputs";
 
 const Delegation = () => {
    useEffect(() => {
-      enalbleExtensionAndFetchAccounts();
+      enableExtensionAndFetchAccounts();
    }, []);
 
    const setNoExtensionError = () => {
       setError(extensionErrorMessage);
    };
 
-   const enalbleExtensionAndFetchAccounts = async () => {
+   const enableExtensionAndFetchAccounts = async () => {
       try {
          await enableExtension();
          const accounts = await getAccounts();
          if (accounts.length === 0) {
             setNoExtensionError();
          }
-         setAvaiableAddresses(accounts.map((account) => account.address));
+         setAvailableAccounts(accounts.map(getFormattedAccount));
          setError("");
       } catch (error) {
          setNoExtensionError();
       }
    };
 
-   const [avaiableAddresses, setAvaiableAddresses] = useState<string[]>([]);
-   const [selectedAddress, setSelectedAddress] = useState<string>("");
+   const [availableAccounts, setAvailableAccounts] = useState<FormattedAccount[]>([]);
+   const [selectedAccount, setSelectedAccount] = useState<FormattedAccount | null>(null);
+
    const [amount, setAmount] = useState<string | number>("");
    const [conviction, setConviction] = useState<keyof ConvictionOptions>("None");
    const [error, setError] = useState<string>("");
@@ -60,12 +63,17 @@ const Delegation = () => {
                         </span>
                      </div>
                   </div>
-                  <div className="flex flex-col gap-10 max-w-4xl m-auto">
-                     <div className="w-full md:w-2/3 m-auto">
+                  <div className="flex flex-col gap-10 max-w-4xl m-auto z-10">
+                     <div className="w-full md:w-2/3 m-auto z-10">
                         <SelectMenu
-                           onSelect={setSelectedAddress}
-                           options={avaiableAddresses}
-                           selected={selectedAddress}
+                           onSelect={(formatted) => {
+                              const selectedAccount = availableAccounts.find(
+                                 (account) => account.formatted === formatted
+                              );
+                              setSelectedAccount(selectedAccount);
+                           }}
+                           options={availableAccounts.map((account) => account.formatted)}
+                           selected={selectedAccount?.formatted ?? ""}
                            label={"Account to delegate from:"}
                         />
                      </div>
@@ -93,9 +101,9 @@ const Delegation = () => {
                      </div>
                      <div className="w-full md:w-2/3 m-auto text-lg">
                         <SubmitButton
-                           active={selectedAddress !== "" && amount !== ""}
+                           active={selectedAccount != null && amount !== ""}
                            label={"Delegate"}
-                           onClick={() => delegate(selectedAddress, Number(amount), conviction)}
+                           onClick={() => delegate(selectedAccount, Number(amount), conviction)}
                         />
                      </div>
                   </div>
@@ -107,7 +115,7 @@ const Delegation = () => {
                <div className="mt-8 w-1/2">
                   <SubmitButton
                      label={"Connect"}
-                     onClick={enalbleExtensionAndFetchAccounts}
+                     onClick={enableExtensionAndFetchAccounts}
                      active={true}
                   />
                </div>
