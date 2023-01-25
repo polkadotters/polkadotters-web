@@ -13,10 +13,6 @@ export const Popup = ({
    message: string;
    onClose?: () => void;
 }) => {
-   //should be in bottom right corner, should fade in and out, should have a close button
-   //should have a loading spinner, should have a success icon, should have an error icon
-   //should have a message, should have a close button
-
    return (
       <div className="fixed bottom-0 right-0 m-4">
          <div className="flex flex-col gap-2 m-auto bg-white w-64 h-14 border border-gray-300 rounded-md">

@@ -25,7 +25,7 @@ export type BaseAccount = {
 
 export type FormattedAccount = BaseAccount & {
    formatted: string;
-   balance: number;
+   balance: string;
 };
 
 export async function enableExtension() {
@@ -39,7 +39,6 @@ export async function enableExtension() {
 export async function getAccounts() {
    const web3Accounts = require("@polkadot/extension-dapp").web3Accounts;
    const accounts = await web3Accounts();
-   console.log({ accounts });
    return formatAccounts(accounts);
 }
 
@@ -48,15 +47,6 @@ async function getApi() {
    const api = await ApiPromise.create({ provider });
    return api;
 }
-
-// ({ status }) => {
-//    if (status.isRetracted) {
-//       return { success: false };
-//    }
-//    if (status.isFinalized) {
-//       return { success: true };
-//    }
-// }
 
 export async function delegate(
    from: FormattedAccount,
@@ -88,73 +78,27 @@ function truncateAddress(address: string) {
    return `${address.slice(0, 6)}...${address.slice(-6)}`;
 }
 
-async function getBalances(accounts: BaseAccount[]) {
-   let balances = {};
-   accounts.forEach((account) => {
-      balances[account.address] = 0;
-   });
-   return balances;
-   //    const apiKey = "redacted";
-   //    const endpoint = "https://kusama.api.subscan.io/api/scan/accounts";
-   //    const addresses = accounts.map((account) => account.address);
-   //    try {
-   //       const response = await fetch(endpoint, {
-   //          method: "POST",
-   //          headers: {
-   //             "Content-Type": "application/json",
-   //             "x-api-key": apiKey,
-   //          },
-   //          body: JSON.stringify({
-   //             row: 1,
-   //             page: 0,
-   //             address: addresses,
-   //          }),
-   //       });
-   //       const json = await response.json();
-   //       const list = json.data.list;
-
-   //       let balances = {};
-   //       accounts.forEach((account) => {
-   //          balances[account.address] = 0;
-   //       });
-
-   //       list.forEach((account) => {
-   //          balances[account.address] = Number(account.balance).toFixed(2);
-   //       });
-
-   //       return balances;
-   //    } catch (error) {
-   //       console.log(error);
-   //       let balances = {};
-   //       accounts.forEach((account) => {
-   //          balances[account.address] = 0;
-   //       });
-   //       return balances;
-   //    }
-}
-
 async function formatAccounts(accounts: BaseAccount[]): Promise<FormattedAccount[]> {
-   const balances = await getBalances(accounts);
-   console.log({ balances });
-
    const formattedAccounts = await Promise.all(
       accounts.map(async (account) => {
-         return await getFormattedAccount(account, balances[account.address]);
+         return await getFormattedAccount(account);
       })
    );
    return formattedAccounts;
 }
 
-export async function getFormattedAccount(
-   account: BaseAccount | null,
-   balance: number
-): Promise<FormattedAccount> {
+export async function getFormattedAccount(account: BaseAccount | null): Promise<FormattedAccount> {
+   const api = await getApi();
+   const balance = (
+      (await api.query.system.account(account.address)).data.free.toNumber() / 1000000000000
+   ).toFixed(2);
+
    let formatted = "";
    if (account) {
       if (!account.meta?.name) {
          formatted = truncateAddress(account.address);
       } else {
-         formatted = `${account.meta.name} (${truncateAddress(account.address)}) - ${balance} KSM`;
+         formatted = `${account.meta.name} (${truncateAddress(account.address)})`;
       }
    }
 

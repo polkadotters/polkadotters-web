@@ -106,7 +106,14 @@ const Delegation = () => {
                            selected={selectedAccount?.formatted ?? ""}
                            label={"Account to delegate from:"}
                         />
+                        {selectedAccount && (
+                           // small balance tooltip with relative position and small font
+                           <div className="text-sm text-slate-400 mt-2 ml-1">
+                              Balance: {selectedAccount.balance} KSM
+                           </div>
+                        )}
                      </div>
+
                      <div className="w-full md:w-2/3 m-auto">
                         <LockedValue
                            label={"Account to delegate to:"}
