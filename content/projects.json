@@ -220,6 +220,16 @@
     "description": "Polkadex is a fully decentralized peer-to-peer orderbook-based cryptocurrency exchange for the DeFi ecosystem built on Substrate."
   },
   {
+    "name": "Joystream",
+    "project_name": "Joystream",
+    "project_url": "https://www.joystream.org/",
+    "logo": "https://www.joystream.org/static/5-74d279d0ce830a1d42a8bed63d146bae.png",
+    "project_logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6827.png",
+    "address": "j4TBhu4RLgAG9n3KnAdznMenPnF3Lb1qWe24eDwSNjFVNFY2G",
+    "explorer": "",
+    "description": "Joystream is an open source platform, with an open blockchain at its core, powering multiple video streaming Apps at once. Videos uploaded via any app built on Joystream can reach consumers of other apps on the network, allowing creators to expand their audience with the single account without extra effort."
+  },
+  {
     "name": "Tinkernet",
     "project_name": "Tinkernet",
     "project_url": "https://invarch.network/tinkernet",
