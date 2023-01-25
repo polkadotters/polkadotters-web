@@ -1,6 +1,8 @@
 import "@polkadot/api-augment";
 import { ApiPromise, WsProvider } from "@polkadot/api";
 
+export const POLKADOTTERS_ADDRESS = "FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA";
+
 export const convictionOptions = {
    None: "None",
    "Locked1x - 8 days": "Locked1x",
@@ -23,6 +25,7 @@ export type BaseAccount = {
 
 export type FormattedAccount = BaseAccount & {
    formatted: string;
+   balance: number;
 };
 
 export async function enableExtension() {
@@ -36,7 +39,8 @@ export async function enableExtension() {
 export async function getAccounts() {
    const web3Accounts = require("@polkadot/extension-dapp").web3Accounts;
    const accounts = await web3Accounts();
-   return accounts as BaseAccount[];
+   console.log({ accounts });
+   return formatAccounts(accounts);
 }
 
 async function getApi() {
@@ -45,43 +49,120 @@ async function getApi() {
    return api;
 }
 
+// ({ status }) => {
+//    if (status.isRetracted) {
+//       return { success: false };
+//    }
+//    if (status.isFinalized) {
+//       return { success: true };
+//    }
+// }
+
 export async function delegate(
    from: FormattedAccount,
    balance: number,
-   conviction: keyof ConvictionOptions
+   conviction: keyof ConvictionOptions,
+   transactionCallback: (status: any) => void
 ) {
-   try {
-      const api = await getApi();
-      const accounts = await getAccounts();
-      const account = accounts.find((account) => account.address === from.address);
+   const api = await getApi();
+   const accounts = await getAccounts();
+   const fromAccount = accounts.find((account) => account.address === from.address);
 
-      if (!account) {
-         return;
-      }
-
-      const target = await require("@polkadot/extension-dapp").web3FromSource(account.meta.source);
-
-      const tx = api.tx.democracy.delegate(account.address, convictionOptions[conviction], balance);
-      await tx.signAndSend(account.address, { signer: target.signer });
-   } catch (e) {
-      console.log(e);
+   if (!fromAccount) {
+      return { success: false };
    }
+
+   const target = await require("@polkadot/extension-dapp").web3FromSource(fromAccount.meta.source);
+
+   const tx = api.tx.democracy.delegate(
+      POLKADOTTERS_ADDRESS,
+      convictionOptions[conviction],
+      balance
+   );
+   await tx.signAndSend(fromAccount.address, { signer: target.signer }, (status) => {
+      transactionCallback(status);
+   });
 }
 
 function truncateAddress(address: string) {
    return `${address.slice(0, 6)}...${address.slice(-6)}`;
 }
 
-export function getFormattedAccount(account: BaseAccount | null): FormattedAccount {
-   if (!account) {
-      return { ...account, formatted: "" };
+async function getBalances(accounts: BaseAccount[]) {
+   let balances = {};
+   accounts.forEach((account) => {
+      balances[account.address] = 0;
+   });
+   return balances;
+   //    const apiKey = "redacted";
+   //    const endpoint = "https://kusama.api.subscan.io/api/scan/accounts";
+   //    const addresses = accounts.map((account) => account.address);
+   //    try {
+   //       const response = await fetch(endpoint, {
+   //          method: "POST",
+   //          headers: {
+   //             "Content-Type": "application/json",
+   //             "x-api-key": apiKey,
+   //          },
+   //          body: JSON.stringify({
+   //             row: 1,
+   //             page: 0,
+   //             address: addresses,
+   //          }),
+   //       });
+   //       const json = await response.json();
+   //       const list = json.data.list;
+
+   //       let balances = {};
+   //       accounts.forEach((account) => {
+   //          balances[account.address] = 0;
+   //       });
+
+   //       list.forEach((account) => {
+   //          balances[account.address] = Number(account.balance).toFixed(2);
+   //       });
+
+   //       return balances;
+   //    } catch (error) {
+   //       console.log(error);
+   //       let balances = {};
+   //       accounts.forEach((account) => {
+   //          balances[account.address] = 0;
+   //       });
+   //       return balances;
+   //    }
+}
+
+async function formatAccounts(accounts: BaseAccount[]): Promise<FormattedAccount[]> {
+   const balances = await getBalances(accounts);
+   console.log({ balances });
+
+   const formattedAccounts = await Promise.all(
+      accounts.map(async (account) => {
+         return await getFormattedAccount(account, balances[account.address]);
+      })
+   );
+   return formattedAccounts;
+}
+
+export async function getFormattedAccount(
+   account: BaseAccount | null,
+   balance: number
+): Promise<FormattedAccount> {
+   let formatted = "";
+   if (account) {
+      if (!account.meta?.name) {
+         formatted = truncateAddress(account.address);
+      } else {
+         formatted = `${account.meta.name} (${truncateAddress(account.address)}) - ${balance} KSM`;
+      }
    }
 
-   if (!account.meta?.name) {
-      return { ...account, formatted: truncateAddress(account.address) };
-   }
-
-   return { ...account, formatted: `${account.meta.name} (${truncateAddress(account.address)})` };
+   return {
+      ...account,
+      formatted: formatted,
+      balance,
+   };
 }
 
 export const extensionErrorMessage =
