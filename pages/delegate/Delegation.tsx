@@ -56,7 +56,6 @@ const Delegation = () => {
          if (event.status.isFinalized) {
             showResultAndReset("success");
          } else if (event.status.isRetracted) {
-            console.log("got herex");
             showResultAndReset("error");
          }
       }
@@ -72,8 +71,6 @@ const Delegation = () => {
    const [transactionStatus, setTransactionStatus, transactionRef] = useStateRef<
       "inactive" | "pending" | "success" | "error"
    >("inactive");
-
-   console.log({ transactionStatus });
 
    return (
       <Layout>
@@ -154,7 +151,6 @@ const Delegation = () => {
                                     transactionCallback
                                  );
                               } catch (error) {
-                                 console.log("got here");
                                  showResultAndReset("error");
                               }
                            }}
