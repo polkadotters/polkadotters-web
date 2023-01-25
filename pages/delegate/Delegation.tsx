@@ -5,18 +5,20 @@ import Container from "../../components/Container";
 import { useEffect, useState } from "react";
 import useStateRef from "react-usestateref";
 import {
-   ConvictionOptions,
-   convictionOptions,
    delegate,
    enableExtension,
    extensionErrorMessage,
    getFormattedAccount,
    getAccounts,
    FormattedAccount,
-   POLKADOTTERS_ADDRESS,
 } from "../../utils/dapp";
 import { AmountInput, LockedValue, SelectMenu, SubmitButton } from "../../components/FormInputs";
 import { Popup } from "../../components/Popup";
+import {
+   CONVICTION_OPTIONS,
+   ConvictionOptions,
+   POLKADOTTERS_ADDRESS,
+} from "../../utils/dapp/const";
 
 const Delegation = () => {
    useEffect(() => {
@@ -65,7 +67,7 @@ const Delegation = () => {
    const [selectedAccount, setSelectedAccount] = useState<FormattedAccount | null>(null);
 
    const [amount, setAmount] = useState<string | number>("");
-   const [conviction, setConviction] = useState<keyof ConvictionOptions>("None");
+   const [conviction, setConviction] = useState<ConvictionOptions>("None");
    const [error, setError] = useState<string>("");
 
    const [transactionStatus, setTransactionStatus, transactionRef] = useStateRef<
@@ -128,9 +130,9 @@ const Delegation = () => {
                      <div className="w-full md:w-2/3 m-auto">
                         <SelectMenu
                            label={"Conviction:"}
-                           options={Object.keys(convictionOptions)}
+                           options={Object.keys(CONVICTION_OPTIONS)}
                            selected={conviction}
-                           onSelect={setConviction}
+                           onSelect={(key) => setConviction(CONVICTION_OPTIONS[key])}
                         />
                      </div>
                      <div className="w-full md:w-2/3 m-auto text-lg">

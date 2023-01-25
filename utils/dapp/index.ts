@@ -1,19 +1,11 @@
 import "@polkadot/api-augment";
 import { ApiPromise, WsProvider } from "@polkadot/api";
-
-export const POLKADOTTERS_ADDRESS = "FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA";
-
-export const convictionOptions = {
-   None: "None",
-   "Locked1x - 8 days": "Locked1x",
-   "Locked2x - 16 days": "Locked2x",
-   "Locked3x - 32 days": "Locked3x",
-   "Locked4x - 64 days": "Locked4x",
-   "Locked5x - 128 days": "Locked5x",
-   "Locked6x - 256 days": "Locked6x",
-} as const;
-
-export type ConvictionOptions = typeof convictionOptions;
+import {
+   ConvictionOptions,
+   POLKADOTTERS_ADDRESS,
+   BALANCE_DIVISOR,
+   GOVERNMENT_TRACKS,
+} from "./const";
 
 export type BaseAccount = {
    address: string;
@@ -51,7 +43,7 @@ async function getApi() {
 export async function delegate(
    from: FormattedAccount,
    balance: number,
-   conviction: keyof ConvictionOptions,
+   conviction: ConvictionOptions,
    transactionCallback: (status: any) => void
 ) {
    const api = await getApi();
@@ -64,11 +56,17 @@ export async function delegate(
 
    const target = await require("@polkadot/extension-dapp").web3FromSource(fromAccount.meta.source);
 
-   const tx = api.tx.democracy.delegate(
-      POLKADOTTERS_ADDRESS,
-      convictionOptions[conviction],
-      balance
-   );
+   const delegations = [];
+
+   for (const track of GOVERNMENT_TRACKS) {
+      console.log(track.id, POLKADOTTERS_ADDRESS, balance, conviction);
+      delegations.push(
+         api.tx.convictionVoting.delegate(track.id, POLKADOTTERS_ADDRESS, conviction, balance)
+      );
+   }
+
+   const tx = api.tx.utility.batchAll(delegations);
+
    await tx.signAndSend(fromAccount.address, { signer: target.signer }, (status) => {
       transactionCallback(status);
    });
@@ -90,7 +88,7 @@ async function formatAccounts(accounts: BaseAccount[]): Promise<FormattedAccount
 export async function getFormattedAccount(account: BaseAccount | null): Promise<FormattedAccount> {
    const api = await getApi();
    const balance = (
-      (await api.query.system.account(account.address)).data.free.toNumber() / 1000000000000
+      (await api.query.system.account(account.address)).data.free.toNumber() / BALANCE_DIVISOR
    ).toFixed(2);
 
    let formatted = "";
