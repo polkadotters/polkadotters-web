@@ -57,9 +57,9 @@ export async function delegate(
    const target = await require("@polkadot/extension-dapp").web3FromSource(fromAccount.meta.source);
 
    const delegations = [];
+   const actualBalance = Math.floor(balance * BALANCE_DIVISOR);
 
    for (const track of GOVERNMENT_TRACKS) {
-      const actualBalance = Math.floor(balance * BALANCE_DIVISOR);
       delegations.push(
          api.tx.convictionVoting.delegate(track.id, POLKADOTTERS_ADDRESS, conviction, actualBalance)
       );
