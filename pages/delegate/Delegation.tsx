@@ -124,7 +124,7 @@ const Delegation = () => {
                            label={"Balance in KSM:"}
                            value={amount}
                            onChange={setAmount}
-                           requiredPattern={/^\d+$/}
+                           requiredPattern={/^[0-9]+[.]?[0-9]{0,10}$/}
                         />
                      </div>
                      <div className="w-full md:w-2/3 m-auto">

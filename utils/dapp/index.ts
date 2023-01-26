@@ -51,7 +51,7 @@ export async function delegate(
    const fromAccount = accounts.find((account) => account.address === from.address);
 
    if (!fromAccount) {
-      return { success: false };
+      return;
    }
 
    const target = await require("@polkadot/extension-dapp").web3FromSource(fromAccount.meta.source);
@@ -59,9 +59,9 @@ export async function delegate(
    const delegations = [];
 
    for (const track of GOVERNMENT_TRACKS) {
-      console.log(track.id, POLKADOTTERS_ADDRESS, balance, conviction);
+      const actualBalance = Math.floor(balance * BALANCE_DIVISOR);
       delegations.push(
-         api.tx.convictionVoting.delegate(track.id, POLKADOTTERS_ADDRESS, conviction, balance)
+         api.tx.convictionVoting.delegate(track.id, POLKADOTTERS_ADDRESS, conviction, actualBalance)
       );
    }
 
