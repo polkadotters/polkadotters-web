@@ -67,7 +67,38 @@ export async function delegate(
 
    const tx = api.tx.utility.batchAll(delegations);
 
+   console.log(tx.hash.toHex());
+
    await tx.signAndSend(fromAccount.address, { signer: target.signer }, (status) => {
+      console.log(status.txHash.toHex());
+      transactionCallback(status);
+   });
+}
+
+export async function undelegate(
+   from: FormattedAccount,
+   transactionCallback: (status: any) => void
+) {
+   const api = await getApi();
+   const accounts = await getAccounts();
+   const fromAccount = accounts.find((account) => account.address === from.address);
+
+   if (!fromAccount) {
+      return;
+   }
+
+   const target = await require("@polkadot/extension-dapp").web3FromSource(fromAccount.meta.source);
+
+   const delegations = [];
+   for (const track of GOVERNMENT_TRACKS) {
+      delegations.push(api.tx.convictionVoting.undelegate(track.id));
+   }
+
+   const tx = api.tx.utility.batchAll(delegations);
+   console.log(tx.hash.toHex());
+
+   await tx.signAndSend(fromAccount.address, { signer: target.signer }, (status) => {
+      console.log(status.txHash.toHex());
       transactionCallback(status);
    });
 }
