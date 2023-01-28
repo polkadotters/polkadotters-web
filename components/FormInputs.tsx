@@ -134,12 +134,15 @@ export const AmountInput = ({
             }`}
             value={value}
             onChange={(e) => {
-               if (requiredPattern) {
-                  if (e.target.value.match(requiredPattern) || e.target.value === "") {
-                     setHasDefault(e.target.value === "");
-                     onChange(e.target.value);
-                  }
+               if (
+                  requiredPattern &&
+                  !(e.target.value.match(requiredPattern) || e.target.value === "")
+               ) {
+                  return;
                }
+
+               setHasDefault(e.target.value === "");
+               onChange(e.target.value);
             }}
          />
       </div>

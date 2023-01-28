@@ -75,4 +75,4 @@ export const CONVICTION_OPTIONS = {
 
 export type ConvictionOptions = typeof CONVICTION_OPTIONS[keyof typeof CONVICTION_OPTIONS];
 
-export const BALANCE_DIVISOR = 1000000000000;
+export const BALANCE_DIVISOR = 1_000_000_000_000;

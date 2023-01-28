@@ -11,6 +11,7 @@ import {
    getFormattedAccount,
    getAccounts,
    FormattedAccount,
+   undelegate,
 } from "../../utils/dapp";
 import { AmountInput, LockedValue, SelectMenu, SubmitButton } from "../../components/FormInputs";
 import { Popup } from "../../components/Popup";
@@ -50,10 +51,12 @@ const Delegation = () => {
          if (transactionRef.current === result) {
             setTransactionStatus("inactive");
          }
-      }, 5000);
+      }, 15000);
    };
 
    const transactionCallback = (event: any) => {
+      const url = "https://kusama.subscan.io/extrinsic/";
+      setSubScanLink(url + event.txHash.toHex());
       if (transactionRef.current === "pending") {
          if (event.status.isFinalized) {
             showResultAndReset("success");
@@ -66,6 +69,7 @@ const Delegation = () => {
    const [availableAccounts, setAvailableAccounts] = useState<FormattedAccount[]>([]);
    const [selectedAccount, setSelectedAccount] = useState<FormattedAccount | null>(null);
 
+   const [subScanLink, setSubScanLink] = useState<string | null>("#");
    const [amount, setAmount] = useState<string | number>("");
    const [conviction, setConviction] = useState<ConvictionOptions>("None");
    const [error, setError] = useState<string>("");
@@ -124,7 +128,7 @@ const Delegation = () => {
                            label={"Balance in KSM:"}
                            value={amount}
                            onChange={setAmount}
-                           requiredPattern={/^\d+$/}
+                           requiredPattern={/^[0-9]+[.]?[0-9]{0,10}$/}
                         />
                      </div>
                      <div className="w-full md:w-2/3 m-auto">
@@ -165,8 +169,19 @@ const Delegation = () => {
                )}
                {transactionStatus === "success" && (
                   <Popup
-                     flavor="success"
-                     message="Transaction was successful"
+                     flavor="info"
+                     message={
+                        <span>
+                           Transaction complete <br></br> check it{" "}
+                           <a
+                              target="_blank"
+                              className="text-pink-400 hover:text-pink-500"
+                              href={subScanLink}
+                           >
+                              on Subscan
+                           </a>
+                        </span>
+                     }
                      onClose={() => {
                         setTransactionStatus("inactive");
                      }}
@@ -175,7 +190,7 @@ const Delegation = () => {
                {transactionStatus === "error" && (
                   <Popup
                      flavor="error"
-                     message="Transaction failed"
+                     message="Transaction terminated"
                      onClose={() => {
                         setTransactionStatus("inactive");
                      }}
