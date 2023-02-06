@@ -3,17 +3,23 @@ import Layout from "../../components/Layout";
 import Footer from "../../components/Footer";
 import Container from "../../components/Container";
 import { useEffect, useState } from "react";
+import useStateRef from "react-usestateref";
 import {
-   ConvictionOptions,
-   convictionOptions,
    delegate,
    enableExtension,
    extensionErrorMessage,
    getFormattedAccount,
    getAccounts,
    FormattedAccount,
+   undelegate,
 } from "../../utils/dapp";
 import { AmountInput, LockedValue, SelectMenu, SubmitButton } from "../../components/FormInputs";
+import { Popup } from "../../components/Popup";
+import {
+   CONVICTION_OPTIONS,
+   ConvictionOptions,
+   POLKADOTTERS_ADDRESS,
+} from "../../utils/dapp/const";
 
 const Delegation = () => {
    useEffect(() => {
@@ -31,19 +37,46 @@ const Delegation = () => {
          if (accounts.length === 0) {
             setNoExtensionError();
          }
-         setAvailableAccounts(accounts.map(getFormattedAccount));
+
+         setAvailableAccounts(accounts);
          setError("");
       } catch (error) {
          setNoExtensionError();
       }
    };
 
+   const showResultAndReset = (result: "success" | "error") => {
+      setTransactionStatus(result);
+      setTimeout(() => {
+         if (transactionRef.current === result) {
+            setTransactionStatus("inactive");
+         }
+      }, 15000);
+   };
+
+   const transactionCallback = (event: any) => {
+      const url = "https://kusama.subscan.io/extrinsic/";
+      setSubScanLink(url + event.txHash.toHex());
+      if (transactionRef.current === "pending") {
+         if (event.status.isFinalized) {
+            showResultAndReset("success");
+         } else if (event.status.isRetracted) {
+            showResultAndReset("error");
+         }
+      }
+   };
+
    const [availableAccounts, setAvailableAccounts] = useState<FormattedAccount[]>([]);
    const [selectedAccount, setSelectedAccount] = useState<FormattedAccount | null>(null);
 
+   const [subScanLink, setSubScanLink] = useState<string | null>("#");
    const [amount, setAmount] = useState<string | number>("");
-   const [conviction, setConviction] = useState<keyof ConvictionOptions>("None");
+   const [conviction, setConviction] = useState<ConvictionOptions>("None");
    const [error, setError] = useState<string>("");
+
+   const [transactionStatus, setTransactionStatus, transactionRef] = useStateRef<
+      "inactive" | "pending" | "success" | "error"
+   >("inactive");
 
    return (
       <Layout>
@@ -76,11 +109,18 @@ const Delegation = () => {
                            selected={selectedAccount?.formatted ?? ""}
                            label={"Account to delegate from:"}
                         />
+                        {selectedAccount && (
+                           // small balance tooltip with relative position and small font
+                           <div className="text-sm text-slate-400 mt-2 ml-1">
+                              Balance: {selectedAccount.balance} KSM
+                           </div>
+                        )}
                      </div>
+
                      <div className="w-full md:w-2/3 m-auto">
                         <LockedValue
                            label={"Account to delegate to:"}
-                           value={"FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA"}
+                           value={POLKADOTTERS_ADDRESS}
                         />
                      </div>
                      <div className="w-full md:w-2/3 m-auto">
@@ -88,26 +128,74 @@ const Delegation = () => {
                            label={"Balance in KSM:"}
                            value={amount}
                            onChange={setAmount}
-                           requiredPattern={/^\d+$/}
+                           requiredPattern={/^[0-9]+[.]?[0-9]{0,10}$/}
                         />
                      </div>
                      <div className="w-full md:w-2/3 m-auto">
                         <SelectMenu
                            label={"Conviction:"}
-                           options={Object.keys(convictionOptions)}
+                           options={Object.keys(CONVICTION_OPTIONS)}
                            selected={conviction}
-                           onSelect={setConviction}
+                           onSelect={(key) => setConviction(CONVICTION_OPTIONS[key])}
                         />
                      </div>
                      <div className="w-full md:w-2/3 m-auto text-lg">
                         <SubmitButton
-                           active={selectedAccount != null && amount !== ""}
+                           active={
+                              selectedAccount != null &&
+                              amount !== "" &&
+                              transactionStatus === "inactive"
+                           }
                            label={"Delegate"}
-                           onClick={() => delegate(selectedAccount, Number(amount), conviction)}
+                           onClick={async () => {
+                              setTransactionStatus("pending");
+                              try {
+                                 await delegate(
+                                    selectedAccount,
+                                    Number(amount),
+                                    conviction,
+                                    transactionCallback
+                                 );
+                              } catch (error) {
+                                 showResultAndReset("error");
+                              }
+                           }}
                         />
                      </div>
                   </div>
                </Container>
+               {transactionStatus === "pending" && (
+                  <Popup flavor="loading" message="Transaction is pending" />
+               )}
+               {transactionStatus === "success" && (
+                  <Popup
+                     flavor="info"
+                     message={
+                        <span>
+                           Transaction complete <br></br> check it{" "}
+                           <a
+                              target="_blank"
+                              className="text-pink-400 hover:text-pink-500"
+                              href={subScanLink}
+                           >
+                              on Subscan
+                           </a>
+                        </span>
+                     }
+                     onClose={() => {
+                        setTransactionStatus("inactive");
+                     }}
+                  />
+               )}
+               {transactionStatus === "error" && (
+                  <Popup
+                     flavor="error"
+                     message="Transaction terminated"
+                     onClose={() => {
+                        setTransactionStatus("inactive");
+                     }}
+                  />
+               )}
             </main>
          ) : (
             <div className="w-1/2 md:w-1/3 mt-10 flex-1 flex justify-center items-center flex-col m-auto">
