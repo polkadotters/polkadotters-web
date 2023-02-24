@@ -28,12 +28,14 @@ const ButtonSizes = {
 const ButtonVariants = {
     primary: 'text-white hover:bg-primary-700 bg-primary-500 rounded-full',
     accent: 'text-white hover:bg-pink-700 bg-pink-500 rounded-full',
+    light: ''
 }
 
 const ButtonClasses = 'rounded-lg justify-center font-bold flex flex-row gap-2 items-center transition duration-300 cursor-pointer'
 
 const ActiveClass = {
     primary: 'bg-primary-50',
+    light: 'bg-primary-200'
 }
 
 const AlignClass = {

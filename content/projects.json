@@ -1,6 +1,7 @@
 [
   {
     "name": "Polkadot",
+    "category": ["Polkadot"],
     "project_name": "Polkadot",
     "project_url": "https://polkadot.network/",
     "logo": "https://www.forbes.com/advisor/wp-content/uploads/2022/08/polkadot_logo-1.png",
@@ -11,6 +12,7 @@
   },
   {
     "name": "Kusama",
+    "category": ["Kusama"],
     "project_name": "Kusama",
     "project_url": "https://kusama.network/",
     "logo": "https://www.asiacryptotoday.com/wp-content/uploads/2020/09/Kusama.jpg",
@@ -21,6 +23,7 @@
   },
   {
     "name": "Statemine",
+    "category": ["Kusama"],
     "project_name": "Statemine",
     "project_url": "https://wiki.polkadot.network/docs/kusama-statemine",
     "logo": "https://cms.polkadot.network/content/images/2021/07/image1.png",
@@ -31,6 +34,7 @@
   },
   {
     "name": "Statemint",
+    "category": ["Polkadot"],
     "project_name": "Statemint",
     "project_url": "https://wiki.polkadot.network/docs/learn-statemint",
     "logo": "https://miro.medium.com/max/1200/1*5s47e3B6M000SLEN5iSjZw.png",
@@ -41,6 +45,7 @@
   },
   {
     "name": "Encointer",
+    "category": ["Kusama"],
     "project_name": "Encointer",
     "project_url": "https://encointer.org/",
     "logo": "https://encointer.org/wp-content/uploads/2022/05/Featured-Image-Homepage.png",
@@ -51,6 +56,7 @@
   },
   {
     "name": "Moonbeam",
+    "category": ["Polkadot"],
     "project_name": "Moonbeam",
     "project_url": "https://moonbeam.network/",
     "logo": "https://www.purestake.com/wp-content/uploads/2020/04/moonbeam-announcement-01.png",
@@ -61,6 +67,7 @@
   },
   {
     "name": "Moonriver",
+    "category": ["Kusama"],
     "project_name": "Moonriver",
     "project_url": "https://moonbeam.network/networks/moonriver/",
     "logo": "https://moonbeam.network/wp-content/uploads/2021/03/Featured-Images-Twitter-Size-9.png",
@@ -71,6 +78,7 @@
   },
   {
     "name": "Astar",
+    "category": ["Polkadot"],
     "project_name": "Astar",
     "project_url": "https://astar.network",
     "logo": "https://www.altcoinbuzz.io/wp-content/uploads/2022/07/05-75.jpg",
@@ -81,6 +89,7 @@
   },
   {
     "name": "HydraDX",
+    "category": ["Polkadot"],
     "project_name": "HydraDX",
     "project_url": "https://hydradx.io",
     "logo": "https://everipedia-storage.s3.amazonaws.com/ProfilePicture/lang_en/hydradx-xhdx/mainphoto.png",
@@ -91,6 +100,7 @@
   },
   {
     "name": "Basilisk",
+    "category": ["Kusama"],
     "project_name": "Basilisk",
     "project_url": "https://bsx.fi/",
     "logo": "https://i.ibb.co/LZk2smQ/basilisk.png",
@@ -101,6 +111,7 @@
   },
   {
     "name": "Zeitgeist",
+    "category": ["Kusama"],
     "project_name": "Zeitgeist",
     "project_url": "https://zeitgeist.pm/",
     "logo": "https://dmccdn.com/uploads/share/Zeitgeist-tn12.png",
@@ -111,6 +122,7 @@
   },
   {
     "name": "Calamari",
+    "category": ["Kusama"],
     "project_name": "Calamari",
     "project_url": "https://calamari.network",
     "logo": "https://pbs.twimg.com/media/E5oj5rgWUAAE5gb.jpg",
@@ -121,6 +133,7 @@
   },
   {
     "name": "Kilt",
+    "category": ["Polkadot"],
     "project_name": "Kilt",
     "project_url": "https://kilt.io",
     "logo": "https://pbs.twimg.com/profile_images/1430193796315238401/9FZMw1Tb_400x400.jpg",
@@ -131,6 +144,7 @@
   },
   {
     "name": "Litentry",
+    "category": ["Polkadot"],
     "project_name": "Litentry",
     "project_url": "https://litentry.com/",
     "logo": "https://dmccdn.com/uploads/share/Litentry.png",
@@ -141,6 +155,7 @@
   },
   {
     "name": "Bifrost",
+    "category": ["Kusama"],
     "project_name": "Bifrost",
     "project_url": "https://bifrost.finance/",
     "logo": "https://miro.medium.com/max/2400/1*ieXR8Wa8PFj5mKhRTmoFBA.png",
@@ -151,6 +166,7 @@
   },
   {
     "name": "Mangata",
+    "category": ["Kusama"],
     "project_name": "Mangata",
     "project_url": "https://www.mangata.finance/",
     "logo": "https://dmccdn.com/uploads/share/Mangata-tn-145.png",
@@ -161,6 +177,7 @@
   },
   {
     "name": "Amplitude",
+    "category": ["Kusama"],
     "project_name": "Amplitude",
     "project_url": "https://pendulumchain.org/amplitude",
     "logo": "https://dmccdn.com/uploads/share/Amplitude-tn-06.png",
@@ -171,6 +188,7 @@
   },
   {
     "name": "Equilibrium",
+    "category": ["Polkadot"],
     "project_name": "Equilibrium",
     "project_url": "https://equilibrium.io/",
     "logo": "https://moonbeam.network/wp-content/uploads/2020/12/equilibrium-500.png",
@@ -181,6 +199,7 @@
   },
   {
     "name": "Genshiro",
+    "category": ["Kusama"],
     "project_name": "Genshiro",
     "project_url": "https://genshiro.equilibrium.io/en",
     "logo": "https://dmccdn.com/uploads/share/Genshiro-tn-133.png",
@@ -191,6 +210,7 @@
   },
   {
     "name": "Altair",
+    "category": ["Kusama"],
     "project_name": "Altair",
     "project_url": "https://centrifuge.io/altair/",
     "logo": "https://dmccdn.com/uploads/share/Altair-tn.png",
@@ -201,6 +221,7 @@
   },
   {
     "name": "Turing",
+    "category": ["Kusama"],
     "project_name": "Turing",
     "project_url": "https://oak.tech/turing/home/",
     "logo": "https://dmccdn.com/uploads/share/Turing%20Network-tn-12.png",
@@ -211,6 +232,7 @@
   },
   {
     "name": "Polkadex",
+    "category": ["Other"],
     "project_name": "Polkadex",
     "project_url": "https://polkadex.trade/",
     "logo": "https://outlierventures.io/wp-content/uploads/2021/03/polkadex.jpg",
@@ -221,6 +243,7 @@
   },
   {
     "name": "Joystream",
+    "category": ["Other"],
     "project_name": "Joystream",
     "project_url": "https://www.joystream.org/",
     "logo": "https://www.joystream.org/static/5-74d279d0ce830a1d42a8bed63d146bae.png",
@@ -231,6 +254,7 @@
   },
   {
     "name": "Tinkernet",
+    "category": ["Kusama"],
     "project_name": "Tinkernet",
     "project_url": "https://invarch.network/tinkernet",
     "logo": "https://pbs.twimg.com/media/FZpAjdFXEAAOw98.jpg",
@@ -241,6 +265,7 @@
   },
   {
     "name": "Bitgreen",
+    "category": ["Polkadot"],
     "project_name": "Bitgreen",
     "project_url": "https://bitgreen.org/",
     "logo": "https://bitgreen.org/assets/images/social/bitgreen.png",
@@ -251,6 +276,7 @@
   },
   {
     "name": "Kintsugi",
+    "category": ["Kusama"],
     "project_name": "Kintsugi",
     "project_url": "https://kintsugi.interlay.io/",
     "logo": "https://blog.mexc.com/wp-content/uploads/2022/01/image-31.png",
@@ -261,6 +287,7 @@
   },
   {
     "name": "Sora",
+    "category": ["Other"],
     "project_name": "Sora",
     "project_url": "https://sora.org/",
     "logo": "https://i.ibb.co/5YC4srz/sora.png",
@@ -271,6 +298,7 @@
   },
 {
     "name": "Dock",
+    "category": ["Other"],
     "project_name": "Dock",
     "project_url": "https://www.dock.io/",
     "logo": "https://dmccdn.com/uploads/share/Dock-tn.png",
@@ -281,6 +309,7 @@
   },
   {
     "name": "Darwinia",
+    "category": ["Polkadot"],
     "project_name": "Darwinia",
     "project_url": "https://darwinia.network/",
     "logo": "https://dmccdn.com/uploads/share/Darwinia-tn.png",
@@ -291,6 +320,7 @@
   },
   {
     "name": "Crab",
+    "category": ["Kusama"],
     "project_name": "Crab",
     "project_url": "https://crab.network/",
     "logo": "https://i.ytimg.com/vi/49SJU0EOTL8/maxresdefault.jpg",
