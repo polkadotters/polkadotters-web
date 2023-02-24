@@ -52,7 +52,7 @@ const ProjectTile = ({
                 <a target={"_blank"}
                    className={`inline-flex items-center gap-2 rounded-full bg-green-100 hover:bg-green-200 text-green-800 px-2 text-xs font-semibold leading-5`}
                    href={explorer}>
-                    <BiWallet/> {address.substring(0, 7)}...{address.substring(-7, 7)}
+                    <BiWallet/> {address.slice(0, 7)}...{address.slice(-7)}
                 </a>
             </div>
         </div>
