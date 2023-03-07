@@ -90,7 +90,7 @@ const Delegation = () => {
                            Delegate KSM to Polkadotters
                         </h1>
                         <span className={"text-2xl"}>
-                           <a href="https://wiki.polkadot.network/docs/learn-opengov#multirole-delegation" class="underline" target='_blank'>Delegation</a>&nbsp; 
+                           <a href="https://wiki.polkadot.network/docs/learn-opengov#multirole-delegation" className="underline" target='_blank'>Delegation</a>&nbsp; 
                            is an important part of a OpenGov governance model - it is tedious to keep track of all the governance proposals and that's why 
                            you can delegate your votes to a trustworthy entities. So here are Polkadotters to the rescue, as validators, we vote on
                            most of the proposals so rest assured, your voting power will be in a good hands! 

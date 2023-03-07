@@ -60,10 +60,10 @@ const AboutPage = () => {
                                 community because there wasn't any back then. Petr also has a technical background of being a backend developer throughtout his career
                                 so we quickly started playing around the Polkadot infrastructure as well. </p>
                                 <p>Since then, we became members of the 1000 validators programme, founded the&nbsp; 
-                                    <a href="https://dotalliance.org" class="underline" target='_blank'>DOT Validator Alliance DAO</a>, help various projects to
+                                    <a href="https://dotalliance.org" className="underline" target='_blank'>DOT Validator Alliance DAO</a>, help various projects to
                                     create their collator programs, joined the&nbsp;
-                                    <a href="https://unitedbloc.com/" class="underline" target='_blank'>United Bloc DAO</a>
-                                    &nbsp;and <a href="https://dotters.network/" class="underline" target='_blank'>IBP program</a>. 
+                                    <a href="https://unitedbloc.com/" className="underline" target='_blank'>United Bloc DAO</a>
+                                    &nbsp;and <a href="https://dotters.network/" className="underline" target='_blank'>IBP program</a>. 
                                     
                                 </p>
                                 <p>
