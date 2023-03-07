@@ -23,14 +23,14 @@ const icons = {
 const contacts = [
     {
         img: Petr, name: 'Petr', contacts: [
-            {icon: 'medium', link: 'medium.com'},
-            {icon: 'email', link: 'mailto:petr@petr.com'},
-            {icon: 'twitter', link: 'https://twitter.com'},
+            {icon: 'medium', link: 'polkadotters.medium.com'},
+            {icon: 'email', link: 'mailto:polkadotters@protonmail.com'},
+            {icon: 'twitter', link: 'https://twitter.com/Polkadotters1'},
         ]
     },
     {
         img: Pavel, name: 'Pavel', contacts: [
-            {icon: 'medium', link: 'medium.com'}
+            {icon: 'medium', link: 'polkadotters.medium.com'}
         ]
     }
 ]
@@ -43,7 +43,7 @@ const AboutPage = () => {
         <Layout>
             <Header/>
             <main className={'flex-1 flex flex-col '}>
-                <Container screenSize={'md'}>
+                <Container screenSize={'lg'}>
                     <div
                         className="flex flex-col lg:flex-row gap-8 items-center justify-start mt-10 bg-white shadow-2xl p-5">
 
@@ -54,18 +54,23 @@ const AboutPage = () => {
                             <div className={'text-4xl font-bold'}>
                                 We are Polkadot enthusiasts from Czechia
                                 - the Polkadotters!
-                                We write about what's happening in
-                                Polkadot, Kusama and all other
-                                networks which are becoming part of this wonderful ecosystem.
                             </div>
                             <div className={'text-xl'}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ex lorem, luctus nec
-                                volutpat at, accumsan non eros. Donec faucibus, diam at porttitor tempor, urna enim
-                                iaculis ligula, sit amet congue elit odio id nunc. Nunc quis libero nec mi rhoncus
-                                consequat. Sed eu quam eu urna vehicula varius. Integer sapien magna, iaculis nec magna
-                                non, tempus maximus urna. Donec varius porta rhoncus. Ut arcu massa, eleifend et urna
-                                vitae, ullamcorper eleifend magna. Donec et scelerisque lacus. Aliquam fringilla
-                                tincidunt magna, laoreet ornare enim facilisis ac.
+                                <p>We started in 2020 by discovering Polkadot ecosystem and its potential - and this made us create a first Czechia & Slovak
+                                community because there wasn't any back then. Petr also has a technical background of being a backend developer throughtout his career
+                                so we quickly started playing around the Polkadot infrastructure as well. </p>
+                                <p>Since then, we became members of the 1000 validators programme, founded the&nbsp; 
+                                    <a href="https://dotalliance.org" class="underline" target='_blank'>DOT Validator Alliance DAO</a>, help various projects to
+                                    create their collator programs, joined the&nbsp;
+                                    <a href="https://unitedbloc.com/" class="underline" target='_blank'>United Bloc DAO</a>
+                                    &nbsp;and <a href="https://dotters.network/" class="underline" target='_blank'>IBP program</a>. 
+                                    
+                                </p>
+                                <p>
+                                    After all these years, we are very proud to be a firm part of the Polkadot ecosystem and helping it towards more decentralization and
+                                    infrastructure maturity.
+                                </p>
+                                
                             </div>
                         </div>
                     </div>

@@ -93,12 +93,10 @@ const StakingPage = () => {
                 <Container>
                     <div className="py-10 flex flex-col gap-20">
                         <div className="w-full md:w-2/3 m-auto text-center">
-                            <h1 className={'text-5xl font-bold text-center'}>We have Validators on the best
-                                projects!</h1>
+                            <h1 className={'text-5xl font-bold text-center'}>Polkadotters - the most community oriented validators</h1>
                             <span className={'text-2xl'}>
-                                We at Cosmoon are focused on creating and operating Validators, using the best hardware
-                                available in the market, and studying the latest security system to create a worries-free
-                                experience.
+                                We have been node operators since 2020 with a goal to help our ecosystem to get more independent & community oriented validators. 
+                                Since then, we have become one of biggest validators in the Polkadot ecosystem, covering more than 30 parachains!
                             </span>
                         </div>
 

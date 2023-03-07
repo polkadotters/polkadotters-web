@@ -87,12 +87,13 @@ const Delegation = () => {
                   <div className="py-10 flex flex-col gap-10">
                      <div className="w-full md:w-2/3 m-auto text-center">
                         <h1 className={"text-4xl font-bold text-center"}>
-                           Delegate KUSAMA to POLKADOTTERS
+                           Delegate KSM to Polkadotters
                         </h1>
                         <span className={"text-2xl"}>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius
-                           excepturi aut corporis, sunt illo voluptates cupiditate quam deleniti
-                           architecto?
+                           <a href="https://wiki.polkadot.network/docs/learn-opengov#multirole-delegation" class="underline" target='_blank'>Delegation</a>&nbsp; 
+                           is an important part of a OpenGov governance model - it is tedious to keep track of all the governance proposals and that's why 
+                           you can delegate your votes to a trustworthy entities. So here are Polkadotters to the rescue, as validators, we vote on
+                           most of the proposals so rest assured, your voting power will be in a good hands! 
                         </span>
                      </div>
                   </div>

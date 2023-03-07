@@ -37,7 +37,7 @@ const IndexPage = ({posts}) => {
                     backgroundSize: "contain"
                 }}>
                     <h1 className={'text-6xl font-bold w-3/4 text-center'}>
-                        The most popular Czech & Slovak Polkadot validator and media house
+                        The most popular community Polkadot validators and media house
                     </h1>
                 </div>
 
