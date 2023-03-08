@@ -83,68 +83,120 @@ const StakingPageHow3 = () => {
             <main className={'flex-1 flex flex-col '}>
                 <div className="mx-auto max-w-screen-md">
                     <div className="py-10 flex flex-col gap-20">
-                        <h1 className={'text-5xl font-bold text-center'}>We have Validators on the best
-                            projects!</h1>
+                        <h1 className={'text-5xl font-bold text-center'}>Parachain staking</h1>
                         <span className={'text-2xl'}>
                         You can stake and earn not only on Polkadot or Kusama but also on their parachains as well! So we will briefly go through all the options and link you to the staking boards of these parachains.
                             </span>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel imperdiet felis.
-                        Curabitur accumsan dapibus sollicitudin. Fusce elit tellus, euismod a nulla a, tincidunt
-                        sagittis velit. Fusce mollis venenatis eros. Fusce malesuada dui nisl. Quisque tristique
-                        feugiat mi, pharetra auctor diam egestas sit amet. Phasellus non mollis enim. Aliquam
-                        facilisis efficitur leo, vitae aliquam tortor pharetra et. Mauris id rhoncus ante, sed
-                        auctor velit. Morbi vitae viverra mauris. Pellentesque est lectus, vehicula sed maximus
-                        eu,
-                        ornare malesuada lectus. Nulla elementum sem sem, et scelerisque diam maximus vel.
-                        Aliquam
-                        id lectus felis. Sed at purus quis nisi bibendum vehicula et suscipit quam. Curabitur
-                        tempor
-                        lectus molestie accumsan pulvinar.
-                    </p>
+                        Luckily, staking on parachains is usually easier - you don't have to care about picking the right validator set and you 
+                        don't need controller account as well. We will go through all the projects that support staking in the alphabetical order 
+                        and also guide you to their dashboard where you can stake your tokens.
 
-                    <p>
-                        Sed gravida lobortis arcu, sed eleifend diam tempor sit amet. Curabitur luctus
-                        sollicitudin
-                        placerat. Cras ac ligula elit. Quisque sit amet ex egestas, convallis sem vitae,
-                        elementum
-                        quam. Donec vel tempus leo, non rutrum libero. Etiam sagittis augue sed rhoncus rutrum.
-                        In
-                        tincidunt diam aliquam sem pretium laoreet. Etiam nec venenatis dolor, nec semper
-                        turpis.
+                        Most parachains mimic staking model invented by Moonbeam - so if you want to know how it works, jump straight 
+                        to the <a href="#moonbeam" className='underline'>Moonbeam</a> section. In case of parachain stake, the nodes are not longer
+                        called validators but rather colllators. 
                     </p>
-
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Aleph Zero</h2>
                     <p>
-                        Sed vel tincidunt nulla. In lobortis sed urna at luctus. Praesent sodales justo et
-                        eleifend
-                        blandit. Maecenas porttitor dolor nec sapien facilisis, at luctus velit eleifend. Cras
-                        faucibus semper felis ut feugiat. Nullam rhoncus, augue eget ultrices placerat, lacus
-                        magna
-                        auctor metus, a mollis libero quam quis dui. In quis tempus leo. Donec mattis commodo
-                        neque
-                        sit amet euismod.
+                        
                     </p>
-
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Astar & Shiden</h2>
                     <p>
-                        Proin malesuada, felis vitae malesuada mattis, nisl ante elementum ipsum, non volutpat
-                        turpis ipsum et ante. Aenean quis ex hendrerit, vehicula odio et, vehicula nisi.
-                        Pellentesque maximus, neque vel eleifend finibus, ex ipsum placerat augue, vitae viverra
-                        urna quam nec nibh. Morbi consectetur tortor tortor, et consequat libero ornare
-                        bibendum.
-                        Praesent et enim sed lectus ultricies consequat. Donec odio augue, dictum non felis ut,
-                        vestibulum aliquet nibh. Integer cursus malesuada purus sed tincidunt. Fusce porta
-                        malesuada
-                        imperdiet.
+                        Astar and Shiden don't offer staking on validators, but rather on dApps deployed on these networks based on the dApp staking model.
+                        The process is quite simple, just go to 
+                        the <a href="https://portal.astar.network/#/astar/dapp-staking/discover" className="underline" target='_blank'>Astar portal</a>, 
+                        scroll down and select an app you want to stake on. You can stake on multiple dApps and for Shiden, just change the network in the
+                        top right corner. 
+                        
                     </p>
-
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Bifrost</h2>
                     <p>
-                        Suspendisse leo est, scelerisque sit amet aliquam nec, mattis vel ante. Cras efficitur
-                        turpis sapien, quis consectetur risus consectetur quis. Nunc non tincidunt justo, quis
-                        aliquet nisl. Phasellus et fermentum odio. In hac habitasse platea dictumst. Suspendisse
-                        et
-                        velit et nulla eleifend venenatis id dignissim magna. Vivamus at justo ut tellus sodales
-                        pellentesque.
+                        Bifrost staking is based on Moonbeam - which means you choose only one collator for staking. Just go to
+                        the <a href="https://bifrost.app/collator" className="underline" target='_blank'>Bifrost app</a> and 
+                        select a collator you want to delegate to.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Calamari</h2>
+                    <p>
+                        Again, Calamari is based on Moonbeam - so just go to 
+                        their <a href="https://app.manta.network/#/calamari/stake" className="underline" target='_blank'>app</a>,
+                        select your favorite collator and click on the Stake button. 
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Darwinia & Crab</h2>
+                    <p>
+                        Darwinia, on the other hand, has a staking system similar to Polkadot or Kusama. However, with that difference that Darwinia will pick 
+                        the validators for you which makes the staking process a whole lot easier. So just go
+                        their <a href="https://apps.darwinia.network/staking" className="underline" target='_blank'>app</a> and click on Staking now button
+                        in the Get power section. For staking on the Crab network, just switch to it in the top-left corner.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Joystream</h2>
+                    <p>
+                        Although Joystream is not a parachain, it's based on the Substrate and Polkadot technology so it's staking is the same as on Polkadot. 
+                        Therefore you can go to  
+                        their <a href="https://polkadot.js.org/apps/?rpc=wss://rpc.joystream.org#/staking" className="underline" target='_blank'>Polkadot JS app</a>
+                        and than follow the same process as on Polkadot.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Kilt</h2>
+                    <p>
+                        Kilt has its own consensus called <a href="https://link.medium.com/0uesdYTD0xb" className="underline" target='_blank'>LDPoS</a> - but again,
+                        it is really simple compared to Polkadot, partially thanks to the fact you can choose only one validator. So go 
+                        to the <a href="https://stakeboard.kilt.io/" className="underline" target='_blank'>Kilt stakeboard</a>,
+                        scroll down the list of validators and select your favorite one. 
+
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Litentry</h2>
+                    <p>
+                        Litentry is another project based on Moonbeam but as a bonus, they offer a really 
+                        amazing <a href="https://app.web3go.xyz/#/LitentryMainnetStaking" className="underline" target='_blank'>board</a> for their
+                        delegators. So just go over there, pick the validator and click on Delegate. And as a bonus, the same board supports other projects
+                        like Calamari or Moonbeam.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Mangata X</h2>
+                    <p>
+                    <a href="" className="underline" target='_blank'></a>
+                    </p>
+                    <h2 id="moonbeam" className={'text-2xl font-bold text-left my-3'}>Moonbeam & Moonriver</h2>
+                    <p>
+                        Moonbeam invented its own staking model that has been widely re-used by other parachains - Litentry, Bifrost or Zeitgeist to name a few.
+                        It's based a concept of rounds - there are several rounds every day (on Moonbeam 4, each lasting 6 hours) and rewards are being to delegators
+                        after every of those rounds. Each validator has also a limit of maximum delegators (350 on Moonbeam) and a minimal stake (50 GLMR) that can
+                        grow in time. Again, you are able to stake on only one validator. For a deeper explanation, go to the 
+                        the <a href="https://docs.moonbeam.network/learn/features/staking/" className="underline" target='_blank'>Moonbeam documentation</a> which explains
+                        the whole model thoroughly. 
+                    </p>
+                    <p className='my-3'>
+                        <span className='font-bold'>Rewards</span>
+                        <br />
+                        There is an option for auto-compounding which lets you automatically re-stake your earned tokens - this can be set up in the official app. 
+                        Also, we have to mention that performance of the validator really matters here - try to pick validators with the highest APR. You can 
+                        use <a href="https://stakeglmr.com" className="underline" target='_blank'>handy page</a> to sort validators by their APR (Blocks per round column).
+                    </p>
+                    <p>
+                        For the staking itself, let's go to 
+                        the <a href="https://apps.moonbeam.network/moonbeam/staking" className="underline" target='_blank'>official app</a>.
+                        Sign in with your wallet, choose your favorite collator and whether you want to turn-on autocompounding and click on Delegate. 
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Sora</h2>
+                    <p>
+                        Although Sora is not a parachain, it's based on the Substrate and Polkadot technology so its staking is the same as on Polkadot. 
+                        Therefore you can go to  
+                        their <a href="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof2.sora.org#/staking" className="underline" target='_blank'>Polkadot JS app</a>
+                        and than follow the same process as on Polkadot.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Turing network</h2>
+                    <p>
+                        Turing staking is based on Moonbeam - which means that the whole staking system is the same. You have to go to
+                        the <a href="staketur.com/" className="underline" target='_blank'>StakeBNC app</a> and  
+                        choose a collator you want to delegate to. Once you ready, move to the Dashboard section (top-right corner), select your picked
+                        collator and delegate. 
+                    <a href="" className="underline" target='_blank'></a>
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Zeitgeist</h2>
+                    <p>
+                        Turing staking is based on Moonbeam - which means that the whole staking system is the same. You have to go to
+                        the <a href="stakeztg.com/" className="underline" target='_blank'>StakeBNC app</a> and  
+                        choose a collator you want to delegate to. Once you ready, move to the Dashboard section (top-right corner), select your picked
+                        collator and delegate. 
                     </p>
                 </div>
             </main>
