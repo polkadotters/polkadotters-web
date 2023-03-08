@@ -85,8 +85,8 @@ const StakingPageHow3 = () => {
                     <div className="py-10 flex flex-col gap-20">
                         <h1 className={'text-5xl font-bold text-center'}>Parachain staking</h1>
                         <span className={'text-2xl'}>
-                        You can stake and earn not only on Polkadot or Kusama but also on their parachains as well! So we will briefly go through all the options and link you to the staking boards of these parachains.
-                            </span>
+                            You can stake and earn not only on Polkadot or Kusama but also on their parachains as well! So we will briefly go through all the options and link you to the staking boards of these parachains.
+                        </span>
                     </div>
                     <p>
                         Luckily, staking on parachains is usually easier - you don't have to care about picking the right validator set and you 
@@ -99,7 +99,10 @@ const StakingPageHow3 = () => {
                     </p>
                     <h2 className={'text-2xl font-bold text-left my-3'}>Aleph Zero</h2>
                     <p>
-                        
+                        Although Aleph Zero is not a parachain, it's based on the Substrate and Polkadot technology so it's staking is the same as on Polkadot. 
+                        However, they have quite slick staking app, so just head 
+                        over <a href='https://alephzero.org/staking#being-a-nominator' className='underline' target='_blank'>there</a> and
+                        start staking.
                     </p>
                     <h2 className={'text-2xl font-bold text-left my-3'}>Astar & Shiden</h2>
                     <p>
