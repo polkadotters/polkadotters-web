@@ -74,7 +74,7 @@ const ProjectArticle = ({
 }
 
 
-const StakingPageHow1 = () => {
+const StakingPageHow3 = () => {
     const router = useRouter()
 
     return (
@@ -86,9 +86,7 @@ const StakingPageHow1 = () => {
                         <h1 className={'text-5xl font-bold text-center'}>We have Validators on the best
                             projects!</h1>
                         <span className={'text-2xl'}>
-                                We at Cosmoon are focused on creating and operating Validators, using the best hardware
-                                available in the market, and studying the latest security system to create a worries-free
-                                experience.
+                        You can stake and earn not only on Polkadot or Kusama but also on their parachains as well! So we will briefly go through all the options and link you to the staking boards of these parachains.
                             </span>
                     </div>
                     <p>
@@ -156,4 +154,4 @@ const StakingPageHow1 = () => {
     )
 }
 
-export default StakingPageHow1
+export default StakingPageHow3

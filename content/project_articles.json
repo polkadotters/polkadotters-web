@@ -1,20 +1,20 @@
 [
   {
-    "title": "Staking series: #1 Polkadot staking — Why should you care?",
+    "title": "Staking series: #1 Polkadot staking — Why and where stake your tokens?",
     "link": "/staking/how-1",
-    "brief": "This is the first article of our new series on Polkadot’s staking. Every explanation should start with some theory and a bit of tech behind it, so here you have it in some very easy-to-read and simple way. ",
+    "brief": "This brief article will outline the basics of staking, what options are out there and will also you explain why it matters to stake directly on-chain instead of using centralized services.",
     "cover": "https://miro.medium.com/max/1400/1*yEEWdlsL7XPvONgzDOMyrQ.png"
   },
   {
-    "title": "Staking series: #1 Polkadot staking — Why should you care?",
+    "title": "Staking series: #2 Polkadot staking — A tutorial for Polkadot and Kusama?",
     "link": "/staking/how-2",
-    "brief": "This is the first article of our new series on Polkadot’s staking. Every explanation should start with some theory and a bit of tech behind it, so here you have it in some very easy-to-read and simple way. ",
+    "brief": "Out next guide will show you how to safely stake your DOT/KSM tokens. We will use the Polkadot network as an example but the same process applies to Kusama as well.",
     "cover": "https://miro.medium.com/max/1400/1*yEEWdlsL7XPvONgzDOMyrQ.png"
   },
   {
-    "title": "Staking series: #1 Polkadot staking — Why should you care?",
+    "title": "Staking series: #3 Staking on parachains",
     "link": "/staking/how-3",
-    "brief": "This is the first article of our new series on Polkadot’s staking. Every explanation should start with some theory and a bit of tech behind it, so here you have it in some very easy-to-read and simple way. ",
+    "brief": "You can stake and earn not only on Polkadot or Kusama but also on their parachains as well! So we will briefly go through all the options and link you to the staking boards of these parachains.",
     "cover": "https://miro.medium.com/max/1400/1*yEEWdlsL7XPvONgzDOMyrQ.png"
   }
 ]

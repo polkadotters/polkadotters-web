@@ -83,71 +83,94 @@ const StakingPageHow1 = () => {
             <main className={'flex-1 flex flex-col '}>
                 <div className="mx-auto max-w-screen-md">
                     <div className="py-10 flex flex-col gap-20">
-                        <h1 className={'text-5xl font-bold text-center'}>We have Validators on the best
-                            projects!</h1>
+                        <h1 className={'text-5xl font-bold text-center'}>Why and where to stake your DOT/KSM tokens?</h1>
                         <span className={'text-2xl'}>
-                                We at Cosmoon are focused on creating and operating Validators, using the best hardware
-                                available in the market, and studying the latest security system to create a worries-free
-                                experience.
+                                This brief article will outline the basics of staking, what options are out there and will also you explain why 
+                                it matters to stake directly on-chain instead of using centralized services.
                             </span>
                     </div>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Philoshophy of staking</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel imperdiet felis.
-                        Curabitur accumsan dapibus sollicitudin. Fusce elit tellus, euismod a nulla a, tincidunt
-                        sagittis velit. Fusce mollis venenatis eros. Fusce malesuada dui nisl. Quisque tristique
-                        feugiat mi, pharetra auctor diam egestas sit amet. Phasellus non mollis enim. Aliquam
-                        facilisis efficitur leo, vitae aliquam tortor pharetra et. Mauris id rhoncus ante, sed
-                        auctor velit. Morbi vitae viverra mauris. Pellentesque est lectus, vehicula sed maximus
-                        eu,
-                        ornare malesuada lectus. Nulla elementum sem sem, et scelerisque diam maximus vel.
-                        Aliquam
-                        id lectus felis. Sed at purus quis nisi bibendum vehicula et suscipit quam. Curabitur
-                        tempor
-                        lectus molestie accumsan pulvinar.
+                        Staking in PoS crypto is the process of holding tokens in a cryptocurrency network as collateral to validate transactions and 
+                        maintain the security of the network. Validators are responsible for creating new blocks and validating transactions in exchange 
+                        for a portion of the network's rewards. This means that validators play a crucial role in maintaining the security and 
+                        stability of the network, and in return, earn passive income in the form of newly minted tokens.
+                    </p>
+                    <p className={'my-3'}>
+                        One of the main philosophies of staking is to incentivize holders to participate in the network's maintenance and security. 
+                        By staking tokens, holders have a direct stake in the network's success and are incentivized to act in the network's best interest. 
+                        This helps to prevent malicious actors from attacking the network, as they would risk losing their stake in the network. 
+                        This philosophy of incentivizing participation and promoting network security has been fundamental in the development of many 
+                        PoS crypto networks, including Polkadot.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>How does the staking work on Polkadot?</h2>
+                    <p>
+                        Polkadot is a new generation blockchain protocol that greatly simplifies cross-chain communication thanks 
+                        to <a href="https://wiki.polkadot.network/docs/learn-crosschain" className="underline" target='_blank'>XCMP</a> protocol 
+                        (Cross-Chain Message Passing) and interoperability by binding multiple parachains with various usecases into one network.
+                    </p>
+                    <p className={'my-3'}>
+                        While Polkadot is using NPoS consensual algorithm, tokenholders can nominate individual nodes by which they help improve securing 
+                        the network for verifying blocks produced by parachain collators. For their nomination, users are incentivized by receiving a 
+                        share of the staking reward in DOT tokens.
+                    </p>
+                    <p>
+                        Validators then secure the network by using their own stake and the stake of the nominators. More DOTs are locked in the staking, 
+                        the more the network is secured and it's harder and more expensive to attack it.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Where to stake DOT tokens?</h2>
+                    <p>There are several possibilities on where you can stake DOT tokens.</p>
+                    <p className={'my-3'}>
+                    <ul className='list-outside list-decimal my-3'>
+                        <li><span className='font-bold'>Native staking</span> – you are still the true owner of your keys and tokens. For natives staking, you can
+                        use <a href="https://staking.polkadot.network/" className="underline" target='_blank'>Staking Dashboard</a> for the smooth 
+                        user experience, or <a href="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.dotters.network%2Fpolkadot#/staking" className="underline" target='_blank'>Polkadot JS wallet</a>.</li>
+                        <li><span className='font-bold'> Nomination pools</span> – that were recently launched on Polkadot is a solution for staking scalability that finally removes staking limits, because you can stake with as low as 1 DOT.</li>
+                        <li><span className='font-bold'>3rd party dApp</span> – you can receive the liquid token that you can use in DeFi and increase your total rewards. Acala, Parallel Network, or Bifrost are the most known options in the Polkadot ecosystem.</li>
+                        <li><span className='font-bold'>666.</span> You can also use centralized exchange such as...wait...that ain’t a good idea at all, right? In our decentralized eyes, by using centralized exchanges, you are giving up the ownership of your coins, because once you send tokens on the exchange, you are no longer the owner of the private keys. And as quoted so many times, „not your keys, not your crypto“.</li>
+                    </ul>
+                        <span className='font-bold'></span> 
+                    </p>
+                    <p>
+                        If you're interested in becoming a validator on Polkadot, there are a few things you need to know. First, you'll need to have a significant amount of 
+                        DOT tokens, the native cryptocurrency of Polkadot, to stake as collateral. This collateral ensures that validators have a direct stake in the 
+                        success of the network and acts as a deterrent for malicious actors.
+                    </p>
+                    <p className='my-3'>
+                        Once you have enough DOT tokens, you'll need to set up a validator node. This involves running a specialized computer program that 
+                        connects to the Polkadot network and validates transactions. Validator nodes need to be highly available and reliable to ensure 
+                        that the network remains secure and stable. Validators also need to have a deep understanding of the Polkadot network and its governance
+                         mechanisms to participate effectively in the network's decision-making processes.
+                    </p>
+                    <p>
+                        Validators on Polkadot not only contribute to the security and stability of the Polkadot network but also contribute to the security
+                        and stability of any connected networks.
+                    </p>
+                    <p>
+                        Choosing a validator is an important decision for anyone looking to stake their tokens on the Polkadot network. Validators have a 
+                        direct impact on the security and stability of the network, and choosing the wrong validator can result in lost rewards or 
+                        worse, a compromised network.
+                    </p>
+                    <p className='my-3'>
+                        When choosing a validator, it's important to look for validators with a proven track record of reliability and uptime. 
+                        Validators should also have a deep understanding of the Polkadot network and its governance mechanisms, as this knowledge is 
+                        essential for participating effectively in the network's decision-making processes. Additionally, validators should be 
+                        transparent and open with their communication and provide regular updates to their delegators.
                     </p>
 
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Why choose Polkadotters as your validator?</h2>
                     <p>
-                        Sed gravida lobortis arcu, sed eleifend diam tempor sit amet. Curabitur luctus
-                        sollicitudin
-                        placerat. Cras ac ligula elit. Quisque sit amet ex egestas, convallis sem vitae,
-                        elementum
-                        quam. Donec vel tempus leo, non rutrum libero. Etiam sagittis augue sed rhoncus rutrum.
-                        In
-                        tincidunt diam aliquam sem pretium laoreet. Etiam nec venenatis dolor, nec semper
-                        turpis.
+                        Here are a few reasons why you should pick Polkadotters as your Polkadot validator
                     </p>
-
-                    <p>
-                        Sed vel tincidunt nulla. In lobortis sed urna at luctus. Praesent sodales justo et
-                        eleifend
-                        blandit. Maecenas porttitor dolor nec sapien facilisis, at luctus velit eleifend. Cras
-                        faucibus semper felis ut feugiat. Nullam rhoncus, augue eget ultrices placerat, lacus
-                        magna
-                        auctor metus, a mollis libero quam quis dui. In quis tempus leo. Donec mattis commodo
-                        neque
-                        sit amet euismod.
-                    </p>
-
-                    <p>
-                        Proin malesuada, felis vitae malesuada mattis, nisl ante elementum ipsum, non volutpat
-                        turpis ipsum et ante. Aenean quis ex hendrerit, vehicula odio et, vehicula nisi.
-                        Pellentesque maximus, neque vel eleifend finibus, ex ipsum placerat augue, vitae viverra
-                        urna quam nec nibh. Morbi consectetur tortor tortor, et consequat libero ornare
-                        bibendum.
-                        Praesent et enim sed lectus ultricies consequat. Donec odio augue, dictum non felis ut,
-                        vestibulum aliquet nibh. Integer cursus malesuada purus sed tincidunt. Fusce porta
-                        malesuada
-                        imperdiet.
-                    </p>
-
-                    <p>
-                        Suspendisse leo est, scelerisque sit amet aliquam nec, mattis vel ante. Cras efficitur
-                        turpis sapien, quis consectetur risus consectetur quis. Nunc non tincidunt justo, quis
-                        aliquet nisl. Phasellus et fermentum odio. In hac habitasse platea dictumst. Suspendisse
-                        et
-                        velit et nulla eleifend venenatis id dignissim magna. Vivamus at justo ut tellus sodales
-                        pellentesque.
-                    </p>
+                    <ul className='list-outside list-decimal my-3'>
+                        <li>We're not just validators, we're community builders: Since mid-2020, we've been actively organizing events, meetups, and writing articles 
+                            and tutorials to help build a strong and engaged Polkadot community.</li>
+                        <li>Our track record speaks for itself: As active validators on	Polkadot and Kusama and many parachains such as Astar, Bifrost or HydraDX, 
+                            we've been operating without any issues and we're honest about what we do. You can trust us to keep your stake safe and secure.</li>
+                        <li>We believe in on-chain governance: One of the key improvements that Polkadot brings to the blockchain space is its on-chain governance
+                            system, and we fully support its spirit. We keep our users informed about the latest referenda and encourage participation to make sure that the community's voice is heard.</li>
+                        <li>And last but not least, we have a sense of humor: We take our job seriously, but we don't take ourselves too seriously. Life's too 	short to be boring, so we try to bring a bit of fun to everything we do. Join us and let's stake our way to the moon together!</li>
+                    </ul>
                 </div>
             </main>
 

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Layout from '../../components/Layout'
 import React from "react";
 import {useRouter} from "next/router";
@@ -5,6 +6,11 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import {ProjectProps} from "../../interfaces/project";
 import {BiWallet} from "react-icons/bi";
+import StakingBoardImg from '../../assets/images/staking/staking-board.png';
+import StakingAccountsImg from '../../assets/images/staking/staking-accounts.png';
+import AliancePoolImg from '../../assets/images/staking/aliance-pool.png';
+import ParanodesPoolImg from '../../assets/images/staking/paranodes-pool.png';
+import PoolBoardImg from '../../assets/images/staking/pool-board.png';
 
 const ProjectTile = ({
                          name,
@@ -74,7 +80,7 @@ const ProjectArticle = ({
 }
 
 
-const StakingPageHow1 = () => {
+const StakingPageHow2 = () => {
     const router = useRouter()
 
     return (
@@ -83,70 +89,94 @@ const StakingPageHow1 = () => {
             <main className={'flex-1 flex flex-col '}>
                 <div className="mx-auto max-w-screen-md">
                     <div className="py-10 flex flex-col gap-20">
-                        <h1 className={'text-5xl font-bold text-center'}>We have Validators on the best
-                            projects!</h1>
+                    <h1 className={'text-5xl font-bold text-center'}>Staking tutorial for Polkadot & Kusama?</h1>
                         <span className={'text-2xl'}>
-                                We at Cosmoon are focused on creating and operating Validators, using the best hardware
-                                available in the market, and studying the latest security system to create a worries-free
-                                experience.
+                                This guide will show you how to safely stake your DOT/KSM tokens. We will use the Polkadot network as an example but the same
+                                process applies to Kusama as well.
                             </span>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel imperdiet felis.
-                        Curabitur accumsan dapibus sollicitudin. Fusce elit tellus, euismod a nulla a, tincidunt
-                        sagittis velit. Fusce mollis venenatis eros. Fusce malesuada dui nisl. Quisque tristique
-                        feugiat mi, pharetra auctor diam egestas sit amet. Phasellus non mollis enim. Aliquam
-                        facilisis efficitur leo, vitae aliquam tortor pharetra et. Mauris id rhoncus ante, sed
-                        auctor velit. Morbi vitae viverra mauris. Pellentesque est lectus, vehicula sed maximus
-                        eu,
-                        ornare malesuada lectus. Nulla elementum sem sem, et scelerisque diam maximus vel.
-                        Aliquam
-                        id lectus felis. Sed at purus quis nisi bibendum vehicula et suscipit quam. Curabitur
-                        tempor
-                        lectus molestie accumsan pulvinar.
+                        Polkadot and its wild cousin network Kusama have been growing in popularity in the crypto space due to their 
+                        unique architecture and potential for innovation. As a Polkadot or Kusama token holder, you have the opportunity to stake 
+                        your tokens and earn rewards while supporting the network's security and operations. Let’s explore where to stake your DOT tokens.
                     </p>
-
+                    <h2 className={'text-2xl font-bold text-left my-3'}>How to Stake Your DOT Tokens?</h2>
                     <p>
-                        Sed gravida lobortis arcu, sed eleifend diam tempor sit amet. Curabitur luctus
-                        sollicitudin
-                        placerat. Cras ac ligula elit. Quisque sit amet ex egestas, convallis sem vitae,
-                        elementum
-                        quam. Donec vel tempus leo, non rutrum libero. Etiam sagittis augue sed rhoncus rutrum.
-                        In
-                        tincidunt diam aliquam sem pretium laoreet. Etiam nec venenatis dolor, nec semper
-                        turpis.
+                        Staking your DOT tokens is a relatively simple process, but it requires some technical knowledge and the use of a crypto wallet 
+                        that supports staking. Here are the general steps to stake your DOT tokens
                     </p>
-
+                    <ul className='list-outside list-decimal my-3'>
+                        <li><span className='font-bold'>Set up a wallet that supports staking.</span> There are several wallets that support staking on both Polkadot and Kusama, 
+                            including Polkadot.js, Ledger Live, and MyCrypto. Choose the one that best fits your needs and preferences.</li>
+                        <li><span className='font-bold'>Transfer your DOT tokens to your staking wallet.</span> You'll need to send your DOT tokens from your exchange or other wallet to your staking wallet.</li>
+                        <li>Choose a validator or nomination pool to stake with. Validators operate nodes and verify transactions, 
+                            while nomination pools are groups of token holders who pool their tokens together to support validators.</li>
+                        <li><span className='font-bold'>Nominate your chosen validator or pool.</span> Once you've chosen a validator or pool, you'll need to nominate them with your staked DOT tokens. 
+                            This process varies depending on the staking interface you're using, but generally involves selecting the validator or pool 
+                            and specifying the amount of tokens you want to stake.</li>
+                        <li><span className='font-bold'>Earn rewards.</span> If you've successfully staked your DOT tokens, you'll start earning rewards proportional to the amount 
+                             of tokens you've staked. Rewards are paid out in DOT tokens and can be claimed periodically depending on the staking interface you're using.</li>
+                    </ul>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Staking with Polkadot JS</h2>
                     <p>
-                        Sed vel tincidunt nulla. In lobortis sed urna at luctus. Praesent sodales justo et
-                        eleifend
-                        blandit. Maecenas porttitor dolor nec sapien facilisis, at luctus velit eleifend. Cras
-                        faucibus semper felis ut feugiat. Nullam rhoncus, augue eget ultrices placerat, lacus
-                        magna
-                        auctor metus, a mollis libero quam quis dui. In quis tempus leo. Donec mattis commodo
-                        neque
-                        sit amet euismod.
+                        Go to <a href="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.dotters.network%2Fpolkadot#/staking" className="underline" target='_blank'>Polkadot JS app</a> and
+                        select <span className='text-bold'>Network -&gt; Staking</span>
+                        <div className={'flex flex-col items-center justify-center'} style={{
+                                height: '50vh',
+                                background: `url("${StakingBoardImg.src}") center center no-repeat`,
+                                backgroundSize: "contain"
+                            }}>
+                        </div>
                     </p>
-
                     <p>
-                        Proin malesuada, felis vitae malesuada mattis, nisl ante elementum ipsum, non volutpat
-                        turpis ipsum et ante. Aenean quis ex hendrerit, vehicula odio et, vehicula nisi.
-                        Pellentesque maximus, neque vel eleifend finibus, ex ipsum placerat augue, vitae viverra
-                        urna quam nec nibh. Morbi consectetur tortor tortor, et consequat libero ornare
-                        bibendum.
-                        Praesent et enim sed lectus ultricies consequat. Donec odio augue, dictum non felis ut,
-                        vestibulum aliquet nibh. Integer cursus malesuada purus sed tincidunt. Fusce porta
-                        malesuada
-                        imperdiet.
+                        Then go to Accounts -&gt; Nominator
+                        <div className={'flex flex-col items-center justify-center'} style={{
+                                height: '20vh',
+                                background: `url("${StakingAccountsImg.src}") center center no-repeat`,
+                                backgroundSize: "contain"
+                            }}>
+                        </div>
                     </p>
-
                     <p>
-                        Suspendisse leo est, scelerisque sit amet aliquam nec, mattis vel ante. Cras efficitur
-                        turpis sapien, quis consectetur risus consectetur quis. Nunc non tincidunt justo, quis
-                        aliquet nisl. Phasellus et fermentum odio. In hac habitasse platea dictumst. Suspendisse
-                        et
-                        velit et nulla eleifend venenatis id dignissim magna. Vivamus at justo ut tellus sodales
-                        pellentesque.
+                        Then you will be asked to pick your stash and controller accounts and then choose up to 16 validators. For more detailed info, visit 
+                        our previous article <a href="https://polkadotters.medium.com/dot-token-wallets-overview-and-staking-options-in-polkadot-1da06a849002" className="underline" target='_blank'>DOT token wallets overview and staking options in Polkadot</a>.
+                    </p>
+                    <p className='mt-3'>
+                        You can as well use the <a href="https://staking.polkadot.network/#/nominate" className="underline" target='_blank'>Polkadot Staking Dashboard</a> for better user experience.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>Staking with Nomination Pools</h2> 
+                    <p className='my-3'>
+                        There are several options for finding nomination pools to stake your DOT tokens with. It's important to do your research and choose a reputable 
+                        and reliable pool or validator that aligns with your goals and values. Look for pools with a track record of reliable operations, good communication, 
+                        and fair fee structures.
+                    </p>
+                    <p>
+                        You can also use the Polkadot JS app, but our preferable way is to use Polkadot Staking Dashboard. 
+                    </p>
+                    <div className={'flex flex-col items-center justify-center mt-3'} style={{
+                            height: '60vh',
+                            background: `url("${PoolBoardImg.src}") no-repeat`,
+                            backgroundSize: "contain"
+                        }}>
+                    </div>
+                    <p>
+                        If you search for Polkadotters, you can find us in <span className='font-bold'>DOT VALIDATOR ALLIANCE DAO</span> staking pool 
+                        or <span className='font-bold'>Paradox | ParaNodes.io</span> staking pool.
+                    </p>
+                    <div className={'flex flex-col items-center justify-center mt-3'} style={{
+                            height: '20vh',
+                            background: `url("${AliancePoolImg.src}") no-repeat`,
+                            backgroundSize: "contain"
+                        }}>
+                    </div>
+                    <div className={'flex flex-col items-center justify-center mt-3'} style={{
+                            height: '20vh',
+                            background: `url("${ParanodesPoolImg.src}") no-repeat`,
+                            backgroundSize: "contain"
+                        }}>
+                    </div>
+                    <p>
+                        We also created an article called <a href="https://polkadotters.medium.com/the-power-of-nomination-pools-on-polkadot-ef0b4113028c" className="underline" target='_blank'>The power of nomination pools on Polkadot</a>, where we go through the nomination process in more detail.
                     </p>
                 </div>
             </main>
@@ -156,4 +186,4 @@ const StakingPageHow1 = () => {
     )
 }
 
-export default StakingPageHow1
+export default StakingPageHow2
