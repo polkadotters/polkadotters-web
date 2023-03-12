@@ -59,11 +59,10 @@ const AboutPage = () => {
                                 <p>We started in 2020 by discovering Polkadot ecosystem and its potential - and this made us create a first Czechia & Slovak
                                 community because there wasn't any back then. Petr also has a technical background of being a backend developer throughtout his career
                                 so we quickly started playing around the Polkadot infrastructure as well. </p>
-                                <p>Since then, we became members of the 1000 validators programme, founded the&nbsp; 
+                                <p className='my-3'>Since then, we became members of the 1000 validators programme, founded the&nbsp; 
                                     <a href="https://dotvalidators.org" className="underline" target='_blank'>DOT Validator Alliance DAO</a>, help various projects to
-                                    create their collator programs, joined the&nbsp;
-                                    <a href="https://unitedbloc.com/" className="underline" target='_blank'>United Bloc DAO</a>
-                                    &nbsp;and <a href="https://dotters.network/" className="underline" target='_blank'>IBP program</a>. 
+                                    create their collator programs and joined <a href="https://unitedbloc.com/" className="underline" target='_blank'>United Bloc DAO</a> and
+                                    the <a href="https://dotters.network/" className="underline" target='_blank'>IBP program</a>. 
                                     
                                 </p>
                                 <p>

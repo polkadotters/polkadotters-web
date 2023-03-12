@@ -85,23 +85,22 @@ const StakingPageHow1 = () => {
                     <div className="py-10 flex flex-col gap-20">
                         <h1 className={'text-5xl font-bold text-center'}>Why and where to stake your DOT/KSM tokens?</h1>
                         <span className={'text-2xl'}>
-                                This brief article will outline the basics of staking, what options are out there and will also you explain why 
+                                This brief article will outline the basics of staking, what options are out there and will also explain you why 
                                 it matters to stake directly on-chain instead of using centralized services.
                             </span>
                     </div>
                     <h2 className={'text-2xl font-bold text-left my-3'}>Philoshophy of staking</h2>
                     <p>
-                        Staking in PoS crypto is the process of holding tokens in a cryptocurrency network as collateral to validate transactions and 
+                        Staking in a Proof of Stake network is the process of delegating (and locking) your tokens to the validators and thus it helps to 
                         maintain the security of the network. Validators are responsible for creating new blocks and validating transactions in exchange 
                         for a portion of the network's rewards. This means that validators play a crucial role in maintaining the security and 
-                        stability of the network, and in return, earn passive income in the form of newly minted tokens.
+                        stability of the network, and in return, delegators can earn a passive income in the form of newly minted tokens.
                     </p>
                     <p className={'my-3'}>
-                        One of the main philosophies of staking is to incentivize holders to participate in the network's maintenance and security. 
-                        By staking tokens, holders have a direct stake in the network's success and are incentivized to act in the network's best interest. 
-                        This helps to prevent malicious actors from attacking the network, as they would risk losing their stake in the network. 
-                        This philosophy of incentivizing participation and promoting network security has been fundamental in the development of many 
-                        PoS crypto networks, including Polkadot.
+                        The main philosophy of staking is to incentivize holders to participate in the network's security. 
+                        The security is derived from the amount of tokens that are being staked - generally we think that PoS-based networks are secure
+                        if more than 40-50% of all circullating supply is locked. 
+                        By staking tokens, holders have a direct share in the network's success and are incentivized to act in the network's best interest. 
                     </p>
                     <h2 className={'text-2xl font-bold text-left my-3'}>How does the staking work on Polkadot?</h2>
                     <p>
@@ -110,52 +109,43 @@ const StakingPageHow1 = () => {
                         (Cross-Chain Message Passing) and interoperability by binding multiple parachains with various usecases into one network.
                     </p>
                     <p className={'my-3'}>
-                        While Polkadot is using NPoS consensual algorithm, tokenholders can nominate individual nodes by which they help improve securing 
-                        the network for verifying blocks produced by parachain collators. For their nomination, users are incentivized by receiving a 
-                        share of the staking reward in DOT tokens.
-                    </p>
-                    <p>
-                        Validators then secure the network by using their own stake and the stake of the nominators. More DOTs are locked in the staking, 
-                        the more the network is secured and it's harder and more expensive to attack it.
+                        One speciality of Polkadot is that you can nominate up to 16 validators - meaning that you can diversify your stake across multiple parties
+                        to secure the best profit. Once per every day (4x a day on Kusama) there are elections and 297 validators are selected to the active set 
+                        based on the nominations they have received. These validators are than responsible for the security of the network.
+                        Both nominators and validators are rewarded with a new DOT tokens coming from the inflation.
                     </p>
                     <h2 className={'text-2xl font-bold text-left my-3'}>Where to stake DOT tokens?</h2>
-                    <p>There are several possibilities on where you can stake DOT tokens.</p>
+                    <p>There are several options for staking your DOT tokens</p>
                     <p className={'my-3'}>
                     <ul className='list-outside list-decimal my-3'>
-                        <li><span className='font-bold'>Native staking</span> – you are still the true owner of your keys and tokens. For natives staking, you can
-                        use <a href="https://staking.polkadot.network/" className="underline" target='_blank'>Staking Dashboard</a> for the smooth 
+                        <li><span className='font-bold'>Native staking</span> – you are still the true owner of your keys and tokens. For native staking, you can
+                        use the brand new <a href="https://staking.polkadot.network/" className="underline" target='_blank'>Staking Dashboard</a> for the smooth 
                         user experience, or <a href="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.dotters.network%2Fpolkadot#/staking" className="underline" target='_blank'>Polkadot JS wallet</a>.</li>
-                        <li><span className='font-bold'> Nomination pools</span> – that were recently launched on Polkadot is a solution for staking scalability that finally removes staking limits, because you can stake with as low as 1 DOT.</li>
+                        <li><span className='font-bold'> Nomination pools</span> – recently launched on Polkadot is a solution for staking scalability that finally removes staking limits. 
+                        You can now stake with as low as 1 DOT and it also relieves the burden of choosing the validator set you will be nominating to.</li>
                         <li><span className='font-bold'>3rd party dApp</span> – you can receive the liquid token that you can use in DeFi and increase your total rewards. Acala, Parallel Network, or Bifrost are the most known options in the Polkadot ecosystem.</li>
-                        <li><span className='font-bold'>666.</span> You can also use centralized exchange such as...wait...that ain’t a good idea at all, right? In our decentralized eyes, by using centralized exchanges, you are giving up the ownership of your coins, because once you send tokens on the exchange, you are no longer the owner of the private keys. And as quoted so many times, „not your keys, not your crypto“.</li>
+                        <li><span className='font-bold'>666.</span> You can also use centralized exchange such as...wait...that ain’t a good idea at all, right? 
+                        In our opinion, using centralized exchange has only one advantage — simplicity. But you trade it for higher rewards, real coin ownership (yes, your coins can be stolen or impossible to release when you need them most), the right to vote in governance with your coins, and the idea of decentralization in particular.</li>
                     </ul>
                         <span className='font-bold'></span> 
                     </p>
+
+                    <p>Obviously, the native options are the best - either by nominating the validators directly (if you have more than 300 DOTs, there's no limit on Kusama now)
+                        or by using nomination pools. These options will give you the highest control of your coins, allow you to participate in governance 
+                        and it also boosts the security and decentralization of the network the most. We know the process can be quite complicated and therefore you can
+                        follow to our next <a href="/staking/how-2" className="underline">article</a> for guidance. Or, you can automate the whole selection process 
+                        by using the brand new <a href="https://staking.polkadot.network/#/nominate" className="underline" target='_blank'>Staking Dashboard</a>.
+                    </p>
+                    <h2 className={'text-2xl font-bold text-left my-3'}>How to pick a right validator?</h2>
                     <p>
-                        If you're interested in becoming a validator on Polkadot, there are a few things you need to know. First, you'll need to have a significant amount of 
-                        DOT tokens, the native cryptocurrency of Polkadot, to stake as collateral. This collateral ensures that validators have a direct stake in the 
-                        success of the network and acts as a deterrent for malicious actors.
-                    </p>
-                    <p className='my-3'>
-                        Once you have enough DOT tokens, you'll need to set up a validator node. This involves running a specialized computer program that 
-                        connects to the Polkadot network and validates transactions. Validator nodes need to be highly available and reliable to ensure 
-                        that the network remains secure and stable. Validators also need to have a deep understanding of the Polkadot network and its governance
-                         mechanisms to participate effectively in the network's decision-making processes.
-                    </p>
-                    <p>
-                        Validators on Polkadot not only contribute to the security and stability of the Polkadot network but also contribute to the security
-                        and stability of any connected networks.
-                    </p>
-                    <p>
-                        Choosing a validator is an important decision for anyone looking to stake their tokens on the Polkadot network. Validators have a 
-                        direct impact on the security and stability of the network, and choosing the wrong validator can result in lost rewards or 
-                        worse, a compromised network.
-                    </p>
-                    <p className='my-3'>
                         When choosing a validator, it's important to look for validators with a proven track record of reliability and uptime. 
                         Validators should also have a deep understanding of the Polkadot network and its governance mechanisms, as this knowledge is 
                         essential for participating effectively in the network's decision-making processes. Additionally, validators should be 
-                        transparent and open with their communication and provide regular updates to their delegators.
+                        transparent and open with their communication and responsive to upgrades or any unexpected events that might be happening in the network. 
+                    </p>
+                    <p>
+                        Obviously, this doesn't take away the burden of doing the research and choosing the validators you like. 
+                        We have prepared a quite exhaustive <a href="https://polkadotters.medium.com/staking-series-1-polkadot-staking-why-should-you-care-6edf0d9b1ce4" className="underline" target='_blank'>guide</a> that will help you to navigate this difficult topic.
                     </p>
 
                     <h2 className={'text-2xl font-bold text-left my-3'}>Why choose Polkadotters as your validator?</h2>
@@ -167,6 +157,8 @@ const StakingPageHow1 = () => {
                             and tutorials to help build a strong and engaged Polkadot community.</li>
                         <li>Our track record speaks for itself: As active validators on	Polkadot and Kusama and many parachains such as Astar, Bifrost or HydraDX, 
                             we've been operating without any issues and we're honest about what we do. You can trust us to keep your stake safe and secure.</li>
+                        <li>Performance - all of our validators are ran on bare metal servers meaning that it has amongst the highest block productions in the ecosystem resulting in a high APR.</li>
+                        <li>Decentralization - we never use public clouds like AWS or Azure. Some of our validators are already running on our own servers in Czechia and we gradually move the rest over there too.</li>
                         <li>We believe in on-chain governance: One of the key improvements that Polkadot brings to the blockchain space is its on-chain governance
                             system, and we fully support its spirit. We keep our users informed about the latest referenda and encourage participation to make sure that the community's voice is heard.</li>
                         <li>And last but not least, we have a sense of humor: We take our job seriously, but we don't take ourselves too seriously. Life's too 	short to be boring, so we try to bring a bit of fun to everything we do. Join us and let's stake our way to the moon together!</li>

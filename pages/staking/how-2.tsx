@@ -98,7 +98,7 @@ const StakingPageHow2 = () => {
                     <p>
                         Polkadot and its wild cousin network Kusama have been growing in popularity in the crypto space due to their 
                         unique architecture and potential for innovation. As a Polkadot or Kusama token holder, you have the opportunity to stake 
-                        your tokens and earn rewards while supporting the network's security and operations. Let’s explore where to stake your DOT tokens.
+                        your tokens and earn rewards while supporting the network's security and operations. Let’s explore how to stake your DOT tokens.
                     </p>
                     <h2 className={'text-2xl font-bold text-left my-3'}>How to Stake Your DOT Tokens?</h2>
                     <p>
@@ -107,10 +107,10 @@ const StakingPageHow2 = () => {
                     </p>
                     <ul className='list-outside list-decimal my-3'>
                         <li><span className='font-bold'>Set up a wallet that supports staking.</span> There are several wallets that support staking on both Polkadot and Kusama, 
-                            including Polkadot.js, Ledger Live, and MyCrypto. Choose the one that best fits your needs and preferences.</li>
-                        <li><span className='font-bold'>Transfer your DOT tokens to your staking wallet.</span> You'll need to send your DOT tokens from your exchange or other wallet to your staking wallet.</li>
-                        <li>Choose a validator or nomination pool to stake with. Validators operate nodes and verify transactions, 
-                            while nomination pools are groups of token holders who pool their tokens together to support validators.</li>
+                            including Polkadot.js, Talisman, Ledger, or mobile wallets like Fearless or Nova. Choose the one that best fits your needs and preferences.</li>
+                        <li><span className='font-bold'>Transfer your DOT tokens into your staking wallet.</span> You'll need to send your DOT tokens from your exchange or other wallet to your staking wallet.</li>
+                        <li><span className='font-bold'>Choose a validator or nomination pool to stake with.</span> Validators operate nodes and verify transactions, 
+                            while nomination pools are groups of token holders who pool their tokens together to support already chosen validators.</li>
                         <li><span className='font-bold'>Nominate your chosen validator or pool.</span> Once you've chosen a validator or pool, you'll need to nominate them with your staked DOT tokens. 
                             This process varies depending on the staking interface you're using, but generally involves selecting the validator or pool 
                             and specifying the amount of tokens you want to stake.</li>

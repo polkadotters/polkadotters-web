@@ -85,7 +85,7 @@ const StakingPageHow3 = () => {
                     <div className="py-10 flex flex-col gap-20">
                         <h1 className={'text-5xl font-bold text-center'}>Parachain staking</h1>
                         <span className={'text-2xl'}>
-                            You can stake and earn not only on Polkadot or Kusama but also on their parachains as well! So we will briefly go through all the options and link you to the staking boards of these parachains.
+                            You can stake and earn not only on Polkadot and Kusama but also on their parachains as well! So we will briefly go through all the options and link you to the staking boards of these parachains.
                         </span>
                     </div>
                     <p>
@@ -94,12 +94,12 @@ const StakingPageHow3 = () => {
                         and also guide you to their dashboard where you can stake your tokens.
 
                         Most parachains mimic staking model invented by Moonbeam - so if you want to know how it works, jump straight 
-                        to the <a href="#moonbeam" className='underline'>Moonbeam</a> section. In case of parachain stake, the nodes are not longer
+                        to the <a href="#moonbeam" className='underline'>Moonbeam</a> section. In case of parachain staking, the nodes are no longer
                         called validators but rather colllators. 
                     </p>
                     <h2 className={'text-2xl font-bold text-left my-3'}>Aleph Zero</h2>
                     <p>
-                        Although Aleph Zero is not a parachain, it's based on the Substrate and Polkadot technology so it's staking is the same as on Polkadot. 
+                        Although Aleph Zero is not a parachain, it's based on the Substrate and Polkadot technology so its staking is the same as on Polkadot. 
                         However, they have quite slick staking app, so just head 
                         over <a href='https://alephzero.org/staking#being-a-nominator' className='underline' target='_blank'>there</a> and
                         start staking.
@@ -161,10 +161,10 @@ const StakingPageHow3 = () => {
                     <h2 id="moonbeam" className={'text-2xl font-bold text-left my-3'}>Moonbeam & Moonriver</h2>
                     <p>
                         Moonbeam invented its own staking model that has been widely re-used by other parachains - Litentry, Bifrost or Zeitgeist to name a few.
-                        It's based a concept of rounds - there are several rounds every day (on Moonbeam 4, each lasting 6 hours) and rewards are being to delegators
-                        after every of those rounds. Each validator has also a limit of maximum delegators (350 on Moonbeam) and a minimal stake (50 GLMR) that can
+                        It's based a concept of rounds - there are several rounds every day (on Moonbeam 4, each lasting 6 hours) and rewards are being paid to delegators
+                        after every of these rounds. Each validator has also a limit of maximum delegators (350 on Moonbeam) and a minimal stake (50 GLMR) that can
                         grow in time. Again, you are able to stake on only one validator. For a deeper explanation, go to the 
-                        the <a href="https://docs.moonbeam.network/learn/features/staking/" className="underline" target='_blank'>Moonbeam documentation</a> which explains
+                        the <a href="https://docs.moonbeam.network/learn/features/staking/" className="underline" target='_blank'>Moonbeam documentation</a> which describes
                         the whole model thoroughly. 
                     </p>
                     <p className='my-3'>
@@ -172,24 +172,24 @@ const StakingPageHow3 = () => {
                         <br />
                         There is an option for auto-compounding which lets you automatically re-stake your earned tokens - this can be set up in the official app. 
                         Also, we have to mention that performance of the validator really matters here - try to pick validators with the highest APR. You can 
-                        use <a href="https://stakeglmr.com" className="underline" target='_blank'>handy page</a> to sort validators by their APR (Blocks per round column).
+                        use this <a href="https://stakeglmr.com" className="underline" target='_blank'>handy page</a> to sort validators by their APR (Blocks per round column).
                     </p>
                     <p>
                         For the staking itself, let's go to 
                         the <a href="https://apps.moonbeam.network/moonbeam/staking" className="underline" target='_blank'>official app</a>.
-                        Sign in with your wallet, choose your favorite collator and whether you want to turn-on autocompounding and click on Delegate. 
+                        Sign in with your wallet (be it Talisman or Metamask ideally), choose your favorite collator and whether you want to turn-on autocompounding and click on Delegate. 
                     </p>
                     <h2 className={'text-2xl font-bold text-left my-3'}>Sora</h2>
                     <p>
                         Although Sora is not a parachain, it's based on the Substrate and Polkadot technology so its staking is the same as on Polkadot. 
                         Therefore you can go to  
-                        their <a href="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof2.sora.org#/staking" className="underline" target='_blank'>Polkadot JS app</a>
-                        and than follow the same process as on Polkadot.
+                        their <a href="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof2.sora.org#/staking" className="underline" target='_blank'>Polkadot JS app</a> and
+                        than follow the same process as on Polkadot.
                     </p>
                     <h2 className={'text-2xl font-bold text-left my-3'}>Turing network</h2>
                     <p>
                         Turing staking is based on Moonbeam - which means that the whole staking system is the same. You have to go to
-                        the <a href="staketur.com/" className="underline" target='_blank'>StakeBNC app</a> and  
+                        the <a href="https://staketur.com" className="underline" target='_blank'>StakeTUR app</a> and  
                         choose a collator you want to delegate to. Once you ready, move to the Dashboard section (top-right corner), select your picked
                         collator and delegate. 
                     <a href="" className="underline" target='_blank'></a>
@@ -197,7 +197,7 @@ const StakingPageHow3 = () => {
                     <h2 className={'text-2xl font-bold text-left my-3'}>Zeitgeist</h2>
                     <p>
                         Turing staking is based on Moonbeam - which means that the whole staking system is the same. You have to go to
-                        the <a href="stakeztg.com/" className="underline" target='_blank'>StakeBNC app</a> and  
+                        the <a href="https://stakeztg.com/" className="underline" target='_blank'>StakeZTG app</a> and  
                         choose a collator you want to delegate to. Once you ready, move to the Dashboard section (top-right corner), select your picked
                         collator and delegate. 
                     </p>
