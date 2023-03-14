@@ -1,38 +1,38 @@
 [
   {
-    "id": 121,
-    "network": "Kusama",
-    "proposal": "#121 - POLKADOT HACKATHON EAST ASIA Edition - HackaDOT 2023",
-    "vote": 0,
-    "rationale": "This referendum aims to provide funding for the upcoming hackhathon in South Korea.",
-    "details": "The request amount was too high for such an event, that's why we voted NAY for referendum #121.",
-    "date": "2023-03-08"
-  },
-  {
-    "id": 120,
-    "network": "Kusama",
-    "proposal": "#120 - Incorrect Proposal. Please Reject",
-    "vote": 0,
-    "rationale": "There is no proper description for this referendum, only a note from the author to reject it.",
-    "details": "This referendum  was designed with errors, so the author marked it for rejection, that's why we voted NAY to cancel referendum #120.",
-    "date": "2023-03-08"
-  },
-  {
-    "id": 109,
+    "id": 111,
     "network": "Polkadot",
-    "proposal": "#109 - Polkadot Auction Schedule 2023",
+    "proposal": "#111 - Adjusting Nomination Configuration",
     "vote": 1,
-    "rationale": "This referendum aims to schedule the set of parachain auctions on Polkadot in 2023.",
-    "details": "Approving this referendum will ensure proper scheduling of 18 Polkadot parachain auctions in 2023, allowing for new and renewed parachains, that's why we voted AYE for referendum #109.",
-    "date": "2023-03-07"
+    "rationale": "This referendum aims to to change the configuration of three staking pallets.",
+    "details": "Approving this referendum will ensure some important changes in the staking process including the fast unstake feature.",
+    "date": "2023-03-14"
   },
   {
-    "id": 108,
-    "network": "Polkadot",
-    "proposal": "#108 - Fix genesis registration for Manta Parachain",
+    "id": 126,
+    "network": "Kusama",
+    "proposal": "#126 - Kusama PaperCraft",
     "vote": 1,
-    "rationale": "This referendum aims to fix the registration genesis.",
-    "details": "Approving this referendum will help correct the incompatible parachain state & WASM files that were originally registered by Manta, that's why we voted AYE for referendum #108.",
-    "date": "2023-03-07"
+    "rationale": "A marketing proposal for a papercraft model of the Kusama logo, including educational files.",
+    "details": "The request amount is rationale and the idea for papercraft is quite new and can raise awareness.",
+    "date": "2023-03-14"
+  },
+  {
+    "id": 124,
+    "network": "Kusama",
+    "proposal": "#124 - PolkaGate 2nd milestone",
+    "vote": 0,
+    "rationale": "This referendum aims to provide funding for the 2nd milestone of PolkaGate extension wallet.",
+    "details": "The request amount was too high and there already exists a few functional wallets such as Talisman.",
+    "date": "2023-03-14"
+  },
+  {
+    "id": 123,
+    "network": "Kusama",
+    "proposal": "#123 - ParaSpell XCM SDK Upgrade proposal",
+    "vote": 1,
+    "rationale": "A bounty proposal for creating a ParaSpell XCM SDK & XCM UI spending bounty.",
+    "details": "ParaSpell focuses on building open-source easy to use XCM SDK & UI tool, which can be beneficial for the ecosystem.",
+    "date": "2023-03-14"
   }
 ]
