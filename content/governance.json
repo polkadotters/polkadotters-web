@@ -1,38 +1,47 @@
 [
   {
-    "id": 111,
+    "id": 114,
     "network": "Polkadot",
-    "proposal": "#111 - Adjusting Nomination Configuration",
+    "proposal": "#114 - Polkadot Bridge Hub Genesis",
     "vote": 1,
-    "rationale": "This referendum aims to to change the configuration of three staking pallets.",
-    "details": "Approving this referendum will ensure some important changes in the staking process including the fast unstake feature.",
-    "date": "2023-03-14"
+    "rationale": "This referendum aims to add a Bridge Hub (BH) parachain to Polkadot and connect it with Kusama, Ethereum and other networks.",
+    "details": "We support this major upgrade for having Polkadot<>Kusama bridge allowing more interaction between both networks.",
+    "date": "2023-04-13"
   },
   {
-    "id": 126,
-    "network": "Kusama",
-    "proposal": "#126 - Kusama PaperCraft",
+    "id": 113,
+    "network": "Polkadot",
+    "proposal": "#113 - Reset Watr Parachain",
     "vote": 1,
-    "rationale": "A marketing proposal for a papercraft model of the Kusama logo, including educational files.",
-    "details": "The request amount is rationale and the idea for papercraft is quite new and can raise awareness.",
-    "date": "2023-03-14"
+    "rationale": "This referendum aims to reset the Watr blockchain back to seedling state.",
+    "details": "Our goal by voting AYE is to help Watr progress to commercial deployment by reseting their parachain.",
+    "date": "2023-04-11"
   },
   {
-    "id": 124,
+    "id": 152,
     "network": "Kusama",
-    "proposal": "#124 - PolkaGate 2nd milestone",
-    "vote": 0,
-    "rationale": "This referendum aims to provide funding for the 2nd milestone of PolkaGate extension wallet.",
-    "details": "The request amount was too high and there already exists a few functional wallets such as Talisman.",
-    "date": "2023-03-14"
+    "proposal": "#152 - Tip for Goku",
+    "vote": 1,
+    "rationale": "A treasury tip for @0xgoku_'s efforts on twitter creating a treasury audit and putting together the excel spreadsheet of past KSM proposals.",
+    "details": "We like the activity of Goku, so the requested amount is rationale for his effort.",
+    "date": "2023-04-11"
   },
   {
-    "id": 123,
+    "id": 150,
     "network": "Kusama",
-    "proposal": "#123 - ParaSpell XCM SDK Upgrade proposal",
+    "proposal": "#150 - From Theory to Practice Course",
     "vote": 1,
-    "rationale": "A bounty proposal for creating a ParaSpell XCM SDK & XCM UI spending bounty.",
-    "details": "ParaSpell focuses on building open-source easy to use XCM SDK & UI tool, which can be beneficial for the ecosystem.",
-    "date": "2023-03-14"
+    "rationale": "This referendum aims to provide funding for creating a course focused on the first-time users of Polkadot and Kusama.",
+    "details": "The course that focuses on fist-time users is something we endorse so that's why voted AYE.",
+    "date": "2023-04-11"
+  },
+  {
+    "id": 31,
+    "network": "Centrifuge",
+    "proposal": "#31 - CP40(GI): Updating Tinlake Rewards Allocation 2023-03",
+    "vote": 1,
+    "rationale": "This referendum aims to update Tinlake rewards allocation.",
+    "details": "By voting AYE, we indicated the approval of changing the rewards on Centrifuge, which helps to upgrade the actual needs of Tinlake.",
+    "date": "2023-04-13"
   }
 ]
