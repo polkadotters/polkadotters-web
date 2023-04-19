@@ -1,5 +1,14 @@
 [
   {
+    "id": 115,
+    "network": "Polkadot",
+    "proposal": "#115 - Three New HRMP Channels batch On Polkadot",
+    "vote": 1,
+    "rationale": "This referendum aims to accept and open return channels between Statemint and parachains BitGreen, SubSocial and Manta Network.",
+    "details": "We support this referendum, because opening HRMP channels with Statemint allows those parachains the access to various native Polkadot assets.",
+    "date": "2023-04-19"
+  },
+  {
     "id": 114,
     "network": "Polkadot",
     "proposal": "#114 - Polkadot Bridge Hub Genesis",
@@ -34,6 +43,15 @@
     "rationale": "This referendum aims to provide funding for creating a course focused on the first-time users of Polkadot and Kusama.",
     "details": "The course that focuses on fist-time users is something we endorse so that's why voted AYE.",
     "date": "2023-04-11"
+  },
+  {
+    "id": 32,
+    "network": "Centrifuge",
+    "proposal": "#32 - CP45 (RU): Runtime Upgrade 1018 + Add CFG and DOT to Asset Registry",
+    "vote": 1,
+    "rationale": "This referendum will initiate Runtime Upgrade 1018 on Centrifuge and add CFG and DOT to the Asset Registry.",
+    "details": "By voting AYE, we indicated the approval of expanding investment options for users on Tinlake.",
+    "date": "2023-04-19"
   },
   {
     "id": 31,
