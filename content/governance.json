@@ -17,34 +17,34 @@
     "details": "We support this major upgrade for having Polkadot<>Kusama bridge allowing more interaction between both networks.",
     "date": "2023-04-13"
   },
-  {
-    "id": 113,
-    "network": "Polkadot",
-    "proposal": "#113 - Reset Watr Parachain",
-    "vote": 1,
-    "rationale": "This referendum aims to reset the Watr blockchain back to seedling state.",
-    "details": "Our goal by voting AYE is to help Watr progress to commercial deployment by reseting their parachain.",
-    "date": "2023-04-11"
-  },
-  {
-    "id": 152,
+    {
+    "id": 172,
     "network": "Kusama",
-    "proposal": "#152 - Tip for Goku",
+    "proposal": "#172 - Remove lock for Bifrost swapped parachain id (2259 & 2262)",
     "vote": 1,
-    "rationale": "A treasury tip for @0xgoku_'s efforts on twitter creating a treasury audit and putting together the excel spreadsheet of past KSM proposals.",
-    "details": "We like the activity of Goku, so the requested amount is rationale for his effort.",
-    "date": "2023-04-11"
+    "rationale": "Kusama parachain Bifrost requests help unlocking 2 successful slot renewals.",
+    "details": "We want to help Bifrost unlock the previously locked 700 KSM after succesfull slot renewal.",
+    "date": "2023-04-26"
   },
   {
-    "id": 150,
+    "id": 171,
     "network": "Kusama",
-    "proposal": "#150 - From Theory to Practice Course",
+    "proposal": "#171 - Formalise the community decision and close the Bounty #13",
     "vote": 1,
-    "rationale": "This referendum aims to provide funding for creating a course focused on the first-time users of Polkadot and Kusama.",
-    "details": "The course that focuses on fist-time users is something we endorse so that's why voted AYE.",
-    "date": "2023-04-11"
+    "rationale": "This referendum aims to formalise the community decision and close the bounty #13 on-chain.",
+    "details": "We support this proposal, as its closes outdated bounty #13 and returns funds to treasury.",
+    "date": "2023-04-26"
   },
   {
+    "id": 169,
+    "network": "Kusama",
+    "proposal": "#169 - 4-Month funding for Cryptozilla YouTube channel",
+    "vote": 1,
+    "rationale": "Funding to produce 40 English educational videos, that will be delivered in the next 4 months.",
+    "details": "Our AYE will help Cryptozilla YouTube channel to deliver 40 educational videos, so that's why supported his proposal.",
+    "date": "2023-04-26"
+  },
+    {
     "id": 32,
     "network": "Centrifuge",
     "proposal": "#32 - CP45 (RU): Runtime Upgrade 1018 + Add CFG and DOT to Asset Registry",
@@ -52,14 +52,5 @@
     "rationale": "This referendum will initiate Runtime Upgrade 1018 on Centrifuge and add CFG and DOT to the Asset Registry.",
     "details": "By voting AYE, we indicated the approval of expanding investment options for users on Tinlake.",
     "date": "2023-04-19"
-  },
-  {
-    "id": 31,
-    "network": "Centrifuge",
-    "proposal": "#31 - CP40(GI): Updating Tinlake Rewards Allocation 2023-03",
-    "vote": 1,
-    "rationale": "This referendum aims to update Tinlake rewards allocation.",
-    "details": "By voting AYE, we indicated the approval of changing the rewards on Centrifuge, which helps to upgrade the actual needs of Tinlake.",
-    "date": "2023-04-13"
   }
 ]
