@@ -44,6 +44,15 @@
     "details": "Our AYE will help Cryptozilla YouTube channel to deliver 40 educational videos, so that's why supported his proposal.",
     "date": "2023-04-26"
   },
+  {
+    "id": 93,
+    "network": "Moonbeam",
+    "proposal": "#93 Open/Accept HRMP channel with HydraDX and Register Asset xcHDX",
+    "vote": 1,
+    "rationale": "Opening an HRMP channel with HydraDX and Registering xcHDX asset.",
+    "details": "We love the interoperability idea of parachains, so opening a bi-directional channel will allows HDX to be used on Moonbeam and GLMR on HydraDX.",
+    "date": "2023-04-28"
+  },
     {
     "id": 32,
     "network": "Centrifuge",
