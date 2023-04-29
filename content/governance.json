@@ -53,6 +53,15 @@
     "details": "We love the interoperability idea of parachains, so opening a bi-directional channel will allows HDX to be used on Moonbeam and GLMR on HydraDX.",
     "date": "2023-04-28"
   },
+  {
+    "id": 71,
+    "network": "HydraDX",
+    "proposal": "#71 POL Diversification and Deployment (Q2+ 2023)",
+    "vote": 1,
+    "rationale": "Deploying 4.8M DAI of HydraDX POL into Omnipool - 1M DAI into HDX, 3,33M DAI into DOT and 500k DAI into iBTC.",
+    "details": "Bringing extra liquidity from the POL (protocol owned liquidity) is crucial for success of HydraDX Omnipool - more TVL = more efficient trading.",
+    "date": "2023-04-29"
+  },
     {
     "id": 32,
     "network": "Centrifuge",
