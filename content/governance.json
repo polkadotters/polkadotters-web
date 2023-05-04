@@ -1,5 +1,14 @@
 [
   {
+    "id": 117,
+    "network": "Polkadot",
+    "proposal": "#117 - Returning Supercolony lost funds back to the Treasury",
+    "vote": 1,
+    "rationale": "This referendum will transfer 6,011 DOT from the lost Supercolony account to the Polkadot treasury.",
+    "details": "An unfortunate coincidence led to the loss of the account keys and then a new spending proposal was approved for the same action. We support the idea of sending these funds to the Polkadot treasury.",
+    "date": "2023-05-03"
+  },
+  {
     "id": 115,
     "network": "Polkadot",
     "proposal": "#115 - Three New HRMP Channels batch On Polkadot",
@@ -8,50 +17,23 @@
     "details": "We support this referendum, because opening HRMP channels with Statemint allows those parachains the access to various native Polkadot assets.",
     "date": "2023-04-19"
   },
-  {
-    "id": 114,
-    "network": "Polkadot",
-    "proposal": "#114 - Polkadot Bridge Hub Genesis",
-    "vote": 1,
-    "rationale": "This referendum aims to add a Bridge Hub (BH) parachain to Polkadot and connect it with Kusama, Ethereum and other networks.",
-    "details": "We support this major upgrade for having Polkadot<>Kusama bridge allowing more interaction between both networks.",
-    "date": "2023-04-13"
-  },
     {
-    "id": 172,
+    "id": 179,
     "network": "Kusama",
-    "proposal": "#172 - Remove lock for Bifrost swapped parachain id (2259 & 2262)",
+    "proposal": "#179 - Sublab proposal #KSM-2: Substrate client improvements and Kotlinization",
     "vote": 1,
-    "rationale": "Kusama parachain Bifrost requests help unlocking 2 successful slot renewals.",
-    "details": "We want to help Bifrost unlock the previously locked 700 KSM after succesfull slot renewal.",
-    "date": "2023-04-26"
+    "rationale": "Sublab is requesting 2 637 KSM for the current milestone which includes improvements to existing Substrate clients.",
+    "details": "We try to help Sublab with this referendum, because they focus is on developing tools for developers in Substrate ecosystem.",
+    "date": "2023-05-04"
   },
   {
-    "id": 171,
-    "network": "Kusama",
-    "proposal": "#171 - Formalise the community decision and close the Bounty #13",
-    "vote": 1,
-    "rationale": "This referendum aims to formalise the community decision and close the bounty #13 on-chain.",
-    "details": "We support this proposal, as its closes outdated bounty #13 and returns funds to treasury.",
-    "date": "2023-04-26"
-  },
-  {
-    "id": 169,
-    "network": "Kusama",
-    "proposal": "#169 - 4-Month funding for Cryptozilla YouTube channel",
-    "vote": 1,
-    "rationale": "Funding to produce 40 English educational videos, that will be delivered in the next 4 months.",
-    "details": "Our AYE will help Cryptozilla YouTube channel to deliver 40 educational videos, so that's why supported his proposal.",
-    "date": "2023-04-26"
-  },
-  {
-    "id": 93,
+    "id": 95,
     "network": "Moonbeam",
-    "proposal": "#93 Open/Accept HRMP channel with HydraDX and Register Asset xcHDX",
+    "proposal": "#Re-Propose Ref93 / Opening HRMP Channel WIth HydraDX",
     "vote": 1,
     "rationale": "Opening an HRMP channel with HydraDX and Registering xcHDX asset.",
     "details": "We love the interoperability idea of parachains, so opening a bi-directional channel will allows HDX to be used on Moonbeam and GLMR on HydraDX.",
-    "date": "2023-04-28"
+    "date": "2023-05-04"
   },
   {
     "id": 71,
