@@ -18,13 +18,13 @@
     "date": "2023-04-19"
   },
     {
-    "id": 179,
+    "id": 186,
     "network": "Kusama",
-    "proposal": "#179 - Sublab proposal #KSM-2: Substrate client improvements and Kotlinization",
+    "proposal": "#186 - Remove lock for Bifrost swapped parachain id (2259 & 2262)",
     "vote": 1,
-    "rationale": "Sublab is requesting 2 637 KSM for the current milestone which includes improvements to existing Substrate clients.",
-    "details": "We try to help Sublab with this referendum, because they focus is on developing tools for developers in Substrate ecosystem.",
-    "date": "2023-05-04"
+    "rationale": "Bifrost has two parachains that require community assistance to execute the remove_lock function in order to withdraw the previous 700 KSM locking.",
+    "details": "We want to help Bifrost to get back the 700 KSM necessary for paraid locks, so that's why we voted AYE in this referendum.",
+    "date": "2023-05-10"
   },
   {
     "id": 95,
