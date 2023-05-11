@@ -47,7 +47,7 @@
   {
     "id": 95,
     "network": "Moonbeam",
-    "proposal": "#Re-Propose Ref93 / Opening HRMP Channel WIth HydraDX",
+    "proposal": "#95 Re-Propose Ref93/ Opening HRMP Channel WIth HydraDX",
     "vote": 1,
     "rationale": "Opening an HRMP channel with HydraDX and Registering xcHDX asset.",
     "details": "We love the interoperability idea of parachains, so opening a bi-directional channel will allows HDX to be used on Moonbeam and GLMR on HydraDX.",
