@@ -45,12 +45,12 @@
     "date": "2023-05-10"
   },
   {
-    "id": 95,
+    "id": 96,
     "network": "Moonbeam",
-    "proposal": "#95 Re-Propose Ref93/ Opening HRMP Channel WIth HydraDX",
+    "proposal": "#96 Manta Proposal Open/Accept HRMP channel and Register Asset xcMANTA",
     "vote": 1,
-    "rationale": "Opening an HRMP channel with HydraDX and Registering xcHDX asset.",
-    "details": "We love the interoperability idea of parachains, so opening a bi-directional channel will allows HDX to be used on Moonbeam and GLMR on HydraDX.",
+    "rationale": "Opening an HRMP channel with Manta and Registering xcMANTA asset.",
+    "details": "We love the interoperability idea of parachains, so opening a bi-directional channel will allows MANTA to be used on Moonbeam and GLMR on Manta Network.",
     "date": "2023-05-04"
   },
   {
