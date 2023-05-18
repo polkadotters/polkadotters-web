@@ -1,5 +1,14 @@
 [
   {
+    "id": 119,
+    "network": "Polkadot",
+    "proposal": "#119 - Lease swap for Acala",
+    "vote": 1,
+    "rationale": "Due to bug in Polkadot, Acala's parachain 3336 can never produce valid block and therefore unable to perform lease swap action.",
+    "details": "We try to help Acala team to perform lease swap action between 2000 (Acala) and 3336 (parachain bid by Acala Foundation).",
+    "date": "2023-05-18"
+  },
+  {
     "id": 118,
     "network": "Polkadot",
     "proposal": "#118 - 1kvP Validators Initiative: Increase Validators Active Set to 400",
@@ -8,16 +17,7 @@
     "details": "Because increased validator set improves the level of decentralization in Polkadot, we voted in favor of this referendum.",
     "date": "2023-05-11"
   },
-  {
-    "id": 117,
-    "network": "Polkadot",
-    "proposal": "#117 - Returning Supercolony lost funds back to the Treasury",
-    "vote": 1,
-    "rationale": "This referendum will transfer 6,011 DOT from the lost Supercolony account to the Polkadot treasury.",
-    "details": "An unfortunate coincidence led to the loss of the account keys and then a new spending proposal was approved for the same action. We support the idea of sending these funds to the Polkadot treasury.",
-    "date": "2023-05-03"
-  },
-  {
+    {
     "id": 115,
     "network": "Polkadot",
     "proposal": "#115 - Three New HRMP Channels batch On Polkadot",
@@ -27,31 +27,22 @@
     "date": "2023-04-19"
   },
   {
-  "id": 188,
+  "id": 194,
   "network": "Kusama",
-  "proposal": "#188 - Increase Parachain Validators to 250",
+  "proposal": "#194 - Monitoring of public RPC/WSS Endpoints & Node Database Analytics",
   "vote": 1,
-  "rationale": "This referendum will increase the validator active set to 250 validators from 200 per era.",
-  "details": "Because increased validator set improves the level of decentralization in Kusama, we voted in favor of this referendum.",
-  "date": "2023-05-11"
-  },
-    {
-    "id": 186,
-    "network": "Kusama",
-    "proposal": "#186 - Remove lock for Bifrost swapped parachain id (2259 & 2262)",
-    "vote": 1,
-    "rationale": "Bifrost has two parachains that require community assistance to execute the remove_lock function in order to withdraw the previous 700 KSM locking.",
-    "details": "We want to help Bifrost to get back the 700 KSM necessary for paraid locks, so that's why we voted AYE in this referendum.",
-    "date": "2023-05-10"
+  "rationale": "This propoasl asks for funding of monitoring of public RPC/WSS endpoints & node database analytics.",
+  "details": "We need independent monitor of all WSS providers, so that's why voted in favor of this referenda.",
+  "date": "2023-05-18"
   },
   {
-    "id": 96,
+    "id": 98,
     "network": "Moonbeam",
-    "proposal": "#96 Manta Proposal Open/Accept HRMP channel and Register Asset xcMANTA",
+    "proposal": "#98 Fast-Tracked Proposal 95",
     "vote": 1,
-    "rationale": "Opening an HRMP channel with Manta and Registering xcMANTA asset.",
-    "details": "We love the interoperability idea of parachains, so opening a bi-directional channel will allows MANTA to be used on Moonbeam and GLMR on Manta Network.",
-    "date": "2023-05-04"
+    "rationale": "XCM Transactor pallet had an issue in which it crafted an XCM V3 message that could not be converted to XCM V2.",
+    "details": "Our intention is to help Moonbeam to entact the referendum 95, so why voted AYE to this fast-tracking proposal by Tech-Committee and the Council.",
+    "date": "2023-05-18"
   },
   {
     "id": 71,
