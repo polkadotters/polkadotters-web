@@ -27,13 +27,22 @@
     "date": "2023-04-19"
   },
   {
-  "id": 194,
+  "id": 204,
   "network": "Kusama",
-  "proposal": "#194 - Monitoring of public RPC/WSS Endpoints & Node Database Analytics",
+  "proposal": "#204 - Privacy Sidechains for all Substrate- Based Chains",
   "vote": 1,
-  "rationale": "This propoasl asks for funding of monitoring of public RPC/WSS endpoints & node database analytics.",
-  "details": "We need independent monitor of all WSS providers, so that's why voted in favor of this referenda.",
-  "date": "2023-05-18"
+  "rationale": "This propoasl asks for funding ofcompleted work on implementing privacy sidechains for any substrate based chain.",
+  "details": "While privacy is super important especially in the on-chain space, we fully support the work of Integritee.",
+  "date": "2023-05-25"
+  },
+  {
+  "id": 201,
+  "network": "Kusama",
+  "proposal": "#201 - Funding for KryptosChain Media Brand - 6 months",
+  "vote": 1,
+  "rationale": "This propoasl asks for funding of the KryptosChain YouTube channel, which brings information and interviews from the Polkadot eco.",
+  "details": "We don't have many as successfull YouTubers as Claudio, so we want to support him in his work. He is doing a great job with his YouTube channel.",
+  "date": "2023-05-25"
   },
   {
     "id": 98,
