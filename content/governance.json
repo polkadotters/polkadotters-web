@@ -56,7 +56,7 @@
   {
     "id": 46,
     "network": "HydraDX",
-    "proposal": "Accept Moonbeam HRMP & on-chain remark",
+    "proposal": "#46 - Accept Moonbeam HRMP & on-chain remark",
     "vote": 1,
     "rationale": "Accepting HRMP channel open request from Moonbeam is the final step to have GLMR in the Omnipool.",
     "details": "Opening channels and allowing trading blue chip tokens like GLMR is amazing achievement for HydraDX Omnipool, so that's we voted AYE.",
