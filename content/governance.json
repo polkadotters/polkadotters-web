@@ -45,13 +45,13 @@
     "date": "2023-05-18"
   },
   {
-    "id": 71,
+    "id": 46,
     "network": "HydraDX",
-    "proposal": "#71 POL Diversification and Deployment (Q2+ 2023)",
+    "proposal": "Accept Moonbeam HRMP & on-chain remark",
     "vote": 1,
-    "rationale": "Deploying 4.8M DAI of HydraDX POL into Omnipool - 1M DAI into HDX, 3,33M DAI into DOT and 500k DAI into iBTC.",
-    "details": "Bringing extra liquidity from the POL (protocol owned liquidity) is crucial for success of HydraDX Omnipool - more TVL = more efficient trading.",
-    "date": "2023-04-29"
+    "rationale": "Accepting HRMP channel open request from Moonbeam is the final step to have GLMR in the Omnipool.",
+    "details": "Opening channels and allowing trading blue chip tokens like GLMR is amazing achievement for HydraDX Omnipool, so that's we voted AYE.",
+    "date": "2023-05-25"
   },
     {
     "id": 32,
