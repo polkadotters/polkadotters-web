@@ -8,16 +8,7 @@
     "details": "We try to help Acala team to perform lease swap action between 2000 (Acala) and 3336 (parachain bid by Acala Foundation).",
     "date": "2023-05-18"
   },
-  {
-    "id": 118,
-    "network": "Polkadot",
-    "proposal": "#118 - 1kvP Validators Initiative: Increase Validators Active Set to 400",
-    "vote": 1,
-    "rationale": "This referendum will increase the validator active set to 400 validators from 297 per era.",
-    "details": "Because increased validator set improves the level of decentralization in Polkadot, we voted in favor of this referendum.",
-    "date": "2023-05-11"
-  },
-    {
+      {
     "id": 115,
     "network": "Polkadot",
     "proposal": "#115 - Three New HRMP Channels batch On Polkadot",
@@ -27,21 +18,21 @@
     "date": "2023-04-19"
   },
   {
+  "id": 211,
+  "network": "Kusama",
+  "proposal": "#211 - (Polkadot Latam, Start)",
+  "vote": 0,
+  "rationale": "This propoasl asks for funding of the Latam (Latin America) Development Center in Honduras. It's goal is to create content in Spanish",
+  "details": "There is already a few Spanish speaking content creators and they are asking for quite a big sum of 1033 KSM, while they simply start from zero. We voted NAY as we think they should firstly start with some content and maybe ask retrospectively if they succeed.",
+  "date": "2023-05-30"
+  },
+  {
   "id": 204,
   "network": "Kusama",
   "proposal": "#204 - Privacy Sidechains for all Substrate- Based Chains",
   "vote": 1,
   "rationale": "This propoasl asks for funding ofcompleted work on implementing privacy sidechains for any substrate based chain.",
   "details": "While privacy is super important especially in the on-chain space, we fully support the work of Integritee.",
-  "date": "2023-05-25"
-  },
-  {
-  "id": 201,
-  "network": "Kusama",
-  "proposal": "#201 - Funding for KryptosChain Media Brand - 6 months",
-  "vote": 1,
-  "rationale": "This propoasl asks for funding of the KryptosChain YouTube channel, which brings information and interviews from the Polkadot eco.",
-  "details": "We don't have many as successfull YouTubers as Claudio, so we want to support him in his work. He is doing a great job with his YouTube channel.",
   "date": "2023-05-25"
   },
   {
