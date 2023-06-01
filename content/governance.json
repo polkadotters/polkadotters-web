@@ -18,22 +18,22 @@
     "date": "2023-04-19"
   },
   {
+  "id": 212,
+  "network": "Kusama",
+  "proposal": "#212 - Encointer Lease2 Treasury Proposal 2/2",
+  "vote": 1,
+  "rationale": "This propoasl asks for funding ofcompleted work on implementing privacy sidechains for any substrate based chain.",
+  "details": "While privacy is super important especially in the on-chain space, we fully support the work of Integritee.",
+  "date": "2023-06-01"
+  },
+  {
   "id": 211,
   "network": "Kusama",
   "proposal": "#211 - (Polkadot Latam, Start)",
   "vote": 0,
-  "rationale": "This propoasl asks for funding of the Latam (Latin America) Development Center in Honduras. It's goal is to create content in Spanish",
-  "details": "There is already a few Spanish speaking content creators and they are asking for quite a big sum of 1033 KSM, while they simply start from zero. We voted NAY as we think they should firstly start with some content and maybe ask retrospectively if they succeed.",
+  "rationale": "This propoasl asks for retroactive funding for the development of the Encointer, a common good parachain on Kusama.",
+  "details": "Encointer has amazing and inovative usecase, bringing adoption to the local communitites and we fully support that approach, so that's why we voted AYE on this referenda.",
   "date": "2023-05-30"
-  },
-  {
-  "id": 204,
-  "network": "Kusama",
-  "proposal": "#204 - Privacy Sidechains for all Substrate- Based Chains",
-  "vote": 1,
-  "rationale": "This propoasl asks for funding ofcompleted work on implementing privacy sidechains for any substrate based chain.",
-  "details": "While privacy is super important especially in the on-chain space, we fully support the work of Integritee.",
-  "date": "2023-05-25"
   },
   {
     "id": 98,
