@@ -1,30 +1,30 @@
 [
   {
-    "id": 119,
+    "id": 123,
     "network": "Polkadot",
-    "proposal": "#119 - Lease swap for Acala",
+    "proposal": "#123 - Batch of HRMP Channels with Statemint",
     "vote": 1,
-    "rationale": "Due to bug in Polkadot, Acala's parachain 3336 can never produce valid block and therefore unable to perform lease swap action.",
-    "details": "We try to help Acala team to perform lease swap action between 2000 (Acala) and 3336 (parachain bid by Acala Foundation).",
-    "date": "2023-05-18"
-  },
-      {
-    "id": 115,
-    "network": "Polkadot",
-    "proposal": "#115 - Three New HRMP Channels batch On Polkadot",
-    "vote": 1,
-    "rationale": "This referendum aims to accept and open return channels between Statemint and parachains BitGreen, SubSocial and Manta Network.",
-    "details": "We support this referendum, because opening HRMP channels with Statemint allows those parachains the access to various native Polkadot assets.",
-    "date": "2023-04-19"
+    "rationale": "This proposal will open HRMP channels between Statemint and parachains Litentry, Composable, Polkadex and Zeitgeist.",
+    "details": "Opening new HRMP channels with Statemint will enable those 4 parachains to use assets on Statemint, such as stablecoin USDT. That's we voted AYE.",
+    "date": "2023-06-07"
   },
   {
-  "id": 212,
-  "network": "Kusama",
-  "proposal": "#212 - Encointer Lease2 Treasury Proposal 2/2",
-  "vote": 1,
-  "rationale": "This propoasl asks for funding ofcompleted work on implementing privacy sidechains for any substrate based chain.",
-  "details": "While privacy is super important especially in the on-chain space, we fully support the work of Integritee.",
-  "date": "2023-06-01"
+    "id": 214,
+    "network": "Kusama",
+    "proposal": "#214 - Further decentralize collator set on Kusama system chains",
+    "vote": 1,
+    "rationale": "This proposal aims to decentralize the following system chains – Kusama Asset Hub (former Statemine) and Kusama Bridge Hub.",
+    "details": "We support this proposal for increasing the number of decentralized collators of Kusama Asset Hub and Kusama Bridge Hub.",
+    "date": "2023-06-07"
+  },
+  {
+    "id": 213,
+    "network": "Kusama",
+    "proposal": "#213 - Moving a paraid to a new manager address - Kabocha",
+    "vote": 1,
+    "rationale": "This proposal seeks community input on technical feasibility and support for Kabocha.",
+    "details": "We support this proposal for technical feasibility and potential community benefits.",
+    "date": "2023-06-07"
   },
   {
   "id": 211,
@@ -56,10 +56,10 @@
     {
     "id": 32,
     "network": "Centrifuge",
-    "proposal": "#32 - CP45 (RU): Runtime Upgrade 1018 + Add CFG and DOT to Asset Registry",
+    "proposal": "#64 - CP51: Onboarding the 2nd batch of collators",
     "vote": 1,
-    "rationale": "This referendum will initiate Runtime Upgrade 1018 on Centrifuge and add CFG and DOT to the Asset Registry.",
-    "details": "By voting AYE, we indicated the approval of expanding investment options for users on Tinlake.",
-    "date": "2023-04-19"
+    "rationale": "This referendum will onboard the 2nd batch of 5 collators on Centrifuge.",
+    "details": "Increasing number of collators will help to decentralize the collator set, so we voted AYE on this.",
+    "date": "2023-06-07"
   }
 ]
