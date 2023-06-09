@@ -45,13 +45,22 @@
     "date": "2023-05-18"
   },
   {
-    "id": 46,
+    "id": 49,
     "network": "HydraDX",
-    "proposal": "#46 - Accept Moonbeam HRMP & on-chain remark",
+    "proposal": "#49 - Add ASTR to Omnipool",
     "vote": 1,
-    "rationale": "Accepting HRMP channel open request from Moonbeam is the final step to have GLMR in the Omnipool.",
-    "details": "Opening channels and allowing trading blue chip tokens like GLMR is amazing achievement for HydraDX Omnipool, so that's we voted AYE.",
-    "date": "2023-05-25"
+    "rationale": "By that referendum approved, 2,22M ASTR will be added to the Omnipool with 5% weight cap.",
+    "details": "Adding new Polkadot native assets such as GLMR or ASTR is super important for the HydraDX Omnipool adoption, so that's we supported this referendum.",
+    "date": "2023-06-09"
+  },
+  {
+    "id": 48,
+    "network": "HydraDX",
+    "proposal": "#48 - Mint 20M HDX & launch Hydrated Farms with DOT LM",
+    "vote": 1,
+    "rationale": "This referendum aims to kick off HydraDX’s Liquidity Mining programme by creating DOT LM Yield farm and provide it with 20M HDX liquidity",
+    "details": "We can finally see the Liquidity Mining programme at the HydraDX Omnipool, so that's we are super excited by that and of course we voted AYE on this.",
+    "date": "2023-06-09"
   },
     {
     "id": 32,
