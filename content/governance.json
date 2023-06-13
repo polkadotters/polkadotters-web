@@ -36,13 +36,13 @@
   "date": "2023-05-30"
   },
   {
-    "id": 98,
+    "id": 100,
     "network": "Moonbeam",
-    "proposal": "#98 Fast-Tracked Proposal 95",
+    "proposal": "#100 Proposal to Register Asset xcCFG",
     "vote": 1,
-    "rationale": "XCM Transactor pallet had an issue in which it crafted an XCM V3 message that could not be converted to XCM V2.",
-    "details": "Our intention is to help Moonbeam to entact the referendum 95, so why voted AYE to this fast-tracking proposal by Tech-Committee and the Council.",
-    "date": "2023-05-18"
+    "rationale": "This proposal is to Register xcCFG as an XC-20.",
+    "details": "Adding more parachain native tokens such as CFG from Centrifuge into Moonbeam as XC-20 tokens improve the multichain spirit of Polkadot.",
+    "date": "2023-06-13"
   },
   {
     "id": 49,
