@@ -30,7 +30,7 @@
   "id": 219,
   "network": "Kusama",
   "proposal": "#219 - Increase Parachain Validators to 300",
-  "vote": 0,
+  "vote": 1,
   "rationale": "This propoasl aims to increase parachain validators to 300.",
   "details": "Following good network stability with 250 parachain validators, this further increases the number of validators participating in parachain validation from 250 to 300.",
   "date": "2023-05-16"
