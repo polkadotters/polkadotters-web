@@ -1,21 +1,30 @@
 [
   {
-    "id": 123,
+    "id": 20,
     "network": "Polkadot",
-    "proposal": "#123 - Batch of HRMP Channels with Statemint",
+    "proposal": "#20 - Subscan | Infrastructure Costs of Subscan for Polkadot & Westend & Rococo & Statemint & Rockmine Networks (from July to December 2022)",
     "vote": 1,
-    "rationale": "This proposal will open HRMP channels between Statemint and parachains Litentry, Composable, Polkadex and Zeitgeist.",
-    "details": "Opening new HRMP channels with Statemint will enable those 4 parachains to use assets on Statemint, such as stablecoin USDT. That's we voted AYE.",
-    "date": "2023-06-07"
+    "rationale": "This proposal aims to cover infrastructure costs for Subscan.",
+    "details": "Subscan is essential block explorer and analytics tool for the Polkadot network, providing valuable insights to the Polkadot community, so that's why support them with our AYE.",
+    "date": "2023-06-21"
   },
   {
-    "id": 221,
+    "id": 224,
     "network": "Kusama",
-    "proposal": "#221 - Upgrade Kusama to v9430",
+    "proposal": "#224 - [Fix 214] Further decentralize collator set on Kusama system chains",
     "vote": 1,
-    "rationale": "This referendum upgrades the Kusama network (Relay Chain, Asset Hub, and Bridge Hub) to v9430.",
-    "details": "We support this Whitelisted Caller referendum upgrading Kusama Relay Chain, Asset Hub, and Bridge Hub to v9430.",
-    "date": "2023-06-16"
+    "rationale": "This referendum aims to fix previous referendum #214 and further decentralize collator set on Kusama system chains.",
+    "details": "We support this referendum, because decentralized collator set of system chains on Kusama is what we desire.",
+    "date": "2023-06-21"
+  },
+  {
+  "id": 223,
+  "network": "Kusama",
+  "proposal": "#223 - For 7 Kusama treasury proposal Audits",
+  "vote": 1,
+  "rationale": "This propoasl aims to fund new Audits for Kusama treasury.",
+  "details": "Kusama treasury is under pressure, so these audits can help decentralize and improve the auditing process.",
+  "date": "2023-06-21"
   },
   {
     "id": 220,
@@ -25,15 +34,6 @@
     "rationale": "This proposal aims to fill the gap left by RMRK's focus on EVM and maintain a sustainable, inclusive platform for NFT trading within the Kusama network.",
     "details": "We support this proposal to integrate RMRKv2 into their inclusive NFT marketplace, because we think is crucial for saving Kusama NFTs and generating market demand.",
     "date": "2023-06-16"
-  },
-  {
-  "id": 219,
-  "network": "Kusama",
-  "proposal": "#219 - Increase Parachain Validators to 300",
-  "vote": 1,
-  "rationale": "This propoasl aims to increase parachain validators to 300.",
-  "details": "Following good network stability with 250 parachain validators, this further increases the number of validators participating in parachain validation from 250 to 300.",
-  "date": "2023-05-16"
   },
   {
     "id": 100,
@@ -63,12 +63,12 @@
     "date": "2023-06-09"
   },
     {
-    "id": 32,
+    "id": 35,
     "network": "Centrifuge",
-    "proposal": "#64 - CP51: Onboarding the 2nd batch of collators",
+    "proposal": "#35 - CP53(GI): Listing CFG in HydraDX Omnipool & seeding initial liquidity",
     "vote": 1,
-    "rationale": "This referendum will onboard the 2nd batch of 5 collators on Centrifuge.",
-    "details": "Increasing number of collators will help to decentralize the collator set, so we voted AYE on this.",
-    "date": "2023-06-07"
+    "rationale": "This referendum will enable listing EFG token in HydraDX Omnipool and seeding the initial liquidity.",
+    "details": "Adding new Polkadot native assets such as CFG is super important for the HydraDX Omnipool liquidity and further adoption, so that's we supported this referendum.",
+    "date": "2023-06-21"
   }
 ]
