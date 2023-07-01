@@ -1,48 +1,39 @@
 [
   {
-    "id": 20,
+    "id": 44,
     "network": "Polkadot",
-    "proposal": "#20 - Subscan | Infrastructure Costs of Subscan for Polkadot & Westend & Rococo & Statemint & Rockmine Networks (from July to December 2022)",
+    "proposal": "#44 - Treasury proposal for New Product Development & OpenGov Deployment",
     "vote": 1,
-    "rationale": "This proposal aims to cover infrastructure costs for Subscan.",
-    "details": "Subscan is essential block explorer and analytics tool for the Polkadot network, providing valuable insights to the Polkadot community, so that's why support them with our AYE.",
-    "date": "2023-06-21"
+    "rationale": "This proposal aims to cover infrastructure costs for Polkassembly and their governance features implementation.",
+    "details": "Polkassembly is an integral part of Polkadot and Kusama governance. The features such as delegation, user-friendly interfaces, and improved governance experiences, so that's why support them with our AYE.",
+    "date": "2023-07-01"
   },
   {
-    "id": 224,
+    "id": 229,
     "network": "Kusama",
-    "proposal": "#224 - [Fix 214] Further decentralize collator set on Kusama system chains",
+    "proposal": "#229 - Subscan | Infrastructure Costs of Subscan for Kusama & Statemine (from July to December 2022)",
     "vote": 1,
     "rationale": "This referendum aims to fix previous referendum #214 and further decentralize collator set on Kusama system chains.",
-    "details": "We support this referendum, because decentralized collator set of system chains on Kusama is what we desire.",
-    "date": "2023-06-21"
+    "details": "Subscan is importnant part of Polkadot ecosystem and having Kusama & Statemine on Subscan is absolutely essential.",
+    "date": "2023-07-01"
   },
   {
-  "id": 223,
-  "network": "Kusama",
-  "proposal": "#223 - For 7 Kusama treasury proposal Audits",
-  "vote": 1,
-  "rationale": "This propoasl aims to fund new Audits for Kusama treasury.",
-  "details": "Kusama treasury is under pressure, so these audits can help decentralize and improve the auditing process.",
-  "date": "2023-06-21"
-  },
-  {
-    "id": 220,
-    "network": "Kusama",
-    "proposal": "#220 - RMRKv2 Integration in KodaDot - Kusama's NFT Infrastructure",
-    "vote": 1,
-    "rationale": "This proposal aims to fill the gap left by RMRK's focus on EVM and maintain a sustainable, inclusive platform for NFT trading within the Kusama network.",
-    "details": "We support this proposal to integrate RMRKv2 into their inclusive NFT marketplace, because we think is crucial for saving Kusama NFTs and generating market demand.",
-    "date": "2023-06-16"
-  },
-  {
-    "id": 100,
+    "id": 103,
     "network": "Moonbeam",
-    "proposal": "#100 Proposal to Register Asset xcCFG",
+    "proposal": "#103 [MBIP-5] Possible Solutions for Unsustainable Storage Growth - MBIP-5: Add a Storage limit per gas",
     "vote": 1,
-    "rationale": "This proposal is to Register xcCFG as an XC-20.",
-    "details": "Adding more parachain native tokens such as CFG from Centrifuge into Moonbeam as XC-20 tokens improve the multichain spirit of Polkadot.",
-    "date": "2023-06-13"
+    "rationale": "This proposal aims to add a storage limit per gas.",
+    "details": "There is no change to the base fee (when compared to MBIP-4). The transaction fee calculation follows the EIP-1559 standard, as this MBIP is focused on gas limit.",
+    "date": "2023-07-01"
+  },
+  {
+    "id": 101,
+    "network": "Moonbeam",
+    "proposal": "#101 Proposal to Register Asset xcNODL",
+    "vote": 1,
+    "rationale": "This proposal is to Register xcNODL as an XC-20 and open HRMP channel with Nodle Network.",
+    "details": "Adding more parachain native tokens such as NODL from Nodle Network into Moonbeam as XC-20 tokens improve the multichain spirit of Polkadot.",
+    "date": "2023-07-01"
   },
   {
     "id": 49,
@@ -51,15 +42,6 @@
     "vote": 1,
     "rationale": "By that referendum approved, 2,22M ASTR will be added to the Omnipool with 5% weight cap.",
     "details": "Adding new Polkadot native assets such as GLMR or ASTR is super important for the HydraDX Omnipool adoption, so that's we supported this referendum.",
-    "date": "2023-06-09"
-  },
-  {
-    "id": 48,
-    "network": "HydraDX",
-    "proposal": "#48 - Mint 20M HDX & launch Hydrated Farms with DOT LM",
-    "vote": 1,
-    "rationale": "This referendum aims to kick off HydraDX’s Liquidity Mining programme by creating DOT LM Yield farm and provide it with 20M HDX liquidity",
-    "details": "We can finally see the Liquidity Mining programme at the HydraDX Omnipool, so that's we are super excited by that and of course we voted AYE on this.",
     "date": "2023-06-09"
   },
     {
