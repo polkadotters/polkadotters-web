@@ -1,12 +1,21 @@
 [
   {
-    "id": 44,
+    "id": 68,
     "network": "Polkadot",
-    "proposal": "#44 - Treasury proposal for New Product Development & OpenGov Deployment",
+    "proposal": "#68 - Treasury proposal for the development of DEX UI for Asset Conversion pallet (prev. DotSwap)",
     "vote": 1,
-    "rationale": "This proposal aims to cover infrastructure costs for Polkassembly and their governance features implementation.",
-    "details": "Polkassembly is an integral part of Polkadot and Kusama governance. The features such as delegation, user-friendly interfaces, and improved governance experiences, so that's why support them with our AYE.",
-    "date": "2023-07-01"
+    "rationale": "This proposal aims to build a UI & Front-End for DEX on top of Asset Conversion Pallet.",
+    "details": "Quite big sum for the DEX UI, so we decided for voting against this referendum.",
+    "date": "2023-07-11"
+  },
+  {
+    "id": 47,
+    "network": "Polkadot",
+    "proposal": "#47 - Approve Polkadot Assurance Legion Bounty",
+    "vote": 1,
+    "rationale": "This proposal aims to set up a bounty which will be used to help selected Polkadot parachains undergo rigorous audit procedures.",
+    "details": "This bounty might lead to an overall greater level of security in the Polkadot ecosystem, so we decided to vote AYE and support this proposal.",
+    "date": "2023-07-11"
   },
   {
     "id": 229,
