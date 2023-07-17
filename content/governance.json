@@ -3,7 +3,7 @@
     "id": 68,
     "network": "Polkadot",
     "proposal": "#68 - Treasury proposal for the development of DEX UI for Asset Conversion pallet (prev. DotSwap)",
-    "vote": 1,
+    "vote": 0,
     "rationale": "This proposal aims to build a UI & Front-End for DEX on top of Asset Conversion Pallet.",
     "details": "Quite big sum for the DEX UI, so we decided for voting against this referendum.",
     "date": "2023-07-11"
