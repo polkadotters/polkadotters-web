@@ -45,13 +45,13 @@
     "date": "2023-07-01"
   },
   {
-    "id": 49,
+    "id": 54,
     "network": "HydraDX",
-    "proposal": "#49 - Add ASTR to Omnipool",
+    "proposal": "#54 - Add iBTC & DOT liquidity to Omnipool",
     "vote": 1,
-    "rationale": "By that referendum approved, 2,22M ASTR will be added to the Omnipool with 5% weight cap.",
-    "details": "Adding new Polkadot native assets such as GLMR or ASTR is super important for the HydraDX Omnipool adoption, so that's we supported this referendum.",
-    "date": "2023-06-09"
+    "rationale": "By that referendum approved, 105000 DOT & 6,44 iBTC will be added to the Omnipool from the Treasury.",
+    "details": "Adding new liquidity to Omnipool increases trading efficiency, which is a positive thing. This is why we support this referendum.",
+    "date": "2023-07-17"
   },
     {
     "id": 35,
