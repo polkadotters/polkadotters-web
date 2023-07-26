@@ -1,30 +1,30 @@
 [
   {
-    "id": 68,
+    "id": 85,
     "network": "Polkadot",
-    "proposal": "#68 - Treasury proposal for the development of DEX UI for Asset Conversion pallet (prev. DotSwap)",
-    "vote": 0,
-    "rationale": "This proposal aims to build a UI & Front-End for DEX on top of Asset Conversion Pallet.",
-    "details": "Quite big sum for the DEX UI, so we decided for voting against this referendum.",
-    "date": "2023-07-11"
-  },
-  {
-    "id": 47,
-    "network": "Polkadot",
-    "proposal": "#47 - Approve Polkadot Assurance Legion Bounty",
+    "proposal": "#85 - 42 Week Media Order from The Kusamarian 🤖❤️",
     "vote": 1,
-    "rationale": "This proposal aims to set up a bounty which will be used to help selected Polkadot parachains undergo rigorous audit procedures.",
-    "details": "This bounty might lead to an overall greater level of security in the Polkadot ecosystem, so we decided to vote AYE and support this proposal.",
-    "date": "2023-07-11"
+    "rationale": "This proposal aims to fund Kusamarian content creation including AAG, Space Monkeys etc..",
+    "details": "Kusamarian is one of the most known content creators in Polkadot space and we support him and his funding.",
+    "date": "2023-07-26"
   },
   {
-    "id": 229,
+    "id": 77,
+    "network": "Polkadot",
+    "proposal": "#77 - Smoldot development financing Q3/2023",
+    "vote": 1,
+    "rationale": "This proposal aims to fund the development of Smoldot light client for Q3/2023.",
+    "details": "Smoldot is an alternative implementation of the Polkadot client focused on using as little CPU, memory, and bandwidth as possible. It's amazing tool for increasing decentralization of the blockchain, so we fully support this proposal.",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 243,
     "network": "Kusama",
-    "proposal": "#229 - Subscan | Infrastructure Costs of Subscan for Kusama & Statemine (from July to December 2022)",
+    "proposal": "#243 - OpenGov Community Voting Discord Bot",
     "vote": 1,
-    "rationale": "This referendum aims to fix previous referendum #214 and further decentralize collator set on Kusama system chains.",
-    "details": "Subscan is importnant part of Polkadot ecosystem and having Kusama & Statemine on Subscan is absolutely essential.",
-    "date": "2023-07-01"
+    "rationale": "This referendum aims to fund the development of the next stage of OpenGov voting using Discord Bot.",
+    "details": "ChaosDAO has already made a Discord bot which pulls contextual data from OpenGov referenda from Subsquare and Polkassembly and allows a Discord community’s members to anonymously vote on each referendum. We support them with this amazing initiative that improves UX with OpenGov voting.",
+    "date": "2023-07-26"
   },
   {
     "id": 103,
