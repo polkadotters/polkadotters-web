@@ -54,12 +54,12 @@
     "date": "2023-07-17"
   },
     {
-    "id": 35,
-    "network": "Centrifuge",
-    "proposal": "#35 - CP53(GI): Listing CFG in HydraDX Omnipool & seeding initial liquidity",
+    "id": 24,
+    "network": "Basilisk",
+    "proposal": "#24 - HRMP channel openings",
     "vote": 1,
-    "rationale": "This referendum will enable listing EFG token in HydraDX Omnipool and seeding the initial liquidity.",
-    "details": "Adding new Polkadot native assets such as CFG is super important for the HydraDX Omnipool liquidity and further adoption, so that's we supported this referendum.",
-    "date": "2023-06-21"
+    "rationale": "This referendum will enable opening of new HRMP channels with Bifrost, Shiden, Calamari and Kintsugi.",
+    "details": "Opening new HRMP channels brings new opportunities for all mentioned chains allowing adding a new tokens to Basilisk DEX. We definitely support this.",
+    "date": "2023-07-27"
   }
 ]
