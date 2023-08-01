@@ -18,13 +18,13 @@
     "date": "2023-07-26"
   },
   {
-    "id": 243,
+    "id": 247,
     "network": "Kusama",
-    "proposal": "#243 - OpenGov Community Voting Discord Bot",
+    "proposal": "#247 - Tip for N4DRO for his forensic analysis of addresses associated with recent voting behavior",
     "vote": 1,
-    "rationale": "This referendum aims to fund the development of the next stage of OpenGov voting using Discord Bot.",
-    "details": "ChaosDAO has already made a Discord bot which pulls contextual data from OpenGov referenda from Subsquare and Polkassembly and allows a Discord community’s members to anonymously vote on each referendum. We support them with this amazing initiative that improves UX with OpenGov voting.",
-    "date": "2023-07-26"
+    "rationale": "This referendum aims to tip 5 KSM to N4DRO for swift on-chain analysis.",
+    "details": "Tipping N4DRO for swiftly analyzing addresses involved in Kusama referenda could help to safeguard network security. That's why we voted AYE.",
+    "date": "2023-08-01"
   },
   {
     "id": 103,
