@@ -27,22 +27,22 @@
     "date": "2023-08-01"
   },
   {
-    "id": 103,
+    "id": 1,
     "network": "Moonbeam",
-    "proposal": "#103 [MBIP-5] Possible Solutions for Unsustainable Storage Growth - MBIP-5: Add a Storage limit per gas",
+    "proposal": "#1 Proposal: 1 Increase the Collator Active Set in Moonbeam by 4 (3+1 Orbiter)",
     "vote": 1,
-    "rationale": "This proposal aims to add a storage limit per gas.",
-    "details": "There is no change to the base fee (when compared to MBIP-4). The transaction fee calculation follows the EIP-1559 standard, as this MBIP is focused on gas limit.",
-    "date": "2023-07-01"
+    "rationale": "This proposal aims to increase the Collator Active Set by 4 collators, including 1 Orbiter.",
+    "details": "Opening collator set for more participants leads to higher decree of decentralization, that's why voted AYE on this one.",
+    "date": "2023-08-08"
   },
   {
-    "id": 101,
+    "id": 0,
     "network": "Moonbeam",
-    "proposal": "#101 Proposal to Register Asset xcNODL",
+    "proposal": "#0 Creation of the OpenGov Tech Committee",
     "vote": 1,
-    "rationale": "This proposal is to Register xcNODL as an XC-20 and open HRMP channel with Nodle Network.",
-    "details": "Adding more parachain native tokens such as NODL from Nodle Network into Moonbeam as XC-20 tokens improve the multichain spirit of Polkadot.",
-    "date": "2023-07-01"
+    "rationale": "This proposal aims to create the Tech Committee for newly created OpenGov, that has the power to whitelist proposals on the WhiteList Track.",
+    "details": "Moving into OpenGov is a way forward for decentralization of Moonbeam, so we voted AYE on this one. The Technical Committee serves to help make well-informed decisions on a technical basis.",
+    "date": "2023-08-08"
   },
   {
     "id": 54,
