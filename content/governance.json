@@ -1,21 +1,30 @@
 [
   {
-    "id": 85,
+    "id": 107,
     "network": "Polkadot",
-    "proposal": "#85 - 42 Week Media Order from The Kusamarian 🤖❤️",
+    "proposal": "#107 - LayerX - rollout parachain as Trustless Bridge between Polkadot and Ethereum.",
     "vote": 1,
-    "rationale": "This proposal aims to fund Kusamarian content creation including AAG, Space Monkeys etc..",
-    "details": "Kusamarian is one of the most known content creators in Polkadot space and we support him and his funding.",
-    "date": "2023-07-26"
+    "rationale": "This proposal aims to fund development on trustless bridge to Ethereum.",
+    "details": "While there is already Snowbridge (bridge to Ethereum) on development, giving 10% of total supply of LRX token to all AYE voters of this referenda is very controversial. Vote buying is not something we encourage. We are strongly against this approach and we voted NAY.",
+    "date": "2023-08-16"
   },
   {
-    "id": 77,
+    "id": 98,
     "network": "Polkadot",
-    "proposal": "#77 - Smoldot development financing Q3/2023",
+    "proposal": "#98 - POLKADOT INSIDER - 28 WEEKS OPERATION & GROWTH FUNDING (AUGUST 2023 - FEBRUARY 2024)",
     "vote": 1,
-    "rationale": "This proposal aims to fund the development of Smoldot light client for Q3/2023.",
-    "details": "Smoldot is an alternative implementation of the Polkadot client focused on using as little CPU, memory, and bandwidth as possible. It's amazing tool for increasing decentralization of the blockchain, so we fully support this proposal.",
-    "date": "2023-07-26"
+    "rationale": "This proposal aims to fund Polkadot Insider content creation.",
+    "details": "Polkadot Insider provided a ton of value to the DOT ecosystem, that's why support them in this referenda.",
+    "date": "2023-08-15"
+  },
+  {
+    "id": 93,
+    "network": "Polkadot",
+    "proposal": "#93 - Infrastructure Funding for Polkadot Asset Hub - Migration of Kusama NFTs",
+    "vote": 1,
+    "rationale": "This proposal represents a strategic opportunity to migrate NFTs to Polkadot Asset Hub from Kusama Relay chain.",
+    "details": "Migrating NFTs to Polkadot Asset Hub makes sense thus we fully support you guys with this proposal.",
+    "date": "2023-08-15"
   },
   {
     "id": 247,
@@ -45,13 +54,13 @@
     "date": "2023-08-08"
   },
   {
-    "id": 54,
+    "id": 58,
     "network": "HydraDX",
-    "proposal": "#54 - Add iBTC & DOT liquidity to Omnipool",
+    "proposal": "#58 - HDX DCA Round 4",
     "vote": 1,
-    "rationale": "By that referendum approved, 105000 DOT & 6,44 iBTC will be added to the Omnipool from the Treasury.",
-    "details": "Adding new liquidity to Omnipool increases trading efficiency, which is a positive thing. This is why we support this referendum.",
-    "date": "2023-07-17"
+    "rationale": "By that referendum approved, 250k DAI from the Treasury will be converted into HDX by using DCA feature.",
+    "details": "Converting DAI into other assets increase overall Omnipool liquidity, that's we voted AYE on this one.",
+    "date": "2023-08-14"
   },
     {
     "id": 24,
