@@ -1,20 +1,20 @@
 [
   {
+    "id": 185,
+    "network": "Polkadot",
+    "proposal": "#185 - Proposal：Polkadot Hackathon 2023 Winter in HongKong.",
+    "vote": 0,
+    "rationale": "This proposal aims to fund Hackathon in Hong Kong.",
+    "details": "The amount of 90k DOT, which equals to 368k USD, is quite high, even considering the impact of the Hackathon. We voted NAY on this.",
+    "date": "2023-10-11"
+  },
+  {
     "id": 157,
     "network": "Polkadot",
     "proposal": "#157 - Increase DOT media visibility through media buying and airdrop campaign.",
     "vote": 0,
     "rationale": "This proposal aims to airdrop DOT tokens and create content to attract new users into the ecosystem.",
     "details": "The amount of 235k DOT, which equals to 1 milion USD, is hugely overshot. And doing airdrop by using KYC to users is not the best idea to get adoption.",
-    "date": "2023-09-26"
-  },
-  {
-    "id": 154,
-    "network": "Polkadot",
-    "proposal": "#154 - Retroactive and future maintenance/development of Parachains.info",
-    "vote": 1,
-    "rationale": "This proposal aims to partly retroactive and partly future fund PARACHAINS.INFO team.",
-    "details": "PARACHAINS.INFO is doing a great job by providing repository of unbiased information regarding parachain projects and auctions. Big AYE on this one.",
     "date": "2023-09-26"
   },
   {
@@ -27,39 +27,12 @@
     "date": "2023-08-01"
   },
   {
-    "id": 1,
-    "network": "Moonbeam",
-    "proposal": "#1 Proposal: 1 Increase the Collator Active Set in Moonbeam by 4 (3+1 Orbiter)",
-    "vote": 1,
-    "rationale": "This proposal aims to increase the Collator Active Set by 4 collators, including 1 Orbiter.",
-    "details": "Opening collator set for more participants leads to higher decree of decentralization, that's why voted AYE on this one.",
-    "date": "2023-08-08"
-  },
-  {
-    "id": 0,
-    "network": "Moonbeam",
-    "proposal": "#0 Creation of the OpenGov Tech Committee",
-    "vote": 1,
-    "rationale": "This proposal aims to create the Tech Committee for newly created OpenGov, that has the power to whitelist proposals on the WhiteList Track.",
-    "details": "Moving into OpenGov is a way forward for decentralization of Moonbeam, so we voted AYE on this one. The Technical Committee serves to help make well-informed decisions on a technical basis.",
-    "date": "2023-08-08"
-  },
-  {
-    "id": 58,
+    "id": 77,
     "network": "HydraDX",
-    "proposal": "#58 - HDX DCA Round 4",
+    "proposal": "#77 - Add GLMR to Omnipool [CORRECT]",
     "vote": 1,
-    "rationale": "By that referendum approved, 250k DAI from the Treasury will be converted into HDX by using DCA feature.",
-    "details": "Converting DAI into other assets increase overall Omnipool liquidity, that's we voted AYE on this one.",
-    "date": "2023-08-14"
-  },
-    {
-    "id": 24,
-    "network": "Basilisk",
-    "proposal": "#24 - HRMP channel openings",
-    "vote": 1,
-    "rationale": "This referendum will enable opening of new HRMP channels with Bifrost, Shiden, Calamari and Kintsugi.",
-    "details": "Opening new HRMP channels brings new opportunities for all mentioned chains allowing adding a new tokens to Basilisk DEX. We definitely support this.",
-    "date": "2023-07-27"
+    "rationale": "By that referendum approved, HydraDX will add GLMR to the Omnipool.",
+    "details": "Having GLMR in the Omnipool will boost the usage of it, which will benefit both HydraDX and Moonbeam.",
+    "date": "2023-09-25"
   }
 ]
