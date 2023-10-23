@@ -6,7 +6,7 @@
   },
   {
     "id": 2,
-    "question": "Does Polkadotters take any custody of user's funds?",
+    "question": "Do Polkadotters take any custody of user's funds?",
     "answer": "No, all of our service are fully non-custodial and we can't touch delegator's funds at any point of time."
   },
   {
@@ -27,7 +27,7 @@
   {
     "id": 6,
     "question": "How many validators Polkadotters operate?",
-    "answer": "Now it's 2 on Polkadot and 3 on Kusama - with another around 30 collators running on various parachains."
+    "answer": "Now it's 2 on Polkadot and 1 on Kusama - with about 30 other collators running on various parachains."
   },
   {
     "id": 7,
@@ -37,6 +37,6 @@
   {
     "id": 8,
     "question": "Why should you support Polkadotters as a validator?",
-    "answer": "On one hand, we bring the high-quality of service together with one of the highest APR on our validators in the ecosystem. On the other, you will also help to decentralized Polkadot and its ecocystem by supporting a community validator - which, in turn, will support the ecosystem itself. We are proud to support Polkadot from the early days and we definitely want to give something back in return."
+    "answer": "On one hand, we bring the high-quality of service together with one of the highest APR on our validators in the ecosystem. On the other, you will also help to decentralize Polkadot and its ecocystem by supporting a community validator - which, in turn, will support the ecosystem itself. We are proud to support Polkadot from the early days and we definitely want to give something back in return."
   }
 ]
