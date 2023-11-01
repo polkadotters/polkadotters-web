@@ -1,8 +1,26 @@
 [
   {
+    "id": 231,
+    "network": "Polkadot",
+    "proposal": "#231 - Polkadot Treasury USDT Acquisition",
+    "vote": 1,
+    "rationale": "This proposal aims to accumulate USDT for Fellowship salaries through DCA orders, swapping DOT for USDT via HydraDX Omnipool.",
+    "details": "We support this initiative for diversifying the Treasury, benefiting Fellowship salaries, the DOT token, and ecosystem efficiency.",
+    "date": "2023-11-01"
+  },
+  {
+    "id": 219,
+    "network": "Polkadot",
+    "proposal": "#219 - BlockchainBrad Educational & Journalist Content - 6 Months funding",
+    "vote": 1,
+    "rationale": "This proposal aims to fund 6 month of work on 180 YouTube videos, offering long and short content.",
+    "details": "Brad is a crypto pioneer, focused on Polkadot's tech and parachain teams dev. We support his return and his proposal with our AYE.",
+    "date": "2023-11-01"
+  },
+  {
     "id": 185,
     "network": "Polkadot",
-    "proposal": "#185 - Proposal：Polkadot Hackathon 2023 Winter in HongKong.",
+    "proposal": "#185 - Proposal：Polkadot Hackathon 2023 Winter in HongKong",
     "vote": 0,
     "rationale": "This proposal aims to fund Hackathon in Hong Kong.",
     "details": "The amount of 90k DOT, which equals to 368k USD, is quite high, even considering the impact of the Hackathon. We voted NAY on this.",
@@ -11,7 +29,7 @@
   {
     "id": 157,
     "network": "Polkadot",
-    "proposal": "#157 - Increase DOT media visibility through media buying and airdrop campaign.",
+    "proposal": "#157 - Increase DOT media visibility through media buying and airdrop campaign",
     "vote": 0,
     "rationale": "This proposal aims to airdrop DOT tokens and create content to attract new users into the ecosystem.",
     "details": "The amount of 235k DOT, which equals to 1 milion USD, is hugely overshot. And doing airdrop by using KYC to users is not the best idea to get adoption.",
