@@ -1,5 +1,23 @@
 [
   {
+    "id": 396,
+    "network": "Polkadot",
+    "proposal": "#396 - Chopsticks Web for dry run governance proposals and more",
+    "vote": 1,
+    "rationale": "Bryan Chen developed Chopsticks Web tool that supports dry run preimages, OpenGov proposals,Gov1 council motions etc.",
+    "details": "This is a very valuable tool for testing proposals an on-chain actions that saves time to devs, that's why we support it.",
+    "date": "2024-01-05"
+  },
+  {
+    "id": 379,
+    "network": "Polkadot",
+    "proposal": "#379 - NFT XCM",
+    "vote": 1,
+    "rationale": "Unique Network team works on a solution to allow NFTs to be transferred between different blockchains via XCM.",
+    "details": "NFT XCM is a crucial addition for Polkadot's full interoperability potential. Big AYE from us",
+    "date": "2024-01-05"
+  },
+  {
     "id": 345,
     "network": "Polkadot",
     "proposal": "#345 - Lark Davis - Proposal for Funding Polkadot Content Creation",
