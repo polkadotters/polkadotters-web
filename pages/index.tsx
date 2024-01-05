@@ -15,6 +15,14 @@ export async function getStaticProps() {
     const res = await fetch(` https://api.rss2json.com/v1/api.json?rss_url=${LINKS.medium}/feed`)
         .then(response => response.json())
     const posts = res.items.slice(0, 3)
+    posts.forEach(post => {
+        // fix for rss2json not displaying thumbnail
+        var image = post.content.match(/src="http([^">]+)/g)[0];
+        post.thumbnail = image.slice(5); // delete src=" from string
+        
+        // fix for rss2json returning &amp; instead of plain &
+        post.title = post.title.replace('&amp;', '&');
+    });
     return {
         props: {
             posts,
