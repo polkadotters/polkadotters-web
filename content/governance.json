@@ -1,41 +1,32 @@
 [
   {
-    "id": 396,
+    "id": 432,
     "network": "Polkadot",
-    "proposal": "#396 - Chopsticks Web for dry run governance proposals and more",
+    "proposal": "#432 - Bifrost Foundation - 500k DOT liquidity loan for Bifrost LST vDOT",
     "vote": 1,
-    "rationale": "Bryan Chen developed Chopsticks Web tool that supports dry run preimages, OpenGov proposals,Gov1 council motions etc.",
-    "details": "This is a very valuable tool for testing proposals an on-chain actions that saves time to devs, that's why we support it.",
-    "date": "2024-01-05"
+    "rationale": "Bifrost is independently applying to the Polkadot treasury for a 1-year liquidity loan of 500k DOT. The loan will be repaid in full including staking rewards to the Polkadot treasury.",
+    "details": "Bifrost has consistently proven its value in the ecosystem, with Bifrost on Kusama successfully managing KSM loans from the treasury. AYE.",
+    "date": "2024-01-24"
   },
   {
-    "id": 379,
+    "id": 408,
     "network": "Polkadot",
-    "proposal": "#379 - NFT XCM",
+    "proposal": "#408 - Sasha - Fellowship, Proposal-01: PoC and Prototype. ink! + Ethereum RPC = ethink!",
     "vote": 1,
-    "rationale": "Unique Network team works on a solution to allow NFTs to be transferred between different blockchains via XCM.",
-    "details": "NFT XCM is a crucial addition for Polkadot's full interoperability potential. Big AYE from us",
-    "date": "2024-01-05"
+    "rationale": "ethink! aims for Ethereum RPC compatibility for smart contracts parachains. AYE.",
+    "details": "Providing a seamless migration for dApp developers and users from the Ethereum ecosystem to Polkadot, without altering the UI/UX, is a significant step toward attracting a broader user base.",
+    "date": "2024-01-24"
   },
   {
-    "id": 345,
+    "id": 401,
     "network": "Polkadot",
-    "proposal": "#345 - Lark Davis - Proposal for Funding Polkadot Content Creation",
+    "proposal": "#401 - Crypto Banter - Ran Neuner, Proposal for Polkadot Brand Awareness Campaign",
     "vote": 1,
-    "rationale": "CryptoLark proposes a content creation project for Polkadot worth 21,000 DOT over six months.",
-    "details": "Lark is an OG in YouTube space. He is a good educator and this amount seems reasonable for the work he is going to do.",
-    "date": "2023-12-19"
+    "rationale": "Crypto Banter, Ran Neuner's show on YouTube, wants to increase Polkadot brand awareness with their campaign..",
+    "details": "Despite the significant amount for just three months, there is an evident impact on the Polkadot ecosystem stemming from the Crypto Banter show. AYE.",
+    "date": "2024-01-24"
   },
-  {
-    "id": 231,
-    "network": "Polkadot",
-    "proposal": "#231 - Polkadot Treasury USDT Acquisition",
-    "vote": 1,
-    "rationale": "This proposal aims to accumulate USDT for Fellowship salaries through DCA orders, swapping DOT for USDT via HydraDX Omnipool.",
-    "details": "We support this initiative for diversifying the Treasury, benefiting Fellowship salaries, the DOT token, and ecosystem efficiency.",
-    "date": "2023-11-01"
-  },
-    {
+      {
     "id": 247,
     "network": "Kusama",
     "proposal": "#247 - Tip for N4DRO for his forensic analysis of addresses associated with recent voting behavior",
