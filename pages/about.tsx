@@ -23,14 +23,15 @@ const icons = {
 const contacts = [
     {
         img: Petr, name: 'Petr', contacts: [
-            {icon: 'medium', link: 'polkadotters.medium.com'},
+            {icon: 'medium', link: 'https://polkadotters.medium.com'},
             {icon: 'email', link: 'mailto:polkadotters@protonmail.com'},
             {icon: 'twitter', link: 'https://twitter.com/Polkadotters1'},
         ]
     },
     {
         img: Pavel, name: 'Pavel', contacts: [
-            {icon: 'medium', link: 'polkadotters.medium.com'}
+            {icon: 'medium', link: 'https://polkadotters.medium.com'},
+            {icon: 'twitter', link: 'https://twitter.com/paulkadotter'}
         ]
     }
 ]
