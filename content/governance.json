@@ -1,5 +1,32 @@
 [
   {
+    "id": 517,
+    "network": "Polkadot",
+    "proposal": "#517 - Polkadot Desktop Wallet Tutorial by Altcoin Daily",
+    "vote": 0,
+    "rationale": "Altcoin Daily aims to create a tutorial of Talisman wallet for 5,986 DOT.",
+    "details": "After watching those low-quality videos produced for the pricetag of 21,219 DOT as a result of referendum #255, we must say NAY to this proposal.",
+    "date": "2024-02-27"
+  },
+  {
+    "id": 517,
+    "network": "Polkadot",
+    "proposal": "#514 - Conor Daly - 2024 Indianapolis 500 Sponsorship",
+    "vote": 1,
+    "rationale": "This proposal is a sponsorship for Conor Daly to race in 3 professional series, including Indianapolis 500, NASCAR Truck Series, and Nitro Rallycross.",
+    "details": "This proposal presents a unique opportunity to elevate Polkadot's visibility on a global stage through high-profile racing events.",
+    "date": "2024-02-27"
+  },
+  {
+    "id": 502,
+    "network": "Polkadot",
+    "proposal": "#502 - Futarchy, a New Signal Generating Tech for Polkadot Governance",
+    "vote": 1,
+    "rationale": "Zeitgeist aims to integrate combinatorial prediction markets into Polkadot's governance to make it more participatory and data-driven.",
+    "details": "Zeitgeist's futarchy model presents an opportunity for improved decision-making and sets a precedent for decentralized governance.",
+    "date": "2024-02-27"
+  },
+  {
     "id": 468,
     "network": "Polkadot",
     "proposal": "#468 - Moralis Project Proposal: Integration & Support for Moonbeam",
@@ -9,48 +36,21 @@
     "date": "2024-02-08"
   },
   {
-    "id": 466,
-    "network": "Polkadot",
-    "proposal": "#466 - Polkalator",
-    "vote": 0,
-    "rationale": "Polkalator calculates staking rewards based on various staking durations.",
-    "details": "The tool looks very unprofessional and it's not worthy the small tip, because it really seems that nobody will use it.",
-    "date": "2024-02-08"
-  },
-  {
-    "id": 432,
-    "network": "Polkadot",
-    "proposal": "#432 - Bifrost Foundation - 500k DOT liquidity loan for Bifrost LST vDOT",
-    "vote": 1,
-    "rationale": "Bifrost is independently applying to the Polkadot treasury for a 1-year liquidity loan of 500k DOT. The loan will be repaid in full including staking rewards to the Polkadot treasury.",
-    "details": "Bifrost has consistently proven its value in the ecosystem, with Bifrost on Kusama successfully managing KSM loans from the treasury. AYE.",
-    "date": "2024-01-24"
-  },
-  {
-    "id": 408,
-    "network": "Polkadot",
-    "proposal": "#408 - Sasha - Fellowship, Proposal-01: PoC and Prototype. ink! + Ethereum RPC = ethink!",
-    "vote": 1,
-    "rationale": "ethink! aims for Ethereum RPC compatibility for smart contracts parachains. AYE.",
-    "details": "Providing a seamless migration for dApp developers and users from the Ethereum ecosystem to Polkadot, without altering the UI/UX, is a significant step toward attracting a broader user base.",
-    "date": "2024-01-24"
-  },
-      {
     "id": 343,
     "network": "Kusama",
     "proposal": "#343 - Set BEEFY genesis (thus starting BEEFY consensus on Kusama)",
     "vote": 1,
     "rationale": "This sets BEEFY genesis to the next block after it executes, thus enabling BEEFY consensus on Kusama.",
     "details": "Enabling BEEFY consensus on Kusama sets the stage for the Kusama<>Ethereum Snowfork bridge. Very beneficial for Kusama and later for Polkadot. AYE.",
-    "date": "2023-02-08"
+    "date": "2024-02-08"
   },
   {
-    "id": 77,
+    "id": 122,
     "network": "HydraDX",
-    "proposal": "#77 - Add GLMR to Omnipool [CORRECT]",
+    "proposal": "#122 - Add CRU to Omnipool",
     "vote": 1,
-    "rationale": "By that referendum approved, HydraDX will add GLMR to the Omnipool.",
-    "details": "Having GLMR in the Omnipool will boost the usage of it, which will benefit both HydraDX and Moonbeam.",
-    "date": "2023-09-25"
+    "rationale": "By that referendum approved, HydraDX will add CRU token from Crust to the Omnipool.",
+    "details": "Having CRU from Crust in the Omnipool will boost the usage of the token and add the total TVL of the Omnipool.",
+    "date": "2024-02-27"
   }
 ]
