@@ -9,7 +9,7 @@
     "date": "2024-02-27"
   },
   {
-    "id": 517,
+    "id": 514,
     "network": "Polkadot",
     "proposal": "#514 - Conor Daly - 2024 Indianapolis 500 Sponsorship",
     "vote": 1,
@@ -18,22 +18,22 @@
     "date": "2024-02-27"
   },
   {
-    "id": 502,
+    "id": 507,
     "network": "Polkadot",
-    "proposal": "#502 - Futarchy, a New Signal Generating Tech for Polkadot Governance",
+    "proposal": "#507 - Polkadot Community Workspace NYC by Transistor",
     "vote": 1,
-    "rationale": "Zeitgeist aims to integrate combinatorial prediction markets into Polkadot's governance to make it more participatory and data-driven.",
-    "details": "Zeitgeist's futarchy model presents an opportunity for improved decision-making and sets a precedent for decentralized governance.",
-    "date": "2024-02-27"
+    "rationale": "Transistor aims to lease and run co-working space in Manhattan, NYC, for 3 years. They want to build strong Polkadot community in there.",
+    "details": "The ROI of this proposal is huge, NYC is one of the most important business development hubs in the world. We are in favor of this referenda, Transistor team has proven track and Polkadot will benefit from this.",
+    "date": "2024-03-06"
   },
   {
-    "id": 468,
+    "id": 506,
     "network": "Polkadot",
-    "proposal": "#468 - Moralis Project Proposal: Integration & Support for Moonbeam",
+    "proposal": "#506 - The Decentralized Future of Business Development for Polkadot",
     "vote": 1,
-    "rationale": "Moralis integrates Moonbeam fully, creates adoption content. Integration cost: 31,500 DOT.",
-    "details": "Moralis is a trusted platform with extensive developer support, and the integration costs are justified. Additionally, supporting Astar EVM integration would be beneficial.",
-    "date": "2024-02-08"
+    "rationale": "Missing link wants to source, screen, select, and successfully place 5 BD executives with the W3F's Decentralized Futures program.",
+    "details": "Business development is essential for the expansion of Web3 protocols like Polkadot, so we are in favor of this proposal, finding best people possible is a good goal for this proposal. AYE.",
+    "date": "2024-03-06"
   },
   {
     "id": 343,
