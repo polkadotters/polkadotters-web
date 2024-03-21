@@ -1,5 +1,41 @@
 [
   {
+    "id": 561,
+    "network": "Polkadot",
+    "proposal": "#561 - Polkadot Hydration: Liquidity Incentives",
+    "vote": 1,
+    "rationale": "Attract liquidity and attention to the Polkadot ecosystem by granting the HydraDX Treasury 1,000,000 DOT.",
+    "details": "Incentivizing liquidity providers is one of the main tactics on how to get the attention of DeFi users from outside of Polkadot eco. AYE.",
+    "date": "2024-03-22"
+  },
+  {
+    "id": 560,
+    "network": "Polkadot",
+    "proposal": "#560 - Polkadot Hydration: Treasury LP",
+    "vote": 1,
+    "rationale": "1,000,000 DOT as a non-custodial provision of liquidity into the HydraDX Omnipool.",
+    "details": "We are in favor of this proposal, as it benefits users the most. And also those funds will remain under the control of the Polkadot Protocol and OpenGov.",
+    "date": "2024-03-22"
+  },
+  {
+    "id": 539,
+    "network": "Polkadot",
+    "proposal": "#539 - Polkadot Asia Developer Community Expansion for 1 Year Operation",
+    "vote": 0,
+    "rationale": "Providing opportunities and assistance for specific objectives in establishing the Polkadot ecosystem in Asia.",
+    "details": "Using marketing bounty, events bounty or some Asian bounty with trusted curators would make more sense.",
+    "date": "2024-03-22"
+  },
+  {
+    "id": 525,
+    "network": "Polkadot",
+    "proposal": "#525 - Polkadot marketing proposal in Chinese speaking areas",
+    "vote": 0,
+    "rationale": "This proposal aims to boost the brand recognition of Polkadot to a broader group of audience in APAC region.",
+    "details": "We voted NAY, because applying via Marketing bounty makes better sense. Or in some Asian bounty with trusted curators.",
+    "date": "2024-03-22"
+  },
+  {
     "id": 517,
     "network": "Polkadot",
     "proposal": "#517 - Polkadot Desktop Wallet Tutorial by Altcoin Daily",
