@@ -1,5 +1,50 @@
 [
   {
+    "id": 598,
+    "network": "Polkadot",
+    "proposal": "#598 - Proposing Curators for the DeFi Infrastructure & Tooling Bounty",
+    "vote": 1,
+    "rationale": "Velocity Labs proposed a curator set for the DeFi Infrastructure and Tooling Bounty including N. Arevalo, A. Viera, B. Chen, Lucas Vogelsang, Leemo, J. Gregus, and Giotto.",
+    "details": "The list of curators is very balanced, so it really seems that DeFi Infractructure & Tooling Bounty is in a good hands.",
+    "date": "2024-03-27"
+  },
+  {
+    "id": 584,
+    "network": "Polkadot",
+    "proposal": "#584 - Polkadot Blockchain Academy – Wave 5 – Singapore",
+    "vote": 1,
+    "rationale": "Polkadot Blockchain Academy will happen from May 20 to June 20, 2024 at the National University of Singapore.",
+    "details": "Easy AYE here, this is kind of a proposal that benefits the Polkadot ecosystem in the long run. Having 100+ graduates from the academy is truly awesome.",
+    "date": "2024-03-27"
+  },
+  {
+    "id": 582,
+    "network": "Polkadot",
+    "proposal": "#582 - RegionX | Coretime Marketplace for Polkadot",
+    "vote": 1,
+    "rationale": "RegionX is a project that helps reduce costs for projects on the Polkadot network. The project also has a secondary marketplace where users can trade Coretime.",
+    "details": "Projects like RegionX will build on the foundation that the new model offers to enable greater flexibility in Coretime procurement.",
+    "date": "2024-03-27"
+  },
+  {
+    "id": 580,
+    "network": "Polkadot",
+    "proposal": "#580 - StellaSwap Incentive Program",
+    "vote": 1,
+    "rationale": "StellaSwap wants to attract more people to use Polkadot for DeFi by using 1M DOT from Treasury as incentives.",
+    "details": "Attracting liquidity is beneficial for the end users – traders. Similarly to HydraDX proposal, we also support this referendum.",
+    "date": "2024-03-27"
+  },
+  {
+    "id": 576,
+    "network": "Polkadot",
+    "proposal": "#576 - Continuation of work through Messari Protocol Services",
+    "vote": 1,
+    "rationale": "Messari wants to continue working with Polkadot to provide research.",
+    "details": "Due to high engagement (350k subscribers), reducing budget by 30%, this proposal seems reasonable. We are voting AYE.",
+    "date": "2024-03-27"
+  },
+  {
     "id": 561,
     "network": "Polkadot",
     "proposal": "#561 - Polkadot Hydration: Liquidity Incentives",
@@ -52,24 +97,6 @@
     "rationale": "This proposal is a sponsorship for Conor Daly to race in 3 professional series, including Indianapolis 500, NASCAR Truck Series, and Nitro Rallycross.",
     "details": "This proposal presents a unique opportunity to elevate Polkadot's visibility on a global stage through high-profile racing events.",
     "date": "2024-02-27"
-  },
-  {
-    "id": 507,
-    "network": "Polkadot",
-    "proposal": "#507 - Polkadot Community Workspace NYC by Transistor",
-    "vote": 0,
-    "rationale": "Transistor aims to lease and run co-working space in Manhattan, NYC, for 3 years. They want to build strong Polkadot community in there.",
-    "details": "The idea of having community place in NYC is promissing, but we decided to change our vote to NAY, due to some unanswered questions from the Transistor team.",
-    "date": "2024-03-16"
-  },
-  {
-    "id": 506,
-    "network": "Polkadot",
-    "proposal": "#506 - The Decentralized Future of Business Development for Polkadot",
-    "vote": 1,
-    "rationale": "Missing link wants to source, screen, select, and successfully place 5 BD executives with the W3F's Decentralized Futures program.",
-    "details": "Business development is essential for the expansion of Web3 protocols like Polkadot, so we are in favor of this proposal, finding best people possible is a good goal for this proposal. AYE.",
-    "date": "2024-03-06"
   },
   {
     "id": 343,
